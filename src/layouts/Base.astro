@@ -12,11 +12,12 @@ const canonical = new URL(Astro.url.pathname, SITE.url);
 <meta property="og:title" content={t}/><meta property="og:description" content={description}/><meta property="og:type" content={type}/>
 <meta property="og:url" content={canonical}/><meta property="og:image" content={ogImage}/><meta property="og:site_name" content={SITE.name}/>
 <meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGamers"/><meta name="twitter:title" content={t}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={ogImage}/>
-<link rel="icon" href="/favicon.svg"/><link rel="alternate" type="application/rss+xml" title="PPRGaming" href="/rss.xml"/>
+<link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" href="/favicon.png"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link rel="alternate" type="application/rss+xml" title="PPRGaming" href="/rss.xml"/>
 {SITE.adsenseClient && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>}
 </head><body>
 <header class="top"><div class="wrap nav">
-<a class="logo" href="/"><span>PPR</span>Gaming</a>
+<a class="logo" href="/"><img src="/logo.png" alt="PPRGaming" height="40" width="62"/></a>
 <input type="checkbox" id="m" hidden/><label for="m" class="burger">☰</label>
 <nav>
 <a href="/category/star-citizen/">Star Citizen</a>
