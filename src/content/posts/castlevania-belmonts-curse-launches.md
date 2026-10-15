@@ -1,4 +1,7 @@
 ---
+image: "/images/posts/castlevania-belmonts-curse-launches.webp"
+imageAlt: "Castlevania: Belmont's Curse official key art"
+imageCredit: "Image: KONAMI"
 title: "Castlevania: Belmont's Curse launches today starring Rose Belmont"
 description: "A brand-new 2D Castlevania arrives October 15 on PS5, Xbox, PC and Switch, starring Trevor Belmont's daughter Rose."
 date: 2026-10-15

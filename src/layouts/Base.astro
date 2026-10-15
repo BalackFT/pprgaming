@@ -1,16 +1,17 @@
 ---
 import { SITE, CATEGORIES } from '../site.js';
 import '../styles.css';
-const { title, description = SITE.desc, image = '/og.svg', type = 'website' } = Astro.props;
+const { title, description = SITE.desc, image, type = 'website' } = Astro.props;
 const t = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${SITE.full}`;
+const ogImage = new URL(image || '/og.svg', SITE.url);
 const canonical = new URL(Astro.url.pathname, SITE.url);
 ---
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>{t}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
 <meta property="og:title" content={t}/><meta property="og:description" content={description}/><meta property="og:type" content={type}/>
-<meta property="og:url" content={canonical}/><meta property="og:image" content={new URL(image, SITE.url)}/><meta property="og:site_name" content={SITE.name}/>
-<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGaming"/>
+<meta property="og:url" content={canonical}/><meta property="og:image" content={ogImage}/><meta property="og:site_name" content={SITE.name}/>
+<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGaming"/><meta name="twitter:title" content={t}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={ogImage}/>
 <link rel="icon" href="/favicon.svg"/><link rel="alternate" type="application/rss+xml" title="PPRGaming" href="/rss.xml"/>
 {SITE.adsenseClient && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>}
 </head><body>

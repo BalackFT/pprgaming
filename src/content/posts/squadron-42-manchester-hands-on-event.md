@@ -1,4 +1,7 @@
 ---
+image: "/images/posts/squadron-42-manchester-hands-on-event.webp"
+imageAlt: "Abstract illustration of a ship orbiting through starlit rings"
+imageCredit: "Illustration: PPRGaming (original artwork)"
 title: "Squadron 42 hands-on: ~140 backers played for five hours in Manchester — still no release date"
 description: "CIG's invite-only Squadron 42 event replaced CitizenCon this year. Attendees played the campaign plus a unique Xi'an story chapter."
 date: 2026-10-13

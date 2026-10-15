@@ -4,14 +4,17 @@ import { getCollection } from 'astro:content'; import { CATEGORIES, SITE } from 
 export async function getStaticPaths(){ const ps = await getCollection('posts', p=>!p.data.draft); return ps.map(p=>({params:{slug:p.slug},props:{post:p}})); }
 const { post } = Astro.props; const { Content } = await post.render();
 const related = (await getCollection('posts')).filter(p=>p.slug!==post.slug && p.data.category===post.data.category).slice(0,3);
-const ld = { '@context':'https://schema.org','@type':'NewsArticle',headline:post.data.title,datePublished:post.data.date.toISOString(),author:{'@type':'Organization',name:'PPRGaming'},publisher:{'@type':'Organization',name:'PPRGaming'},description:post.data.description };
+const ld = { '@context':'https://schema.org','@type':'NewsArticle',headline:post.data.title,datePublished:post.data.date.toISOString(),author:{'@type':'Organization',name:'PPRGaming'},publisher:{'@type':'Organization',name:'PPRGaming'},description:post.data.description, ...(post.data.image?{image:new URL(post.data.image, SITE.url).href}:{}) };
 ---
-<Base title={post.data.title} description={post.data.description} type="article">
+<Base title={post.data.title} description={post.data.description} type="article" image={post.data.image}>
 <script type="application/ld+json" set:html={JSON.stringify(ld)}></script>
 <div class="layout"><article class="post">
 <a class="tag" href={`/category/${post.data.category}/`}>{CATEGORIES[post.data.category]}</a>
 <h1>{post.data.title}</h1>
 <p class="meta">By PPRGaming · {post.data.date.toLocaleDateString('en-US',{dateStyle:'long',timeZone:'UTC'})}</p>
+{post.data.image
+  ? <figure class="hero"><img src={post.data.image} alt={post.data.imageAlt ?? post.data.title} width="1600" height="900" fetchpriority="high"/>{post.data.imageCredit && <figcaption>{post.data.imageCredit}</figcaption>}</figure>
+  : <div class={`hero hero-fallback ${post.data.starCitizen ? 'sc' : ''}`}><span>{CATEGORIES[post.data.category]}</span></div>}
 <Ad unit="article-top"/>
 <div class="post-body"><Content/></div>
 {post.data.starCitizen && <div class="ref"><div>Starting Star Citizen? Referral code <code>{SITE.rsiReferral}</code> gets you bonus starting credits.</div><a class="btn" href="https://robertsspaceindustries.com/enlist?referral=STAR-KRBQ-RNS9" rel="nofollow">Enlist →</a></div>}
