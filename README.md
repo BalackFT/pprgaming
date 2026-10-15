@@ -15,3 +15,29 @@ Astro static site. New post = new Markdown file in `src/content/posts/` (copy an
    imageCredit: "Image: Cloud Imperium Games"
    ```
 All three fields are optional. Posts without an image get a gradient placeholder automatically. The image is used for the article hero, the card thumbnails, and og:image/twitter:image.
+
+## Screenshot of the Day
+
+Shots live in `src/content/shots/` as YAML files (one per shot). The newest `date` shows in the Star Citizen Hub on the homepage; all shots appear newest-first at `/screenshots/`.
+
+**Community shot from X (embedded, never re-hosted):** create `src/content/shots/YYYY-MM-DD-handle.yaml`:
+```yaml
+date: 2026-10-14
+title: "Acid and Base MK V"
+game: Star Citizen
+source: x
+url: https://x.com/LensNationX/status/2110161074398118212
+handle: LensNationX
+```
+
+**Your own shot:** put the image in `public/images/shots/` (JPG/WebP, ~1920px wide, under ~500 KB), then:
+```yaml
+date: 2026-10-16
+title: "Sunrise over Hurston"
+game: Star Citizen
+source: own
+image: /images/shots/2026-10-16-hurston.jpg
+alt: "A Constellation hovering above Lorville at sunrise"
+credit: "@PPRGamers"
+```
+Commit and push to `main`; GitHub Actions redeploys automatically.

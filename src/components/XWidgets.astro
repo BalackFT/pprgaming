@@ -1,0 +1,5 @@
+<script is:inline>
+(function(){function load(){if(window.__xw)return;window.__xw=1;var s=document.createElement('script');s.src='https://platform.twitter.com/widgets.js';s.async=true;s.charset='utf-8';document.body.appendChild(s);}
+var els=document.querySelectorAll('.twitter-tweet');if(!els.length)return;
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(e){if(e.some(function(x){return x.isIntersecting})){load();io.disconnect();}},{rootMargin:'300px'});els.forEach(function(el){io.observe(el)});}else load();})();
+</script>

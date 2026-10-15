@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro'; import Shot from '../components/Shot.astro'; import XWidgets from '../components/XWidgets.astro';
+import { getCollection } from 'astro:content';
+const shots = (await getCollection('shots')).sort((a,b)=>b.data.date-a.data.date);
+---
+<Base title="Screenshot of the Day" description="Daily in-game screenshots from Star Citizen and more, from PPRGaming and the community on X.">
+<section class="hero"><h1>Screenshot of the <em>Day</em></h1><p>The best in-game shots from the community and from <a href="https://x.com/PPRGamers">@PPRGamers</a>. Community shots are embedded from X with full credit to the creator.</p></section>
+<div class="shot-archive">{shots.map(s=><Shot shot={s}/>)}</div>
+<XWidgets/>
+</Base>

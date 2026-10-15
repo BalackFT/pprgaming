@@ -1,7 +1,8 @@
 ---
-import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Ad from '../components/Ad.astro'; import Newsletter from '../components/Newsletter.astro';
+import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Ad from '../components/Ad.astro'; import Newsletter from '../components/Newsletter.astro'; import Shot from '../components/Shot.astro'; import XWidgets from '../components/XWidgets.astro';
 import { getCollection } from 'astro:content'; import { SITE } from '../site.js';
 const all = (await getCollection('posts', p => !p.data.draft)).sort((a,b)=>b.data.date-a.data.date);
+const latestShot = (await getCollection('shots')).sort((a,b)=>b.data.date-a.data.date)[0];
 const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.data.starCitizen);
 ---
 <Base>
@@ -14,6 +15,7 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
     <div><b>RSI Discovery Month</b><span>Twitch Drops run until Oct 27</span></div>
     <div><b>Squadron 42</b><span>No release date announced yet</span></div>
   </div>
+  {latestShot && <div class="sotd"><h3><span>📸</span> Screenshot of the Day</h3><Shot shot={latestShot}/><p class="small"><a href="/screenshots/">Browse all screenshots →</a></p></div>}
   <div class="grid">{sc.slice(0,6).map(p=><Card post={p}/>)}</div>
   <div class="ref"><div><strong>New to Star Citizen?</strong> Use referral code <code>{SITE.rsiReferral}</code> when you create your account to get bonus in-game credits.</div><a class="btn" href="https://robertsspaceindustries.com/enlist?referral=STAR-KRBQ-RNS9" rel="nofollow">Enlist at RSI →</a></div>
   <p class="small"><a href="/category/star-citizen/">All Star Citizen news →</a> · <a href="/category/squadron-42/">Squadron 42 →</a></p>
@@ -23,4 +25,5 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
 <div class="grid">{other.map(p=><Card post={p}/>)}</div>
 <Newsletter/>
 <Ad unit="home-bottom"/>
+<XWidgets/>
 </Base>

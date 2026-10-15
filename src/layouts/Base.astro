@@ -21,7 +21,7 @@ const canonical = new URL(Astro.url.pathname, SITE.url);
 <nav>
 <a href="/category/star-citizen/">Star Citizen</a>
 {Object.entries(CATEGORIES).filter(([k])=>k!=='star-citizen').map(([k,v])=><a href={`/category/${k}/`}>{v}</a>)}
-<a href="/about/">About</a><a class="btn" href="/support/">Support</a>
+<a href="/screenshots/">Screenshots</a><a href="/about/">About</a><a class="btn" href="/support/">Support</a>
 </nav></div></header>
 <main class="wrap"><slot/></main>
 <footer class="foot"><div class="wrap">

@@ -39,3 +39,10 @@ article.post{max-width:760px}article.post h1{font-size:clamp(1.8rem,4vw,2.6rem);
 .hero img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px;display:block}
 .hero figcaption{font-size:.78rem;opacity:.65;margin-top:.4rem;text-align:right}
 .hero-fallback{aspect-ratio:16/9;border-radius:12px;height:auto}
+.sotd{border:1px solid var(--sc);background:rgba(7,11,20,.55);border-radius:12px;padding:18px;margin:18px 0 22px;box-shadow:0 0 24px rgba(61,139,255,.18)}
+.sotd h3{margin:0 0 12px;color:var(--acc);letter-spacing:.08em;text-transform:uppercase;font-size:1rem}
+.shot{margin:0}.shot img{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);display:block}
+.shot-embed{max-width:550px;margin:0 auto;min-height:120px}.shot-embed .twitter-tweet{margin:0 auto!important}
+.shot figcaption{color:var(--mut);font-size:.9rem;margin-top:10px;text-align:center}.shot figcaption a{color:var(--acc)}
+.shot-archive{display:grid;gap:28px;grid-template-columns:repeat(auto-fill,minmax(min(100%,520px),1fr));margin:20px 0 40px}
+.shot-archive .shot{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}

@@ -1,0 +1,15 @@
+---
+const { shot, compact = false } = Astro.props; const d = shot.data;
+const h = d.handle?.replace(/^@/,''); const credit = d.credit?.replace(/^@/,'');
+const date = d.date.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'});
+---
+<figure class="shot">
+  {d.source==='x' ? (
+    <div class="shot-embed"><blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" data-conversation="none" data-align="center"><a href={d.url.replace('x.com','twitter.com')}>{d.title} — view on X</a></blockquote></div>
+  ) : (
+    <a href={d.image}><img src={d.image} alt={d.alt} loading="lazy"/></a>
+  )}
+  <figcaption><strong>{d.title}</strong> · {d.game} · {date}<br/>
+    {d.source==='x' ? <>Shot by <a href={`https://x.com/${h}`} rel="noopener">@{h}</a> · <a href={d.url} rel="noopener">View post on X</a></> : <>Shot by <a href={`https://x.com/${credit}`}>@{credit}</a></>}
+  </figcaption>
+</figure>
