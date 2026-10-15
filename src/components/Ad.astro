@@ -1,0 +1,7 @@
+---
+import { SITE } from '../site.js';
+const { unit = "default", label = 'Advertisement' } = Astro.props;
+---
+<div class="ad" data-ad-slot={unit}>
+{SITE.adsenseClient ? <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient} data-ad-slot={unit} data-ad-format="auto" data-full-width-responsive="true"></ins> : <span>{label} · unit "{unit}"</span>}
+</div>

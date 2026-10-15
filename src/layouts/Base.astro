@@ -1,0 +1,30 @@
+---
+import { SITE, CATEGORIES } from '../site.js';
+import '../styles.css';
+const { title, description = SITE.desc, image = '/og.svg', type = 'website' } = Astro.props;
+const t = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${SITE.full}`;
+const canonical = new URL(Astro.url.pathname, SITE.url);
+---
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>{t}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
+<meta property="og:title" content={t}/><meta property="og:description" content={description}/><meta property="og:type" content={type}/>
+<meta property="og:url" content={canonical}/><meta property="og:image" content={new URL(image, SITE.url)}/><meta property="og:site_name" content={SITE.name}/>
+<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGaming"/>
+<link rel="icon" href="/favicon.svg"/><link rel="alternate" type="application/rss+xml" title="PPRGaming" href="/rss.xml"/>
+{SITE.adsenseClient && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>}
+</head><body>
+<header class="top"><div class="wrap nav">
+<a class="logo" href="/"><span>PPR</span>Gaming</a>
+<input type="checkbox" id="m" hidden/><label for="m" class="burger">☰</label>
+<nav>
+<a href="/category/star-citizen/">Star Citizen</a>
+{Object.entries(CATEGORIES).filter(([k])=>k!=='star-citizen').map(([k,v])=><a href={`/category/${k}/`}>{v}</a>)}
+<a href="/about/">About</a><a class="btn" href="/support/">Support</a>
+</nav></div></header>
+<main class="wrap"><slot/></main>
+<footer class="foot"><div class="wrap">
+<p><strong>PPRGaming</strong> — {SITE.full}. Independent gaming news. Not affiliated with Cloud Imperium Games or Roberts Space Industries.</p>
+<p><a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/rss.xml">RSS</a> · <a href={SITE.x}>X @PPRGaming</a></p>
+<p class="small">Some links may be affiliate links; we may earn a commission at no extra cost to you. © {new Date().getFullYear()} PPRGaming</p>
+</div></footer></body></html>

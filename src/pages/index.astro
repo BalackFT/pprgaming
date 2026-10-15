@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Ad from '../components/Ad.astro'; import Newsletter from '../components/Newsletter.astro';
+import { getCollection } from 'astro:content'; import { SITE } from '../site.js';
+const all = (await getCollection('posts', p => !p.data.draft)).sort((a,b)=>b.data.date-a.data.date);
+const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.data.starCitizen);
+---
+<Base>
+<section class="hero"><h1>News from the <em>Perpetual Realm</em></h1><p>{SITE.desc}</p></section>
+<section class="sc" id="star-citizen">
+  <h2><small>Backer since 2013</small>Star Citizen Hub</h2>
+  <div class="status">
+    <div><b>Alpha 4.10.2</b><span>Live PU patch (as of Oct 15, 2026)</span></div>
+    <div><b>Alpha 4.11</b><span>Tentative Q4 2026 per RSI roadmap</span></div>
+    <div><b>RSI Discovery Month</b><span>Twitch Drops run until Oct 27</span></div>
+    <div><b>Squadron 42</b><span>No release date announced yet</span></div>
+  </div>
+  <div class="grid">{sc.slice(0,6).map(p=><Card post={p}/>)}</div>
+  <div class="ref"><div><strong>New to Star Citizen?</strong> Use referral code <code>{SITE.rsiReferral}</code> when you create your account to get bonus in-game credits.</div><a class="btn" href="https://robertsspaceindustries.com/enlist?referral=STAR-KRBQ-RNS9" rel="nofollow">Enlist at RSI →</a></div>
+  <p class="small"><a href="/category/star-citizen/">All Star Citizen news →</a> · <a href="/category/squadron-42/">Squadron 42 →</a></p>
+</section>
+<Ad unit="home-top"/>
+<h2 class="sec">Latest Gaming News</h2>
+<div class="grid">{other.map(p=><Card post={p}/>)}</div>
+<Newsletter/>
+<Ad unit="home-bottom"/>
+</Base>

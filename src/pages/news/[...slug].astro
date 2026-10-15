@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro'; import Ad from '../../components/Ad.astro'; import Newsletter from '../../components/Newsletter.astro'; import Card from '../../components/Card.astro';
+import { getCollection } from 'astro:content'; import { CATEGORIES, SITE } from '../../site.js';
+export async function getStaticPaths(){ const ps = await getCollection('posts', p=>!p.data.draft); return ps.map(p=>({params:{slug:p.slug},props:{post:p}})); }
+const { post } = Astro.props; const { Content } = await post.render();
+const related = (await getCollection('posts')).filter(p=>p.slug!==post.slug && p.data.category===post.data.category).slice(0,3);
+const ld = { '@context':'https://schema.org','@type':'NewsArticle',headline:post.data.title,datePublished:post.data.date.toISOString(),author:{'@type':'Organization',name:'PPRGaming'},publisher:{'@type':'Organization',name:'PPRGaming'},description:post.data.description };
+---
+<Base title={post.data.title} description={post.data.description} type="article">
+<script type="application/ld+json" set:html={JSON.stringify(ld)}></script>
+<div class="layout"><article class="post">
+<a class="tag" href={`/category/${post.data.category}/`}>{CATEGORIES[post.data.category]}</a>
+<h1>{post.data.title}</h1>
+<p class="meta">By PPRGaming · {post.data.date.toLocaleDateString('en-US',{dateStyle:'long',timeZone:'UTC'})}</p>
+<Ad unit="article-top"/>
+<div class="post-body"><Content/></div>
+{post.data.starCitizen && <div class="ref"><div>Starting Star Citizen? Referral code <code>{SITE.rsiReferral}</code> gets you bonus starting credits.</div><a class="btn" href="https://robertsspaceindustries.com/enlist?referral=STAR-KRBQ-RNS9" rel="nofollow">Enlist →</a></div>}
+{post.data.sources.length>0 && <div class="sources"><strong>Sources</strong><ul>{post.data.sources.map(s=><li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ul></div>}
+<Ad unit="article-bottom"/><Newsletter/>
+</article>
+<aside class="side"><Ad unit="sidebar" /><h3>Related</h3>{related.map(p=><Card post={p}/>)}</aside></div>
+</Base>

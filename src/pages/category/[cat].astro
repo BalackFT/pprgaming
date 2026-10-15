@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro'; import Card from '../../components/Card.astro'; import Ad from '../../components/Ad.astro';
+import { getCollection } from 'astro:content'; import { CATEGORIES } from '../../site.js';
+export function getStaticPaths(){ return Object.keys(CATEGORIES).map(cat=>({params:{cat}})); }
+const { cat } = Astro.params; const name = CATEGORIES[cat];
+const posts = (await getCollection('posts', p=>!p.data.draft && p.data.category===cat)).sort((a,b)=>b.data.date-a.data.date);
+---
+<Base title={name} description={`Latest ${name} news on PPRGaming.`}>
+<section class="hero"><h1>{name}</h1></section>
+{posts.length ? <div class="grid">{posts.map(p=><Card post={p}/>)}</div> : <p>No posts yet — check back soon.</p>}
+<Ad unit="category"/>
+</Base>
