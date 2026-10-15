@@ -1,6 +1,6 @@
 export const SITE = {
   name: 'PPRGaming', full: 'Perpetual Realm Gaming', url: 'https://pprgaming.com',
-  desc: 'Gaming news, updates and a dedicated Star Citizen hub.',
+  desc: 'Star Citizen news, updates, and opinions, plus other gaming news from the industry.',
   x: 'https://x.com/PPRGamers',
   adsenseClient: 'ca-pub-3437444286038579',
   adsenseAds: false, // flip to true once AdSense approves and ads can show
