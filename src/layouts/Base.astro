@@ -11,7 +11,7 @@ const canonical = new URL(Astro.url.pathname, SITE.url);
 <title>{t}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
 <meta property="og:title" content={t}/><meta property="og:description" content={description}/><meta property="og:type" content={type}/>
 <meta property="og:url" content={canonical}/><meta property="og:image" content={ogImage}/><meta property="og:site_name" content={SITE.name}/>
-<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGaming"/><meta name="twitter:title" content={t}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={ogImage}/>
+<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGamers"/><meta name="twitter:title" content={t}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={ogImage}/>
 <link rel="icon" href="/favicon.svg"/><link rel="alternate" type="application/rss+xml" title="PPRGaming" href="/rss.xml"/>
 {SITE.adsenseClient && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>}
 </head><body>
@@ -26,6 +26,6 @@ const canonical = new URL(Astro.url.pathname, SITE.url);
 <main class="wrap"><slot/></main>
 <footer class="foot"><div class="wrap">
 <p><strong>PPRGaming</strong> — {SITE.full}. Independent gaming news. Not affiliated with Cloud Imperium Games or Roberts Space Industries.</p>
-<p><a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/rss.xml">RSS</a> · <a href={SITE.x}>X @PPRGaming</a></p>
+<p><a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/rss.xml">RSS</a> · <a href={SITE.x}>X @PPRGamers</a></p>
 <p class="small">Some links may be affiliate links; we may earn a commission at no extra cost to you. © {new Date().getFullYear()} PPRGaming</p>
 </div></footer></body></html>
