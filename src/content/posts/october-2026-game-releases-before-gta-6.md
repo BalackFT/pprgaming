@@ -12,7 +12,7 @@ sources:
   - { name: "Pixel Herald — Every Game Releasing in October 2026", url: "https://pixelherald.com/october-2026-game-releases/" }
   - { name: "Metacritic — New & Upcoming Video Games", url: "https://www.metacritic.com/news/major-new-and-upcoming-video-games-ps5-xbox-switch-pc/" }
 ---
-GameSpot calls October 2026 "absolutely stacked," as publishers try to avoid the blast radius of **Grand Theft Auto VI**, which launches **November 19**.
+[GameSpot](https://www.gamespot.com/articles/the-biggest-new-game-releases-of-october-2026/) calls October 2026 "absolutely stacked," as publishers try to avoid the blast radius of **Grand Theft Auto VI**, which launches **November 19**.
 
 ## Already out
 - **Gears of War: E-Day** — Oct 6 (PC, Xbox Series X|S)

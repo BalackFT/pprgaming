@@ -17,7 +17,7 @@ Star Citizen's live Persistent Universe remains on **Alpha 4.10.2 "RSI Discovery
 
 ## The hotfix is now fully deployed
 
-According to community trackers, hotfix **12913470** is now live on both the server and client side. The server-side fix addressed a critical "hybrid" crash; the client-side fix targets a high-impact HDR crash. With both promoted to Live, the HOTFIX test channel was closed.
+According to community trackers ([Cavalera](https://cavalera.news/editions/2026-10-14); [SC Advisory](https://www.sc-advisory.space/)), hotfix **12913470** is now live on both the server and client side. The server-side fix addressed a critical "hybrid" crash; the client-side fix targets a high-impact HDR crash. With both promoted to Live, the HOTFIX test channel was closed.
 
 ## Another server fix in canary
 

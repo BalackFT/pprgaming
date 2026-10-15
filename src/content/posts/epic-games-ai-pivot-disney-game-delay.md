@@ -13,7 +13,7 @@ sources:
 ---
 Epic Games is going all in on AI. CEO **Tim Sweeney** posted on X that the company has a "huge pivot underway", moving developers around "to retool for maximum AI acceleration". He says the goal is to let teams build "MORE and BETTER stuff", not to do the same work with fewer people.
 
-**What's confirmed:** Sweeney's posts, and an Epic statement to Bloomberg that the company is "embracing AI-accelerated development."
+**What's confirmed:** Sweeney's posts, and an Epic statement to Bloomberg that the company is "embracing AI-accelerated development." ([The Verge](https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art); [BBC News](https://www.bbc.com/news/articles/cvj6j812dg4no))
 
 **What's reported but not officially announced (via Bloomberg):**
 

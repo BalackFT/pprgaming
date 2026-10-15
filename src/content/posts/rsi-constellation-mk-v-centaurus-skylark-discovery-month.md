@@ -13,9 +13,9 @@ sources:
   - { name: "Cavalera — Star Citizen News, Oct 15, 2026", url: "https://www.cavalera.news/" }
   - { name: "RSI Release View — RSI Skylark", url: "https://robertsspaceindustries.com/roadmap/release-view/1607-RSI-Skylark" }
 ---
-Cloud Imperium Games has completed the reveal of the **RSI Constellation Mk V Centaurus**, the next generation of one of Star Citizen's most iconic ships, along with its companion fighter, the **Skylark**.
+Cloud Imperium Games has completed the reveal of the **RSI Constellation Mk V Centaurus**, the next generation of one of Star Citizen's most iconic ships, along with its companion fighter, the **[Skylark](https://robertsspaceindustries.com/roadmap/release-view/1607-RSI-Skylark)**.
 
-In its official Comm-Link posts, CIG pitches the ship simply: "The Mk IV's better and the Mk V's bigger," with *versatile* as the watchword. The reveal included a ship page, a **Q&A with the Vehicle and Gameplay teams**, and a **Behind the Ships** video.
+In its official [Comm-Link](https://robertsspaceindustries.com/en/comm-link/Patch-Notes/) posts, CIG pitches the ship simply: "The Mk IV's better and the Mk V's bigger," with *versatile* as the watchword. The reveal included a ship page, a **Q&A with the Vehicle and Gameplay teams**, and a **Behind the Ships** video.
 
 ## How to try it for free
 

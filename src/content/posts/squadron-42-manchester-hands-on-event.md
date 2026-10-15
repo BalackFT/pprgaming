@@ -13,11 +13,11 @@ sources:
   - { name: "Star Citizen Wiki — CitizenCon", url: "https://starcitizen.tools/CitizenCon" }
   - { name: "Massively Overpowered — no CitizenCon in 2026", url: "https://massivelyop.com/2026/05/07/star-citizen-hypes-its-may-14-defensecon-event-alpha-4-8s-group-activity-and-april-dev-progress/" }
 ---
-There was no CitizenCon in 2026 — CIG confirmed earlier this year that there would be no event, in person or digital, so the team could focus on delivering Squadron 42. Instead, CIG held an **invite-only Squadron 42 hands-on event at its Manchester studio, October 9–11**.
+There was no CitizenCon in 2026 — CIG confirmed earlier this year that there would be no event, in person or digital, so the team could focus on delivering Squadron 42 ([Massively Overpowered](https://massivelyop.com/2026/05/07/star-citizen-hypes-its-may-14-defensecon-event-alpha-4-8s-group-activity-and-april-dev-progress/)). Instead, CIG held an **invite-only Squadron 42 hands-on event at its Manchester studio, October 9–11**.
 
 ## What happened
 
-Per CIG's October 12 *This Week in Star Citizen* (as summarized by the iheldtheline.com tracker):
+Per CIG's October 12 *This Week in Star Citizen* (as summarized by the [iheldtheline.com](https://iheldtheline.com/news) tracker):
 
 - Around **140 community members** attended.
 - Attendees played Squadron 42 for **five hours**, then spent an extra hour in a **unique story chapter aboard an adrift Xi'an ship**.

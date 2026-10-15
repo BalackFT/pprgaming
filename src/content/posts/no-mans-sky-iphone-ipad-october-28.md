@@ -12,7 +12,7 @@ sources:
   - { name: "The Verge", url: "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date" }
   - { name: "MacStories", url: "https://www.macstories.net/news/apple-kicks-off-indie-games-week-with-six-new-iphone-and-ipad-games-plus-no-mans-sky-preorders/" }
 ---
-Fellow space nerds, take note: **No Man's Sky** is heading to **iPhone and iPad on October 28**, with pre-orders open now on the App Store as part of Apple's Indie Games Week.
+Fellow space nerds, take note: **[No Man's Sky](https://www.nomanssky.com/2026/10/no-mans-sky-ios/)** is heading to **iPhone and iPad on October 28**, with pre-orders open now on the App Store as part of Apple's Indie Games Week.
 
 According to Hello Games, this isn't a cut-down spin-off. The iOS version includes the game's many years of major updates, Voyagers and the recent Cosmos update among them. It runs on hardware as old as the **iPhone 11 and 3rd-gen iPad Air**, and the download is about 5GB.
 

@@ -10,7 +10,7 @@ tags: [runescape, jagex, mmo]
 sources:
   - { name: "Jagex — RuneFest 2026 announcements", url: "https://www.jagex.com/news/runefest-2026-jagex-unveils-fourth-mmo-in-the-runescape-franchise-plus-runescape-reignited-old-school-menaphos-and-more-at-biggest-runefest-ever" }
 ---
-RuneScape turns 25, and Jagex marked it with its biggest RuneFest yet in Birmingham. The headline: a **fourth MMO in the RuneScape franchise**.
+RuneScape turns 25, and Jagex marked it with its biggest [RuneFest](https://www.jagex.com/news/runefest-2026-jagex-unveils-fourth-mmo-in-the-runescape-franchise-plus-runescape-reignited-old-school-menaphos-and-more-at-biggest-runefest-ever) yet in Birmingham. The headline: a **fourth MMO in the RuneScape franchise**.
 
 **What Jagex confirmed:**
 

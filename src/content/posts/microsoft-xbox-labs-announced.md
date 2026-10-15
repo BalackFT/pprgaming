@@ -10,7 +10,7 @@ tags: [xbox, microsoft]
 sources:
   - { name: "GeekWire", url: "https://www.geekwire.com/2026/microsoft-forms-xbox-labs-to-explore-game-remixes-ports-and-other-new-frontiers/" }
 ---
-Xbox has a new skunkworks. In a memo to employees on Tuesday, Xbox CEO **Asha Sharma** announced **Xbox Labs**, which she described as "a small group of game makers, engineers and scientists" turning emerging ideas into things players and developers can actually use.
+Xbox has a new skunkworks. In a memo to employees on Tuesday, Xbox CEO **Asha Sharma** announced **[Xbox Labs](https://www.geekwire.com/2026/microsoft-forms-xbox-labs-to-explore-game-remixes-ports-and-other-new-frontiers/)**, which she described as "a small group of game makers, engineers and scientists" turning emerging ideas into things players and developers can actually use.
 
 **The key points, per GeekWire:**
 

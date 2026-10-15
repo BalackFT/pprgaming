@@ -13,7 +13,7 @@ sources:
   - { name: "RSI Comm-Link — Roadmap Roundup, Oct 9, 2026", url: "https://robertsspaceindustries.com/en/comm-link/Patch-Notes/" }
   - { name: "Star Citizen Public Advisory", url: "https://www.sc-advisory.space/" }
 ---
-With Alpha 4.10.2 live, attention turns to **Alpha 4.11**. The official **RSI Release View** lists 4.11 as **"Tentative, Q4 2026."** CIG's latest Roadmap Roundup was published on October 9.
+With Alpha 4.10.2 live, attention turns to **Alpha 4.11**. The official **[RSI Release View](https://robertsspaceindustries.com/roadmap/release-view/1607-RSI-Skylark)** lists 4.11 as **"Tentative, Q4 2026."** CIG's latest [Roadmap Roundup](https://robertsspaceindustries.com/en/comm-link/Patch-Notes/) was published on October 9.
 
 As CIG notes on the roadmap itself, the Release View shows planned features for the next three months of Persistent Universe updates; the cards represent high confidence in timing, but features can still move.
 

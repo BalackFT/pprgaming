@@ -14,7 +14,7 @@ sources:
   - { name: "VGC", url: "https://www.videogameschronicle.com/news/rockstar-has-revealed-the-official-launch-trailer-for-grand-theft-auto-6/" }
   - { name: "Polygon", url: "https://www.polygon.com/gta-6-launch-trailer-sex-scene-jason-lucia-shower-youtube-video/" }
 ---
-The final stretch is here. Rockstar Games released the official **Grand Theft Auto VI Launch Trailer** on Thursday, October 15, five weeks before the game arrives on **November 19**.
+The final stretch is here. Rockstar Games released the official **[Grand Theft Auto VI Launch Trailer](https://www.rockstargames.com/VI/launch-trailer)** on Thursday, October 15, five weeks before the game arrives on **November 19**.
 
 **What's in it:**
 

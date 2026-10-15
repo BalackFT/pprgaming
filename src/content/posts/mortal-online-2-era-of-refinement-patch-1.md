@@ -11,9 +11,9 @@ sources:
   - { name: "Star Vault on Steam: Into the Vault #162 | Era of Refinement Patch 1", url: "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067924661" }
   - { name: "Star Vault on Steam: Into the Vault #161 | Era of Refinement", url: "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498224811" }
 ---
-Mortal Online 2 is in a new phase. In late September, Star Vault announced the **Era of Refinement**, which drops the long, expansion-sized patch cycles behind updates like Reckoning and Sarducaa. The plan is smaller patches **at least once a month**, focused on data-driven balance, quality-of-life fixes and small additions to existing systems. Star Vault says this phase will run until at least the end of the year.
+Mortal Online 2 is in a new phase. In late September, Star Vault announced the **[Era of Refinement](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498224811)**, which drops the long, expansion-sized patch cycles behind updates like Reckoning and Sarducaa. The plan is smaller patches **at least once a month**, focused on data-driven balance, quality-of-life fixes and small additions to existing systems. Star Vault says this phase will run until at least the end of the year.
 
-On October 6, the studio previewed the first of those patches in *Into the Vault #162*, and it goes straight at core combat.
+On October 6, the studio previewed the first of those patches in *[Into the Vault #162](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067924661)*, and it goes straight at core combat.
 
 **Key changes, per Star Vault:**
 
