@@ -4,7 +4,7 @@ imageAlt: "Official Grand Theft Auto VI key art"
 imageCredit: "Image: Rockstar Games"
 title: "Rockstar drops the official GTA VI launch trailer, 35 days before release"
 description: "The new trailer returns to Jason and Lucia in Leonida and debuts an original Justice track ahead of GTA VI's November 19 launch."
-date: 2026-10-15
+date: 2026-10-15T14:13:47-04:00
 category: industry
 tags: [gta-6, rockstar]
 starCitizen: false

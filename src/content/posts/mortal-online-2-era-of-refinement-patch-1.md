@@ -4,7 +4,7 @@ imageAlt: "Mortal Online 2 key art"
 imageCredit: "Image: Star Vault"
 title: "Mortal Online 2's first Era of Refinement patch overhauls parrying and stamina"
 description: "Star Vault previewed a combat-focused update with hold-to-parry blocking, a big Endurance buff, a new Mental Fortitude skill and visible debuffs, headed to the PTR."
-date: 2026-10-15
+date: 2026-10-15T13:12:43-04:00
 category: industry
 tags: [mortal-online-2, star-vault, mmo]
 sources:

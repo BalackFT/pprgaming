@@ -4,7 +4,7 @@ imageAlt: "Abstract neon synthwave grid under a starfield"
 imageCredit: "Illustration: PPRGaming (original artwork)"
 title: "October 2026 is stacked as publishers clear the way for GTA 6"
 description: "Gears of War: E-Day, Final Fantasy Resonance, Call of Duty: Modern Warfare 4 and Phantom Blade Zero headline a packed month before GTA VI on November 19."
-date: 2026-10-15
+date: 2026-10-15T10:24:14-04:00
 category: releases
 tags: [releases, gta 6, call of duty]
 sources:

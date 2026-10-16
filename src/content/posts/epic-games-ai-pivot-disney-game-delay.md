@@ -4,7 +4,7 @@ imageAlt: "Abstract orange and red geometric artwork"
 imageCredit: "Image: PPRGaming original artwork"
 title: "Epic Games confirms a 'huge pivot' to AI as its Disney shooter reportedly slips"
 description: "Tim Sweeney says Epic is retooling developers for 'maximum AI acceleration'. Bloomberg reports the unannounced Marvel and Star Wars shooter has been delayed."
-date: 2026-10-13
+date: 2026-10-15T12:38:18-04:00
 category: industry
 tags: [epic-games, ai, disney, fortnite]
 sources:

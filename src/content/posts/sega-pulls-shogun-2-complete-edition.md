@@ -4,7 +4,7 @@ imageAlt: "Official Total War: Shogun 2 Complete Edition key art from SEGA"
 imageCredit: "Image: SEGA / Creative Assembly"
 title: "SEGA pulls Total War: Shogun 2 Complete Edition after a disastrous launch"
 description: "Creative Assembly and SEGA are temporarily removing the Oct 13 remaster from storefronts over bugs and visual issues players say look AI-upscaled, and reinstating the 2011 original."
-date: 2026-10-16
+date: 2026-10-16T07:53:28-04:00
 category: industry
 tags: [total-war, sega, creative-assembly, remaster]
 starCitizen: false

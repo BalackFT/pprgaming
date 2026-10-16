@@ -4,7 +4,7 @@ imageAlt: "Official No Rest for the Wicked screenshot of a blood-red chamber wit
 imageCredit: "Image: Moon Studios"
 title: "No Rest for the Wicked 1.0 swaps attributes for 24 weapon-driven classes"
 description: "Moon Studios' latest Wicked Inside showcase reveals a new class system, six joinable factions and Cerim Cores, with a 1.0 update that roughly doubles the game, coming to PS5 and PC in March 2027."
-date: 2026-10-16
+date: 2026-10-16T14:29:09-04:00
 category: releases
 tags: [no-rest-for-the-wicked, moon-studios, early-access, arpg, ps5]
 starCitizen: false

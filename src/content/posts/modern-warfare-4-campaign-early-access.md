@@ -4,7 +4,7 @@ imageAlt: "Official Call of Duty: Modern Warfare 4 key art"
 imageCredit: "Image: Activision / Infinity Ward"
 title: "Modern Warfare 4 Campaign Early Access is live for digital pre-orders"
 description: "Digital pre-order holders can play the full Modern Warfare 4 campaign starting October 16 ahead of the October 23 multiplayer launch, with DMZ Early Access due October 20."
-date: 2026-10-16
+date: 2026-10-16T10:29:59-04:00
 category: releases
 tags: [call-of-duty, modern-warfare-4, activision, infinity-ward]
 starCitizen: false

@@ -4,7 +4,7 @@ imageAlt: "Official CONTROL Resonant key art featuring Dylan Faden in a warped M
 imageCredit: "Image: Remedy Entertainment"
 title: "CONTROL Resonant hits 1 million copies, Remedy’s fastest seller ever"
 description: "Remedy says CONTROL Resonant passed one million copies sold worldwide three weeks after launch, with physical PS5 and Xbox editions now in stores."
-date: 2026-10-16
+date: 2026-10-16T10:29:59-04:00
 category: industry
 tags: [control-resonant, remedy, sales]
 starCitizen: false

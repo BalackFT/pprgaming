@@ -4,7 +4,7 @@ imageAlt: "Official Enshrouded 1.0 key art"
 imageCredit: "Image: Keen Games"
 title: "Enshrouded leaves Early Access: 1.0 is live on PC and PS5"
 description: "Keen Games ships the full Embervale map, Cinder's Cradle, voice acting and a story finale as Enshrouded hits 1.0 on Steam and PlayStation 5."
-date: 2026-10-15
+date: 2026-10-15T14:15:35-04:00
 category: releases
 tags: [enshrouded, keen-games, early-access, ps5]
 starCitizen: false

@@ -4,7 +4,7 @@ imageAlt: "Official Star Citizen Alpha 4.10.2 RSI Discovery Month artwork"
 imageCredit: "Image: Cloud Imperium Games"
 title: "Star Citizen Alpha 4.10.2 hotfix fully live as server crash fixes enter testing"
 description: "The 4.10.2 hotfix (build 12913470) is now deployed on both client and server, and a further server-side fix is being canary-tested."
-date: 2026-10-15
+date: 2026-10-15T10:24:14-04:00
 category: star-citizen
 starCitizen: true
 tags: [patch notes, alpha 4.10]

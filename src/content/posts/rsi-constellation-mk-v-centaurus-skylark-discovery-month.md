@@ -4,7 +4,7 @@ imageAlt: "RSI Constellation Mk V Centaurus official promotional image"
 imageCredit: "Image: Cloud Imperium Games"
 title: "RSI Constellation Mk V Centaurus and Skylark revealed for RSI Discovery Month"
 description: "CIG has fully revealed the next-gen Constellation, with a Q&A, Behind the Ships video, free rental mission and Twitch Drops running until October 27."
-date: 2026-10-15
+date: 2026-10-15T10:24:14-04:00
 category: star-citizen
 starCitizen: true
 tags: [ships, events, twitch drops]

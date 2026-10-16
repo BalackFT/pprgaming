@@ -4,7 +4,7 @@ imageAlt: "Official RSI Roadmap Roundup header image"
 imageCredit: "Image: Cloud Imperium Games"
 title: "What's next after 4.10? Alpha 4.11 tentatively set for Q4 2026"
 description: "The RSI Release View lists Alpha 4.11 as tentative for Q4 2026. Here's what we know — and what's still speculation."
-date: 2026-10-14
+date: 2026-10-15T10:24:14-04:00
 category: star-citizen
 starCitizen: true
 tags: [roadmap, alpha 4.11]

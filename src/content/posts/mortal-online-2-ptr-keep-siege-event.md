@@ -4,7 +4,7 @@ imageAlt: "Official Star Vault artwork for the Mortal Online 2 PTR Keep Siege ev
 imageCredit: "Image: Star Vault"
 title: "Mortal Online 2 hosts a Keep Siege on the Era of Refinement PTR this weekend"
 description: "Star Vault invites everyone to a hosted attackers-vs-defenders keep siege on Sarducaa on October 17 at 9:00 PM CEST, with supplies provided and a chance to stress-test the new combat changes."
-date: 2026-10-16
+date: 2026-10-16T07:53:28-04:00
 category: industry
 tags: [mortal-online-2, star-vault, mmo, ptr]
 starCitizen: false

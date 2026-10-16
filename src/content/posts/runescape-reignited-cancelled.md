@@ -4,7 +4,7 @@ imageAlt: "Official Jagex header artwork for the RuneScape Reignited cancellatio
 imageCredit: "Image: Jagex"
 title: "Jagex cancels RuneScape Reignited after player backlash"
 description: "Less than two weeks after RuneFest, Mod Ryan says Jagex 'missed the mark' on the fresh-start reset. December 2 still brings Adventure Guide, Remastered Journey, and a 10-day members trial."
-date: 2026-10-16
+date: 2026-10-16T07:53:28-04:00
 category: industry
 tags: [runescape, jagex, mmo]
 starCitizen: false

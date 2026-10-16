@@ -4,7 +4,7 @@ imageAlt: "No Man's Sky official key art: four explorers facing a giant Atlas py
 imageCredit: "Image: Hello Games"
 title: "No Man's Sky lands on iPhone and iPad October 28, free to try"
 description: "Hello Games is bringing the full game, ten years of updates included, to iOS, running on devices back to the iPhone 11."
-date: 2026-10-15
+date: 2026-10-15T12:38:18-04:00
 category: releases
 tags: [no-mans-sky, hello-games, ios, mobile]
 sources:

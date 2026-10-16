@@ -4,7 +4,7 @@ imageAlt: "Abstract green geometric artwork"
 imageCredit: "Image: PPRGaming original artwork"
 title: "Microsoft launches Xbox Labs to experiment with ports, remixes and new tech"
 description: "Xbox CEO Asha Sharma has formed a small team under CTO Scott Van Vliet to turn emerging ideas into things players can try."
-date: 2026-10-13
+date: 2026-10-15T12:38:18-04:00
 category: industry
 tags: [xbox, microsoft]
 sources:

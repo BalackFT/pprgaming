@@ -4,7 +4,7 @@ imageAlt: "Abstract illustration of a game cartridge shape inside a shield"
 imageCredit: "Image: PPRGaming original artwork"
 title: "Congressman Ritchie Torres pitches a bill to make sure you own the games you buy"
 description: "The Power To The Players Act would have the FTC turn digital game licenses into real ownership and require offline modes before servers shut down. It hasn't been formally introduced yet."
-date: 2026-10-15
+date: 2026-10-15T19:26:37-04:00
 category: industry
 tags: [game-ownership, legislation, ftc, nba-2k25, digital-games]
 starCitizen: false

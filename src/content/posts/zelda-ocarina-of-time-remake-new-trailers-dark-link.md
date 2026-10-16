@@ -4,7 +4,7 @@ imageAlt: "Official key art for The Legend of Zelda: Ocarina of Time on Nintendo
 imageCredit: "Image: Nintendo"
 title: "Ocarina of Time remake: new trailers tease Dark Link three weeks before launch"
 description: "Nintendo's Switch 2 remake of Ocarina of Time gets two fresh trailers, including a glimpse of Dark Link, after a five-minute overview showed mic-powered ocarina songs and a new monster rematch hall. It launches November 5."
-date: 2026-10-16
+date: 2026-10-16T14:29:09-04:00
 category: releases
 tags: [zelda, ocarina-of-time, nintendo, switch-2, remake]
 starCitizen: false

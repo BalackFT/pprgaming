@@ -4,7 +4,7 @@ imageAlt: "Official Jagex artwork: a golden dragon head emblem set in a glowing 
 imageCredit: "Image: Jagex"
 title: "RuneFest 2026: Jagex announces a fourth RuneScape MMO in Unreal Engine"
 description: "Jagex teased an unnamed new RuneScape MMO, dated RuneScape Reignited for December 2, and announced an animated adaptation."
-date: 2026-10-14
+date: 2026-10-15T12:38:18-04:00
 category: industry
 tags: [runescape, jagex, mmo]
 sources:
