@@ -4,7 +4,7 @@ import Base from '../layouts/Base.astro'; import { SITE } from '../site.js';
 <Base title="Contact"><div class="prose"><h1>Contact</h1>
 <p>Tips, corrections, press releases or sponsorship inquiries — we'd love to hear from you.</p>
 <p>Email: <a href="mailto:contact@pprgaming.com">contact@pprgaming.com</a> · X: <a href={SITE.x}>@PPRGamers</a></p>
-<!-- TODO: point action to Formspree / Netlify Forms / Cloudflare form handler -->
-<form action="#" method="post" onsubmit="alert('Contact form coming soon — please email us.');return false;" style="display:grid;gap:10px;max-width:520px">
-<input type="text" name="name" placeholder="Name" required/><input type="email" name="email" placeholder="Email" required/><textarea name="msg" rows="6" placeholder="Message" required></textarea><button>Send</button></form>
+<form action="https://formsubmit.co/contact@pprgaming.com" method="POST" style="display:grid;gap:10px;max-width:520px">
+<input type="hidden" name="_subject" value="New message from pprgaming.com"/><input type="hidden" name="_next" value="https://pprgaming.com/contact/?sent=1"/><input type="hidden" name="_captcha" value="true"/><input type="text" name="_honey" style="display:none"/>
+<input type="text" name="name" placeholder="Name" required/><input type="email" name="email" placeholder="Email" required/><textarea name="message" rows="6" placeholder="Message" required></textarea><button>Send</button></form>
 </div></Base>
