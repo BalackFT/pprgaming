@@ -6,6 +6,6 @@ export const SITE = {
   adsenseAds: false, // flip to true once AdSense approves and ads can show
   rsiReferral: 'STAR-KRBQ-RNS9',
   amazonTag: '',
-  supportUrl: '',
+  supportUrl: 'https://ko-fi.com/pprgaming',
 };
 export const CATEGORIES = { 'star-citizen': 'Star Citizen', 'squadron-42': 'Squadron 42', 'releases': 'Releases', 'industry': 'Industry' };
