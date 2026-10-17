@@ -4,6 +4,7 @@ const posts = defineCollection({ type: 'content', schema: z.object({
   category: z.string(), tags: z.array(z.string()).default([]), starCitizen: z.boolean().default(false),
   sources: z.array(z.object({ name: z.string(), url: z.string() })).default([]), draft: z.boolean().default(false),
   image: z.string().optional(), imageAlt: z.string().optional(), imageCredit: z.string().optional(),
+  author: z.string().optional(),
 })});
 const shots = defineCollection({ type: 'data', schema: z.object({
   date: z.coerce.date(), title: z.string(), game: z.string().default('Star Citizen'),
