@@ -11,7 +11,7 @@ const ld = { '@context':'https://schema.org','@type':'NewsArticle',headline:post
 <div class="layout"><article class="post">
 <a class="tag" href={`/category/${post.data.category}/`}>{CATEGORIES[post.data.category]}</a>
 <h1>{post.data.title}</h1>
-<p class="meta">By {post.data.author ?? 'PPRGaming'} · {post.data.date.toLocaleDateString('en-US',{dateStyle:'long',timeZone:'UTC'})}</p>
+<p class="meta">By {post.data.author ?? 'PPRGaming'} · {post.data.date.toLocaleDateString('en-US',{dateStyle:'long',timeZone:'America/New_York'})}</p>
 {post.data.image
   ? <figure class="hero"><img src={post.data.image} alt={post.data.imageAlt ?? post.data.title} width="1600" height="900" fetchpriority="high"/>{post.data.imageCredit && <figcaption>{post.data.imageCredit}</figcaption>}</figure>
   : <div class={`hero hero-fallback ${post.data.starCitizen ? 'sc' : ''}`}><span>{CATEGORIES[post.data.category]}</span></div>}
