@@ -1,1 +1,1 @@
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0  # TODO: replace with real AdSense publisher ID, then uncomment
+google.com, pub-3437444286038579, DIRECT, f08c47fec0942fa0
