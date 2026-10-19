@@ -5,6 +5,9 @@ const { title, description = SITE.desc, image, type = 'website' } = Astro.props;
 const t = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${SITE.full}`;
 const ogImage = new URL(image || '/og.svg', SITE.url);
 const canonical = new URL(Astro.url.pathname, SITE.url);
+const bookHref = SITE.amazonTag
+  ? `${SITE.book.url}${SITE.book.url.includes('?') ? '&' : '?'}tag=${SITE.amazonTag}`
+  : SITE.book.url;
 ---
 <!doctype html><html lang="en"><head>
 <!-- Google tag (gtag.js) -->
@@ -32,5 +35,6 @@ const canonical = new URL(Astro.url.pathname, SITE.url);
 <footer class="foot"><div class="wrap">
 <p><strong>PPRGaming</strong> — {SITE.full}. Independent gaming news. Not affiliated with Cloud Imperium Games or Roberts Space Industries.</p>
 <p><a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/rss.xml">RSS</a> · <a href={SITE.x}>X @PPRGamers</a></p>
+<p class="foot-book">New dark fantasy book: <a href={bookHref} target="_blank" rel="noopener sponsored">The Ashen Vampire by J.R. Carter</a></p>
 <p class="small">Some links may be affiliate links; we may earn a commission at no extra cost to you. © {new Date().getFullYear()} PPRGaming</p>
 </div></footer></body></html>
