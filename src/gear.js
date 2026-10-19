@@ -7,6 +7,8 @@ export const MY_GEAR = [
     blurb: 'A full-size mechanical board with nine programmable G-keys and per-key RGB. The extra macro keys and the lighting profiles are handy for keeping track of the many ship, mining and on-foot keybinds in Star Citizen.' },
   { cat: 'Mouse', name: 'Logitech G502 X PLUS Lightspeed Wireless (Black)', asin: 'B0DV8L6QX8',
     blurb: 'A wireless take on the G502 X: LIGHTSPEED wireless with a 1 ms report rate, LIGHTFORCE hybrid optical-mechanical switches, a HERO 25K sensor and 13 programmable controls. No cable drag while you move between stick and mouse, and the free-spin/ratchet wheel works well for throttle or power-triangle adjustments. This Amazon listing comes bundled with a charging dock.' },
+  { cat: 'Headset', name: 'Logitech G PRO X Wireless Lightspeed (Black)', asin: 'B081PP4CB6',
+    blurb: 'LIGHTSPEED wireless with 20+ hours of battery, 50 mm PRO-G drivers and DTS Headphone:X 2.0 virtual surround to help you tell where ships and gunfire are coming from. The Blue VO!CE mic filter keeps party and org comms clear, and with no cable you can lean back or step away from the desk mid-flight.' },
 ];
 export const RECOMMENDED = [
   { group: 'HOTAS & flight sticks', items: [
