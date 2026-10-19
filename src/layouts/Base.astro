@@ -29,12 +29,12 @@ const bookHref = SITE.amazonTag
 <nav>
 <a href="/category/star-citizen/">Star Citizen</a>
 {Object.entries(CATEGORIES).filter(([k])=>k!=='star-citizen').map(([k,v])=><a href={`/category/${k}/`}>{v}</a>)}
-<a href="/screenshots/">Screenshots</a><a href="/about/">About</a><a class="btn" href="/support/">Support</a>
+<a href="/screenshots/">Screenshots</a><a href="/gear/">Gear</a><a href="/about/">About</a><a class="btn" href="/support/">Support</a>
 </nav></div></header>
 <main class="wrap"><slot/></main>
 <footer class="foot"><div class="wrap">
 <p><strong>PPRGaming</strong> — {SITE.full}. Independent gaming news. Not affiliated with Cloud Imperium Games or Roberts Space Industries.</p>
-<p><a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/rss.xml">RSS</a> · <a href={SITE.x}>X @PPRGamers</a></p>
+<p><a href="/gear/">Gear</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/rss.xml">RSS</a> · <a href={SITE.x}>X @PPRGamers</a></p>
 <p class="foot-book">New dark fantasy book: <a href={bookHref} target="_blank" rel="noopener sponsored">The Ashen Vampire by J.R. Carter</a></p>
 <p class="small">As an Amazon Associate I earn from qualifying purchases. © {new Date().getFullYear()} PPRGaming</p>
 </div></footer></body></html>

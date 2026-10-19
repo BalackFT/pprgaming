@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site.js';
+import { MY_GEAR, RECOMMENDED } from '../gear.js';
+const link = (asin) => `https://www.amazon.com/dp/${asin}${SITE.amazonTag ? `?tag=${SITE.amazonTag}` : ''}`;
+---
+<Base title="Gaming Gear" description="The Star Citizen gear PPRGaming uses, plus recommended HOTAS, mice and keyboards for space sims.">
+<div class="prose">
+<p class="gear-disclosure small">As an Amazon Associate I earn from qualifying purchases.</p>
+<h1>Gaming Gear</h1>
+<p>Here's the gear behind PPRGaming's Star Citizen sessions, plus a few picks at different budgets if you're putting together your own space-sim setup. Prices and availability change, so check Amazon for current details.</p>
+
+<h2>What I fly with</h2>
+<p class="gear-note">This is what I use.</p>
+</div>
+<div class="grid gear-grid">
+{MY_GEAR.map((g) => (
+  <div class="card gear-card">
+    <span class="gear-tag">{g.cat}</span>
+    <h3>{g.name}</h3>
+    <p>{g.blurb}</p>
+    <a class="btn" href={link(g.asin)} target="_blank" rel="noopener sponsored">View on Amazon →</a>
+  </div>
+))}
+</div>
+
+<div class="prose"><h2>Recommended</h2>
+<p class="gear-note">These are recommended picks, not gear I own. They're well-regarded options for space and flight sims at different budgets.</p></div>
+{RECOMMENDED.map((sec) => (
+  <section class="gear-section">
+    <h3 class="gear-group">{sec.group}</h3>
+    <div class="grid gear-grid">
+    {sec.items.map((g) => (
+      <div class="card gear-card">
+        <span class="gear-tag">Recommended · {g.tier}</span>
+        <h3>{g.name}</h3>
+        <p>{g.blurb}</p>
+        <a class="btn" href={link(g.asin)} target="_blank" rel="noopener sponsored">View on Amazon →</a>
+      </div>
+    ))}
+    </div>
+  </section>
+))}
+</Base>

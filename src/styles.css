@@ -181,3 +181,11 @@ h2.sec{border-left:4px solid var(--acc);padding-left:10px;margin-top:40px}
 }
 .book-promo-genre{color:var(--acc2);font-size:.85rem;font-weight:600;letter-spacing:.04em;margin:0 0 .5em;text-transform:uppercase}
 .book-promo-disclosure{color:var(--mut,#8a8f98);margin:10px 0 0}
+.gear-disclosure{color:var(--mut);margin:18px 0 0}
+.gear-note{color:var(--mut)}
+.gear-grid{margin:14px 0 26px}
+.gear-card{display:flex;flex-direction:column}
+.gear-card:hover{transform:none}
+.gear-card .btn{align-self:flex-start;margin-top:auto;text-decoration:none}
+.gear-tag{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--acc);font-weight:700}
+.gear-group{margin:10px 0 0}
