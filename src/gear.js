@@ -5,8 +5,8 @@ export const MY_GEAR = [
     blurb: 'A full stick-and-throttle set made for space sims. The stick has a mini analog thumbstick for strafing, the split twin throttles and stacks of hats and rotaries take a lot of Star Citizen bindings, and you can swap the springs to change how stiff the stick feels.' },
   { cat: 'Keyboard', name: 'Logitech G910 Orion Spectrum', asin: 'B01GAONOAC',
     blurb: 'A full-size mechanical board with nine programmable G-keys and per-key RGB. The extra macro keys and the lighting profiles are handy for keeping track of the many ship, mining and on-foot keybinds in Star Citizen.' },
-  { cat: 'Mouse', name: 'Logitech G502 X (wired)', asin: 'B0943HXDVM',
-    blurb: 'A wired mouse with 13 controls, a DPI-shift button and a scroll wheel that switches between free-spin and ratchet. The free-spin wheel works well for throttle or power-triangle adjustments, and the side buttons are easy to bind for FPS combat.' },
+  { cat: 'Mouse', name: 'Logitech G502 X PLUS Lightspeed Wireless (Black)', asin: 'B0DV8L6QX8',
+    blurb: 'A wireless take on the G502 X: LIGHTSPEED wireless with a 1 ms report rate, LIGHTFORCE hybrid optical-mechanical switches, a HERO 25K sensor and 13 programmable controls. No cable drag while you move between stick and mouse, and the free-spin/ratchet wheel works well for throttle or power-triangle adjustments. This Amazon listing comes bundled with a charging dock.' },
 ];
 export const RECOMMENDED = [
   { group: 'HOTAS & flight sticks', items: [
