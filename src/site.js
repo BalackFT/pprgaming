@@ -7,5 +7,13 @@ export const SITE = {
   rsiReferral: 'STAR-KRBQ-RNS9',
   amazonTag: '',
   supportUrl: 'https://ko-fi.com/pprgaming',
+  book: {
+    title: 'The Ashen Vampire: Rise of the Dockside Coven',
+    author: 'J.R. Carter',
+    blurb: 'She woke with nothing but a name and an unbearable hunger.',
+    price: '$2.99',
+    url: 'https://www.amazon.com/dp/B0HNKJWQMQ',
+    cover: '/images/ashen-vampire-cover.jpg',
+  },
 };
 export const CATEGORIES = { 'star-citizen': 'Star Citizen', 'squadron-42': 'Squadron 42', 'releases': 'Releases', 'industry': 'Industry' };

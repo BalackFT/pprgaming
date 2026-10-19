@@ -1,5 +1,5 @@
 ---
-import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Ad from '../components/Ad.astro'; import Newsletter from '../components/Newsletter.astro'; import Shot from '../components/Shot.astro'; import XWidgets from '../components/XWidgets.astro';
+import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Ad from '../components/Ad.astro'; import Newsletter from '../components/Newsletter.astro'; import Shot from '../components/Shot.astro'; import XWidgets from '../components/XWidgets.astro'; import BookPromo from '../components/BookPromo.astro';
 import { getCollection } from 'astro:content'; import { SITE } from '../site.js';
 const all = (await getCollection('posts', p => !p.data.draft)).sort((a,b)=>b.data.date-a.data.date);
 const latestShot = (await getCollection('shots')).sort((a,b)=>b.data.date-a.data.date)[0];
@@ -20,6 +20,7 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
   <div class="ref"><div><strong>New to Star Citizen?</strong> Use referral code <code>{SITE.rsiReferral}</code> when you create your account to get bonus in-game credits.</div><a class="btn" href="https://robertsspaceindustries.com/enlist?referral=STAR-KRBQ-RNS9" rel="nofollow">Enlist at RSI →</a></div>
   <p class="small"><a href="/category/star-citizen/">All Star Citizen news →</a> · <a href="/category/squadron-42/">Squadron 42 →</a></p>
 </section>
+<BookPromo/>
 <Ad unit="home-top"/>
 <h2 class="sec">Latest Gaming News</h2>
 <div class="grid">{other.map(p=><Card post={p}/>)}</div>

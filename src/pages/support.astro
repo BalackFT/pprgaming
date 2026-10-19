@@ -1,5 +1,5 @@
 ---
-import Base from '../layouts/Base.astro'; import { SITE } from '../site.js';
+import Base from '../layouts/Base.astro'; import BookPromo from '../components/BookPromo.astro'; import { SITE } from '../site.js';
 ---
 <Base title="Support PPRGaming"><div class="prose"><h1>Support PPRGaming</h1>
 <p>PPRGaming is independent and free to read. If you enjoy it, here's how to help keep the lights on:</p>
@@ -9,5 +9,6 @@ import Base from '../layouts/Base.astro'; import { SITE } from '../site.js';
 <li><strong>Shop through our links</strong> — some links to stores are affiliate links; we earn a small commission at no extra cost to you.</li>
 <li><strong>Subscribe</strong> to the newsletter and follow <a href={SITE.x}>@PPRGamers</a>.</li>
 </ul>
+<BookPromo/>
 <h2>Sponsorships</h2><p>Studios, peripheral makers and gaming brands: email <a href="mailto:contact@pprgaming.com">contact@pprgaming.com</a>. Sponsored content is always labeled.</p>
 </div></Base>

@@ -125,3 +125,57 @@ h2.sec{border-left:4px solid var(--acc);padding-left:10px;margin-top:40px}
 
 .sotd-shout{color:var(--acc);font-size:1.05rem;margin:4px 0 14px;font-weight:600}
 .sotd-shout a{color:var(--cyan);text-decoration:underline}
+
+/* Book promo — separate from news/ads */
+.book-promo{
+  margin:28px 0;
+  border:1px solid #4a5160;
+  border-radius:12px;
+  background:
+    linear-gradient(135deg,rgba(255,92,43,.08),transparent 42%),
+    linear-gradient(180deg,#161018 0%,#0d0f16 100%);
+  box-shadow:
+    0 0 0 1px rgba(255,92,43,.16),
+    inset 0 1px 0 rgba(255,255,255,.06),
+    0 8px 28px rgba(255,69,0,.12);
+  overflow:hidden;
+}
+.book-promo-inner{
+  display:flex;
+  gap:22px;
+  align-items:stretch;
+  padding:20px;
+  flex-wrap:wrap;
+}
+.book-promo-cover{
+  flex:0 0 auto;
+  display:block;
+  line-height:0;
+  border-radius:8px;
+  overflow:hidden;
+  border:1px solid var(--line);
+  box-shadow:0 6px 18px rgba(0,0,0,.45);
+  transition:transform .2s,border-color .2s;
+}
+.book-promo-cover:hover{transform:translateY(-2px);border-color:var(--acc)}
+.book-promo-cover img{width:130px;height:auto;display:block;aspect-ratio:2/3;object-fit:cover}
+.book-promo-body{flex:1 1 220px;min-width:200px}
+.book-promo-label{
+  display:inline-block;
+  font-size:.72rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  font-weight:700;
+  color:var(--acc2);
+  margin-bottom:6px;
+}
+.book-promo-body h3{margin:0 0 .25em;font-size:1.25rem;line-height:1.25}
+.book-promo-body h3 a{color:var(--txt);text-decoration:none}
+.book-promo-body h3 a:hover{color:var(--acc2)}
+.book-promo-author{color:var(--mut);margin:0 0 .6em;font-size:.95rem}
+.book-promo-blurb{color:#f1d6c9;margin:0 0 .7em;font-style:italic;max-width:42em}
+.book-promo-price{color:var(--acc);font-weight:700;margin:0 0 12px}
+.prose .book-promo{max-width:100%}
+@media(max-width:520px){
+  .book-promo-cover img{width:110px}
+}
