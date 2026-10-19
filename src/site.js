@@ -5,7 +5,7 @@ export const SITE = {
   adsenseClient: 'ca-pub-3437444286038579',
   adsenseAds: false, // flip to true once AdSense approves and ads can show
   rsiReferral: 'STAR-KRBQ-RNS9',
-  amazonTag: '',
+  amazonTag: 'pprgaming-20',
   supportUrl: 'https://ko-fi.com/pprgaming',
   book: {
     title: 'The Ashen Vampire: Rise of the Dockside Coven',
