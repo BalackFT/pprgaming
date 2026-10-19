@@ -11,9 +11,10 @@ const href = SITE.amazonTag
       <img src={book.cover} alt={`Cover of ${book.title} by ${book.author}`} width="208" height="312" loading="lazy" decoding="async"/>
     </a>
     <div class="book-promo-body">
-      <span class="book-promo-label">Now available</span>
+      <span class="book-promo-label">Now available · Dark fantasy</span>
       <h3><a href={href} rel="noopener sponsored" target="_blank">{book.title}</a></h3>
       <p class="book-promo-author">by {book.author}</p>
+      <p class="book-promo-genre">{book.genre}</p>
       <p class="book-promo-blurb">{book.blurb}</p>
       <p class="book-promo-price">{book.price} on Kindle</p>
       <a class="btn" href={href} rel="noopener sponsored" target="_blank">Get it on Amazon →</a>

@@ -10,7 +10,8 @@ export const SITE = {
   book: {
     title: 'The Ashen Vampire: Rise of the Dockside Coven',
     author: 'J.R. Carter',
-    blurb: 'She woke with nothing but a name and an unbearable hunger.',
+    genre: 'Dark fantasy with vampires',
+    blurb: 'She woke with nothing but a name and an unbearable hunger. A dark fantasy of blood, covens, and a city that feeds on monsters.',
     price: '$2.99',
     url: 'https://www.amazon.com/dp/B0HNKJWQMQ',
     cover: '/images/ashen-vampire-cover.jpg',
