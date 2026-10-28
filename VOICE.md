@@ -133,8 +133,8 @@ For layoffs, studio closures and deaths, drop the jokes, "lol," ellipses and emo
 
 **4. Star Citizen deadline**
 - Bot: `Last week to choose: Star Citizen backers have until November 1 to pick their protected Game Access pledge, then it locks for good. @RobertsSpaceInd #StarCitizen #SQ42 <link>`
-- James: `Don't sleep on this one, all. You've got until November 1 to pick your protected Game Access pledge, then it's locked for good. I already switched mine to my OG pledge! @RobertsSpaceInd #StarCitizen <link>`
-  *(Only use the "I already switched…" line because he actually posted that on Oct 2. Never invent a personal action James didn't take.)*
+- James: `Don't sleep on this one, all. You've got until November 1 to pick your protected Game Access pledge, then it's locked for good. @RobertsSpaceInd #StarCitizen <link>`
+  *(Never add a personal action, like "I upgraded mine", unless James actually did it and said so.)*
 
 **5. Somber (extrapolated)**
 - Bot: `Life is Strange studio Don't Nod plans to cut up to 85 of its 140 French jobs, and its union says management is targeting people one by one. #LifeIsStrange #GameDev <link>`
