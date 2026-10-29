@@ -120,3 +120,4 @@ https://pprgaming.com/news/microsoft-q1-fy27-xbox-hardware-revenue-down-14-perce
 https://pprgaming.com/news/mortal-online-2-hotfix-3-1-20-32-riposte-fix-reliquary-siphon/ | Mortal Online 2 hotfix 3.1.20.32 fixes slow ripostes and speeds up Reliquary Siphons
 https://pprgaming.com/news/street-fighter-v-pulled-from-sale-offline-php-security-flaw/ | Capcom pulls Street Fighter V from sale and keeps its servers offline over a PHP security flaw
 https://pprgaming.com/news/gta-6-map-size-600000-npc-animations-edge-rockstar/ | GTA 6's Leonida is nearly as big as GTA IV, GTA V and RDR2's maps combined, Rockstar tells Edge
+https://pprgaming.com/news/the-wolf-among-us-remastered-launches-deleted-scenes-noir-mode/ | The Wolf Among Us Remastered is out now with five playable deleted scenes, a Noir Mode and choices that carry into season 2

@@ -1,7 +1,7 @@
 ---
 image: "/images/posts/patrick-stewart-dies-at-86-star-trek-picard-x-men-tribute.webp"
 imageAlt: "Patrick Stewart smiling gently on a panel at San Diego Comic-Con in 2019, wearing a dark jacket and white open-collared shirt"
-imageCredit: "Image: Gage Skidmore / Wikimedia Commons (CC BY-SA 3.0), background extended"
+imageCredit: "Image: Gage Skidmore / Wikimedia Commons (CC BY-SA 3.0), background extended. Adaptation shared under CC BY-SA 3.0"
 title: "Breaking: Sir Patrick Stewart, Star Trek's Captain Picard and X-Men's Professor X, has died at 86"
 description: "Sir Patrick Stewart, the Royal Shakespeare Company veteran who became Captain Jean-Luc Picard and Professor Charles Xavier, died Wednesday at his home in Los Angeles. He was 86."
 date: 2026-10-29T15:58:00-04:00
