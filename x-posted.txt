@@ -114,3 +114,9 @@ https://pprgaming.com/news/no-mans-sky-iphone-ipad-october-28/ | No Man's Sky is
 https://pprgaming.com/news/star-citizen-alpha-4-10-3-ptu-13032516-skarnov-damage-chain-lightning-dev-notes/ | Star Citizen 4.10.3 PTU build 13032516 is out for Wave 1, and a CIG dev says the Skarnov got more than a text fix
 SOTD 2026-10-29 | https://x.com/PPRGamers/status/2115776770330755133
 https://pprgaming.com/news/playstation-plus-november-2026-dead-island-2-tomb-raider-iv-vi-monster-train-2/ | PlayStation Plus November games: Dead Island 2, Tomb Raider IV-VI Remastered and Monster Train 2
+https://pprgaming.com/news/star-citizen-4-10-3-vr-updates-scope-eye-relief-zoom-sliders-medbed/ | Star Citizen 4.10.3 brings VR scope eye relief, split zoom sliders and a medbed view fix, per CIG's Silvan
+https://pprgaming.com/news/phantom-blade-zero-launch-600000-steam-players-day-one-patch-nvidia-driver/ | Phantom Blade Zero passes 600,000 players on Steam on day one, and S-Game says roll back your NVIDIA driver
+https://pprgaming.com/news/microsoft-q1-fy27-xbox-hardware-revenue-down-14-percent/ | Xbox hardware revenue fell 14% last quarter, and Game Pass and third-party sales dipped too
+https://pprgaming.com/news/mortal-online-2-hotfix-3-1-20-32-riposte-fix-reliquary-siphon/ | Mortal Online 2 hotfix 3.1.20.32 fixes slow ripostes and speeds up Reliquary Siphons
+https://pprgaming.com/news/street-fighter-v-pulled-from-sale-offline-php-security-flaw/ | Capcom pulls Street Fighter V from sale and keeps its servers offline over a PHP security flaw
+https://pprgaming.com/news/gta-6-map-size-600000-npc-animations-edge-rockstar/ | GTA 6's Leonida is nearly as big as GTA IV, GTA V and RDR2's maps combined, Rockstar tells Edge
