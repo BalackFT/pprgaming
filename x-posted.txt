@@ -121,3 +121,6 @@ https://pprgaming.com/news/mortal-online-2-hotfix-3-1-20-32-riposte-fix-reliquar
 https://pprgaming.com/news/street-fighter-v-pulled-from-sale-offline-php-security-flaw/ | Capcom pulls Street Fighter V from sale and keeps its servers offline over a PHP security flaw
 https://pprgaming.com/news/gta-6-map-size-600000-npc-animations-edge-rockstar/ | GTA 6's Leonida is nearly as big as GTA IV, GTA V and RDR2's maps combined, Rockstar tells Edge
 https://pprgaming.com/news/the-wolf-among-us-remastered-launches-deleted-scenes-noir-mode/ | The Wolf Among Us Remastered is out now with five playable deleted scenes, a Noir Mode and choices that carry into season 2
+https://pprgaming.com/news/playstation-prism-collection-transparent-dualsense-ps5-covers-february-4/ | Sony's Prism Collection brings see-through DualSense controllers and PS5 covers on February 4, with pre-orders November 10
+https://pprgaming.com/news/modern-warfare-4-season-1-november-6-maps-dmz-x01-warzone/ | Modern Warfare 4 Season 1 lands November 6 with three new maps, Grind and Drop Zone, DMZ's X01 facility and two Warzone maps
+https://pprgaming.com/news/crimson-desert-charting-the-unknown-out-now-patch-2-04-00/ | Crimson Desert's Charting the Unknown is out now, and patch 2.04.00 adds ships, diving, marriage, castles and the Garden of Trials
