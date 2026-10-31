@@ -4,7 +4,7 @@ imageAlt: "Dan Greenawalt, bald with a red beard and a dark button-up shirt, smi
 imageCredit: "Image: via Shacknews"
 title: "Forza creator Dan Greenawalt is retiring from Microsoft after 27 years"
 description: "Turn 10 Studios head Dan Greenawalt, who founded the studio and led the creation of Forza, is retiring from Microsoft, according to an internal Playground Games memo reported by The Verge. Turn 10 was folded into Playground Games in September."
-date: 2026-10-31T19:42:00-04:00
+date: 2026-10-31T19:31:00-04:00
 category: industry
 tags: [forza, forza motorsport, turn 10, playground games, xbox, microsoft]
 sources:

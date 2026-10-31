@@ -4,7 +4,7 @@ imageAlt: "Close-up of Wolfenstein's B.J. Blazkowicz, scarred and bearded, resti
 imageCredit: "Image: MachineGames / Bethesda"
 title: "id Software says it's working more closely with MachineGames than ever after losing about half its studio"
 description: "id Software co-director Marty Stratton says the Doom studio is still viable after Xbox's layoffs took about half its staff, and that a technology partnership with Wolfenstein and Indiana Jones developer MachineGames, started earlier this year, is now closer than ever."
-date: 2026-10-31T19:40:00-04:00
+date: 2026-10-31T19:30:00-04:00
 category: industry
 tags: [id software, machinegames, doom, xbox, layoffs, id tech]
 sources:
