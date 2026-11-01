@@ -14,36 +14,32 @@ sources:
   - { name: "Crimson Desert — Charting the Unknown Market Availability Update", url: "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=144" }
   - { name: "MP1st — Crimson Desert Hotfix 1.000.673 Deployed as First DLC Update", url: "https://mp1st.com/title-updates-and-patches/crimson-desert-hotfix-1-000-673-deployed-as-first-dlc-update" }
 ---
-**That was quick.** Just a couple of hours after [Charting the Unknown went live](/news/crimson-desert-charting-the-unknown-out-now-patch-2-04-00/), Pearl Abyss posted a [hotfix for patch 2.04.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=145) at 8 p.m. ET Thursday. It's available now on Steam (PC and Mac), PlayStation, Xbox and the Epic Games Store, with the Mac App Store version coming later. On consoles it shows up as update **1.000.673**, [MP1st reports](https://mp1st.com/title-updates-and-patches/crimson-desert-hotfix-1-000-673-deployed-as-first-dlc-update).
+**That was quick.** Just a couple of hours after [Charting the Unknown went live](/news/crimson-desert-charting-the-unknown-out-now-patch-2-04-00/), Pearl Abyss posted a [hotfix for patch 2.04.00](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=145) at 8 p.m. ET Thursday. It's available now on Steam (PC and Mac), PlayStation, Xbox and the Epic Games Store, with the Mac App Store version coming later. On consoles it shows up as update **1.000.673**, [MP1st reports](https://mp1st.com/title-updates-and-patches/crimson-desert-hotfix-1-000-673-deployed-as-first-dlc-update). **The full fix list is in [Pearl Abyss's official hotfix notes](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=145).**
 
 One thing that might throw you: Pearl Abyss says the game will **still display version 2.04.00** after you install it, but the fixes are applied anyway. The version number will catch up with a future patch.
 
-**What's fixed**
+## Ships handle better
 
-- Certain "Ascend" skills not being applied correctly
-- [Damiane] Shield Toss could be used repeatedly underwater
-- Glowing Seeds can now be taken out during combat
-- The camera distance changing after aiming the ship cannon
-- The camera moving awkwardly when boarding a ship
-- Certain plants appearing to poke through housing
-- Housing item placement being misaligned when your monitor resolution differs from the in-game resolution
-- The quest "Footsteps in Unfamiliar Lands" can now be started from the starting location
-- Kliff sometimes respawning in an inaccessible area after dying in the desert
+The fixes most players will notice are on the water. The camera distance no longer changes after you aim the ship cannon, and the camera no longer moves awkwardly when you board a ship. Sailing is the centerpiece of Charting the Unknown, so cleaning up the camera on night one makes sense.
 
-**Still on the known issues list**
+## No more underwater Shield Toss spam
 
-Pearl Abyss also refreshed its [known issues notice](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=68) at 11 p.m. ET. A few worth knowing about:
+Damiane's **Shield Toss could be used over and over underwater**. That's fixed, along with certain "Ascend" skills not applying correctly. You can also now take Glowing Seeds out during combat.
+
+## Housing and quest fixes
+
+For the new housing, plants no longer poke through your house, and item placement is no longer misaligned when your monitor resolution differs from the in-game resolution. The quest "Footsteps in Unfamiliar Lands" can now be started from its starting location, and Kliff should no longer respawn somewhere you can't reach after dying in the desert.
+
+## Still on the known issues list
+
+Pearl Abyss also refreshed its [known issues notice](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=68). The ones most likely to bite:
 
 - The game may crash if your base game and DLC versions don't match, so update both before you play.
-- Twitch Drops rewards can't be claimed from the in-game Drops & Rewards menu right now. The workaround is to click Claim in the stream chat, then link your Twitch account on the Drops event page.
-- On Xbox, some items such as Drops and pre-order rewards may not show up in the Add-ons menu and can't be claimed.
-- On AMD, some graphics may not display correctly with driver **26.10.1**. Pearl Abyss suggests installing 26.8.1 or earlier until it's fixed.
-- With FSR4 upscaling, rain can disappear or the screen can turn blurry or distorted in rainy areas.
-- Greymane faction quests can't be progressed while playing as Damiane or Oongka.
+- Twitch Drops can't be claimed from the in-game menu right now. Click Claim in the stream chat, then link your Twitch account on the Drops event page.
+- On AMD, some graphics may display incorrectly on driver **26.10.1**. Pearl Abyss suggested 26.8.1 or earlier until a fix (it was fixed in the [2.04.02 hotfix](/news/crimson-desert-2-04-02-hotfix-sea-serpents-ships-companions/)).
 
-**Also new**
+The list also covers Xbox Drops and pre-order rewards not showing in the Add-ons menu, rain problems with FSR4 upscaling, and Greymane faction quests not progressing as Damiane or Oongka.
 
-- **Free trial:** a 5-hour trial of the Crimson Desert Enhanced base game is available to PlayStation Plus Premium and Deluxe subscribers until October 29, 2027, and to all Xbox players until January 7, 2027, per Pearl Abyss's [launch notice](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=143). It doesn't include Charting the Unknown, it's one use per account, and your progress carries over if you buy the game.
-- **Saudi Arabia:** Pearl Abyss [says](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=144) the DLC has been approved there by GMEDIA, and it's preparing to put it on sale on digital platforms in the Kingdom. No date yet.
+**Also new:** a 5-hour free trial of the Crimson Desert Enhanced base game is available to PlayStation Plus Premium and Deluxe subscribers until October 29, 2027, and to all Xbox players until January 7, 2027, per Pearl Abyss's [launch notice](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=143). It doesn't include Charting the Unknown, it's one use per account, and your progress carries over if you buy the game. Pearl Abyss also [says](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=144) the DLC has been approved in Saudi Arabia and it's preparing a digital release there, with no date yet.
 
-**PPR take:** A same-night hotfix for ship camera problems is a good sign that Pearl Abyss is watching the new ocean content closely. If you're on an AMD card with the newest driver, check that known issues note before you blame your PC.
+**PPR take:** A same-night hotfix for ship camera problems is a good sign that Pearl Abyss is watching the new ocean content closely. Launch nights for big expansions are always a little messy, and what matters is how fast the fixes come. Here, the answer was a few hours. The version mismatch crash is the one I'd take seriously. If the game won't start, make sure both the base game and the DLC are fully updated before you assume something worse. And if you're on an AMD card with the newest driver, check that known issues note before you blame your PC.

@@ -15,13 +15,20 @@ sources:
 ---
 **A short tenure and an even shorter memo.** **Helen Chiang**, who became Xbox's first-ever chief operating officer in July, left Microsoft on Friday after 21 years at the company, according to an internal memo from Xbox CEO **Asha Sharma** seen by [The Verge](https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure).
 
-**What we know:**
+## Two lines, and no reason given
 
-- **The memo:** "Helen Chiang is leaving Microsoft today. I'm grateful for her years of service and wish her well," Sharma wrote. Chiang's immediate responsibilities are being split among other Xbox leaders, and "We'll share more on COO leadership as plans are finalized."
-- **No explanation:** Xbox communications VP Kari Perez told The Verge, "We don't discuss individual personnel matters." The Verge notes the brief memo and the quick handoff of her duties make it "seem like this wasn't a resignation."
-- **Who she is:** Chiang joined Microsoft in 2005, moved to Xbox in 2007, joined Minecraft in 2014 and became corporate vice president of the Minecraft franchise in 2020, per [GamesRadar+](https://www.gamesradar.com/platforms/xbox/xbox-coo-and-ex-minecraft-boss-leaves-microsoft-after-just-3-months-in-the-role/).
-- **The job she leaves:** Sharma created the COO role in her July ["Resetting XBOX" memo](https://news.xbox.com/en-us/2026/07/06/resetting-xbox/), giving it "end-to-end P&L responsibility across content, hardware, platform, and services." The same memo announced about 3,200 job cuts across FY27, including roughly 1,600 that day.
+Sharma's memo was strikingly brief: "Helen Chiang is leaving Microsoft today. I'm grateful for her years of service and wish her well." Because Chiang left the same day, her immediate responsibilities are being split among other Xbox leaders, and Sharma said, "We'll share more on COO leadership as plans are finalized." That suggests the COO job itself isn't going away.
 
-The exit comes amid reports of more layoffs. GamesRadar+ cites a Fortune report that Xbox plans three more waves between now and January 2027, and The Verge mentions rumors of cuts this month, in November and in January.
+Microsoft won't say why she left. Xbox communications VP Kari Perez told The Verge, "We don't discuss individual personnel matters." The Verge's read is that the short memo and the same-day handoff of her duties make it "seem like this wasn't a resignation." That's the outlet's interpretation, and neither Microsoft nor Chiang has said anything more.
 
-**PPR take:** The person picked to unify Xbox under "one operating model" is gone in about 15 weeks, and nobody is saying why. That's not a great look for a reset that's supposed to bring clarity. What we're really watching for is who takes over the P&L, and whether those rumored layoff waves happen.
+## Who she is, and the job she leaves
+
+Chiang is a Microsoft lifer. Per [GamesRadar+](https://www.gamesradar.com/platforms/xbox/xbox-coo-and-ex-minecraft-boss-leaves-microsoft-after-just-3-months-in-the-role/), she joined in 2005, moved to Xbox in 2007, joined Minecraft in 2014 and became corporate vice president of the Minecraft franchise in 2020. That's a long run in charge of one of the biggest games in the world.
+
+Sharma created the COO role in her July ["Resetting XBOX" memo](https://news.xbox.com/en-us/2026/07/06/resetting-xbox/), giving it "end-to-end P&L responsibility across content, hardware, platform, and services." In other words, the job was meant to tie all of Xbox's businesses together under one operating model. The same memo announced about 3,200 job cuts across FY27, including roughly 1,600 that day.
+
+## More layoffs may be coming
+
+Chiang's exit comes amid reports of more cuts. GamesRadar+ cites a Fortune report that Xbox plans three waves of layoffs between now and January 2027, on top of two major waves since the reset was announced in July. The Verge mentions rumors of cuts this month, in November and in January. Microsoft hasn't confirmed any of those plans.
+
+**PPR take:** The person picked to unify Xbox under "one operating model" is gone in about 15 weeks, and nobody is saying why. That's not a great look for a reset that's supposed to bring clarity, especially while employees are bracing for more layoffs. To be fair, a two-line memo doesn't tell us much either way, and it's worth not reading more into it than the facts support. What we're really watching for is who ends up owning the P&L, whether the COO role gets refilled or quietly folded into someone else's job, and whether those rumored layoff waves actually happen. Those answers will say a lot more about where Xbox is headed than this memo did.
