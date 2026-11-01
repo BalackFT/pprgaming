@@ -12,19 +12,28 @@ sources:
   - { name: "@RobertsSpaceInd on X — A new episode of 10 From the Community is live", url: "https://x.com/RobertsSpaceInd/status/2113662919128826072" }
   - { name: "Star Citizen on YouTube — 10 From the Community (engineering episode)", url: "https://www.youtube.com/watch?v=BA9qmg1Oz5M" }
 ---
-**The engineers took the questions this time.** Cloud Imperium posted a new episode of [10 From the Community](https://www.youtube.com/watch?v=BA9qmg1Oz5M) today, [announced on X](https://x.com/RobertsSpaceInd/status/2113662919128826072) as a tech-focused episode on NPC behavior, social features, and performance and stability. CIG's CTO hosted, joined by two of Star Citizen's gameplay engineering directors, and they answered ten backer questions.
+**The engineers took the questions this time.** CIG posted a new episode of [10 From the Community](https://www.youtube.com/watch?v=BA9qmg1Oz5M) today, [announced on X](https://x.com/RobertsSpaceInd/status/2113662919128826072) as a tech-focused episode on NPC behavior, social features, and performance and stability. CIG's CTO hosted, joined by two of Star Citizen's gameplay engineering directors, and they answered ten backer questions. The whole episode is worth a watch, but these are the parts I think most of us will care about.
 
-**The highlights:**
+## Social tools are next
 
-- **Fewer "feature roulette" patches:** the team says it's doing deeper root-cause analysis on repeat offenders like freight elevators, hangars, ASOP terminals and ATC. It's also running bigger test plans **before** code is submitted, including multiplayer and server-recovery tests that used to happen afterward.
-- **Scaleform is almost gone:** the last big pieces of the old UI tech are the Comm-Link app and the vehicle manager, which is being replaced by the vehicle loadout system, plus some visor elements. Removing it cuts a UI render pass on the visor, which should help performance.
-- **Social tools are next:** the first drop is a chat revamp with **regional, location-based chat**, richer presence, a rebuilt chat widget and a new **Social app** that replaces Comm-Link. The design is done, UI work has started, and in-game work is about to begin. CIG also expects you'll be able to chat while downed. No date was given.
-- **LAMP on every ship:** the team checked with the creative side, and the answer was every vehicle, ground vehicles included. Static canopies need an engine fix so CIG doesn't have to re-author 100-plus ships.
-- **Ground vehicles on freight elevators:** it's still planned, but only after freight elevators are made reliable and the system is separated from ATC and the insurance flow.
-- **Desync:** a **45-page** post explaining where desync comes from is nearly finished. A targeted change to how rigid-body objects sync over the network got a positive response in a recent Tech Preview, and ships and vehicles come later.
-- **NPC AI:** the upgraded AI behaviors built for Squadron 42 are signed off and are being brought to Star Citizen, with more combat roles than today's pusher, defender and strafer, plus better cover use.
-- **Ground vehicle handling:** Star Citizen currently uses three different vehicle physics setups. CIG plans to unify them on the best one, then add better drivetrain, braking, engine and suspension modeling, helped by Planet Tech v5's smoother terrain.
+The first drop is a chat revamp with **regional, location-based chat**, richer presence, a rebuilt chat widget and a new **Social app** that replaces the Comm-Link app. According to the team, the design is done, UI work has started, and in-game work is about to begin. They also expect you'll be able to chat while downed. No date was given. For anyone who's tried to find a group in Global chat, regional chat is the headline here.
 
-The team also said selling or deleting ships earned in game is technically possible thanks to the entitlement system added in 4.8, but whether to allow it is a design call.
+## A 45-page desync explainer is almost done
 
-**PPR take:** No dates, but this is one of the more useful dev Q&As in a while. Regional chat and a real desync explainer are the two things to watch.
+The team says a **45-page** post explaining where desync comes from is nearly finished. A targeted change to how rigid-body objects sync over the network got a positive response in a recent Tech Preview, and ships and vehicles come after that. Desync is the thing that turns a good session into a bad one, so getting a real breakdown of the causes is a big deal.
+
+## Squadron 42's AI is coming to the PU
+
+The upgraded NPC behaviors built for Squadron 42 are signed off and are being brought over to Star Citizen. That means more combat roles than today's pusher, defender and strafer, plus better use of cover.
+
+## Ground vehicles get a handling overhaul
+
+Star Citizen currently uses three different vehicle physics setups. CIG plans to unify them on the best one, then add better drivetrain, braking, engine and suspension modeling, helped along by Planet Tech v5's smoother terrain.
+
+## Fewer "feature roulette" patches
+
+On testing, the team says it's doing deeper root-cause analysis on repeat offenders like freight elevators, hangars, ASOP terminals and ATC. It's also running bigger test plans **before** code is submitted, including multiplayer and server-recovery tests that used to happen afterward.
+
+The rest of the episode covered the last pieces of the old Scaleform UI (the Comm-Link app, the vehicle manager and some visor elements, which should cut a UI render pass on the visor), LAMP coming to every vehicle including ground vehicles, and ground vehicles on freight elevators, which is still planned but only after the elevators are reliable and split off from ATC and the insurance flow. CIG also said selling or deleting ships earned in game is technically possible thanks to the entitlement system added in 4.8, but whether to allow it is a design call.
+
+**PPR take:** No dates on any of it, and I'll admit that's the part that always gets me with these. But honestly, this is one of the more useful dev Q&As in a while, because it's the engineers telling us how they're attacking the stuff we deal with every night. Regional chat and that desync explainer are the two I'll be watching for. The testing changes matter too. If running multiplayer and server-recovery tests BEFORE code goes in means fewer patches where freight elevators or hangars break again, I'm all for it. And Squadron 42's AI showing up in the PU could change how a lot of FPS missions feel. Now let's see it in a patch. 🚀
