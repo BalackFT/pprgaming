@@ -1,7 +1,6 @@
 ---
-image: "/images/posts/daily-roundup-2026-11-01.webp"
-imageAlt: "Dune: Awakening Blood and Ice key art showing armored survivors on a frozen, misty cliff edge under two moons while a flying vehicle scans the ice with a blue beam"
-imageCredit: "Image: Funcom"
+image: "/images/posts/daily-roundup-2026-11-01-cover.webp"
+imageAlt: "PPRGaming Daily Roundup title card for November 1, 2026"
 title: "PPRGaming Daily Roundup – November 1, 2026"
 description: "The rest of Sunday's news: Crimson Desert's second hotfix of the day (2.04.05) fixes a Ravok boss crash and three stuck quests, Dune: Awakening's free Blood and Ice expansion heads to Arrakis' frozen north on December 1, and Warframe: Tau leaves the Origin System in December."
 date: 2026-11-01T12:45:00-05:00
