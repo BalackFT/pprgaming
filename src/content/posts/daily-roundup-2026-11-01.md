@@ -16,6 +16,8 @@ sources:
   - { name: "Digital Extremes — October Warframe: Tau Devstream Highlights", url: "https://www.digitalextremes.com/news/october-warframe-devstream-highlights" }
   - { name: "PCGamesN — Warframe's Tau star chart and Brysko", url: "https://www.pcgamesn.com/warframe/devstream-198-tau-brysko-abilities" }
 ---
+Hello all! Here are a few stories that didn't quite make the main page with a full write-up. They're still worth a look.
+
 <h2 id="crimson-desert-2-04-05">Crimson Desert hotfix 2.04.05 fixes a Ravok crash and three stuck quests</h2>
 
 Pearl Abyss wasn't done after [this morning's 2.04.04](/news/crimson-desert-2-04-04-hotfix-key-item-duplication-farm-livestock/). A second hotfix, [version 2.04.05](https://steamcommunity.com/app/3321460/allnews/), landed later on November 1 and fixes a crash during the fight with Ravok of the Savage Fangs. It also unsticks three quests: Damiane's exclusive quest "End and Beginning" (which could stall if you finished the main story's "Journey's End" within a certain window), quests to propose to certain witches, and Kliff's "Beyond the Margins," which wouldn't progress unless you owned a fishing rod. [MP1st reports](https://mp1st.com/title-updates-and-patches/crimson-desert-update-1-000-683-released-on-november-1) it shows up as update 1.000.683 and that it's live on Steam, PlayStation and Epic, with Xbox and the Mac App Store still waiting. A boss crash is the kind of bug that stops a playthrough cold, so this one matters more than its four-line patch note suggests. The [Known Issues list](https://crimsondesert.pearlabyss.com/en-us/News/Notice/Detail?_boardNo=68) still flags an AMD driver crash in Pailune with the Cinematic preset on.
