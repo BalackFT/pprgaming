@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro'; import Card from '../../components/Card.astro'; import Ad from '../../components/Ad.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('posts', p=>!p.data.draft)).sort((a,b)=>b.data.date-a.data.date);
+---
+<Base title="All News" description="Every story on PPRGaming: Star Citizen news first, plus the rest of the gaming industry.">
+<section class="hero"><h1>All News</h1></section>
+<div class="grid">{posts.map(p=><Card post={p}/>)}</div>
+<Ad unit="category"/>
+</Base>

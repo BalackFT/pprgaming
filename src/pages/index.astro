@@ -23,7 +23,8 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
 <BookPromo/>
 <Ad unit="home-top"/>
 <h2 class="sec">Latest Gaming News</h2>
-<div class="grid">{other.map(p=><Card post={p}/>)}</div>
+<div class="grid">{other.slice(0,12).map(p=><Card post={p}/>)}</div>
+<p class="more-link"><a class="btn" href="/news/">All gaming news →</a></p>
 <Newsletter/>
 <Ad unit="home-bottom"/>
 <XWidgets/>

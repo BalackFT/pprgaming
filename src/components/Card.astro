@@ -1,16 +1,21 @@
 ---
 import { CATEGORIES } from '../site.js';
-const { post } = Astro.props;
+const { post, compact = false } = Astro.props;
 const label = CATEGORIES[post.data.category] ?? post.data.category;
+const href = `/news/${post.slug}/`;
+// Plain-text excerpt from the description, capped at ~60 words on a word boundary.
+const words = (post.data.description ?? '').replace(/<[^>]*>/g, '').replace(/[*_`#>\[\]]/g, '').trim().split(/\s+/).filter(Boolean);
+const excerpt = words.length > 60 ? words.slice(0, 60).join(' ').replace(/[,;:.!?\-–—]+$/, '') + '…' : words.join(' ');
 ---
-<a class="card" href={`/news/${post.slug}/`}>
+<a class={`card${compact ? ' card-sm' : ''}`} href={href}>
   <div class="thumb">
     {post.data.image
       ? <img src={post.data.image} alt={post.data.imageAlt ?? post.data.title} loading="lazy" decoding="async" width="1600" height="900"/>
       : <div class={`thumb-fallback ${post.data.starCitizen ? 'sc' : ''}`}><span>{label}</span></div>}
   </div>
-  <span class="tag">{label}</span>
+  {!compact && <span class="tag">{label}</span>}
   <h3>{post.data.title}</h3>
-  <p>{post.data.description}</p>
+  {!compact && <p>{excerpt}</p>}
   <time>{post.data.date.toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'America/New_York'})}</time>
+  {!compact && <span class="read-more">Read more →</span>}
 </a>

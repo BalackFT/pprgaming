@@ -190,3 +190,16 @@ h2.sec{border-left:4px solid var(--acc);padding-left:10px;margin-top:40px}
 .gear-tag{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--acc);font-weight:700}
 .gear-group{margin:10px 0 0}
 .shot-shout{margin:8px 0 0;line-height:1.5}
+
+/* story previews + more stories */
+.card{display:flex;flex-direction:column}
+.card .read-more{margin-top:10px;color:var(--acc);font-weight:700;font-size:.9rem}
+.card:hover .read-more{text-decoration:underline}
+.more-link{margin:18px 0 0;text-align:center}
+.more-link .btn{text-decoration:none}
+.more-stories{margin-top:34px}
+.more-stories h2{border-left:4px solid var(--acc);padding-left:10px;font-size:1.3rem}
+.grid-sm{grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.card-sm{padding:12px}
+.card-sm .thumb{margin:-12px -12px 10px}
+.card-sm h3{font-size:.95rem;margin:.2em 0 .4em}
