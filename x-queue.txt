@@ -1,2 +1,1 @@
-https://pprgaming.com/news/rsi-launcher-2-19-1-shader-compilation-new-download-panel/ | RSI Launcher 2.19.1 can now build Star Citizen's shader cache before you log in, and adds a new download panel
 https://pprgaming.com/news/steam-build-review-12-business-days-new-release-checklist/ | Steam build reviews are taking up to 12 business days, so Valve is making developers play their own games through Steam first
