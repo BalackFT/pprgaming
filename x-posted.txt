@@ -169,3 +169,4 @@ https://pprgaming.com/news/star-citizen-alpha-4-10-3-ptu-all-backers-13093654-ha
 https://pprgaming.com/news/guild-wars-afterlife-first-dlc-in-nearly-20-years-january-13/ | Guild Wars Afterlife is the original Guild Wars' first new DLC in nearly 20 years, with a roguelike dungeon on January 13 | https://x.com/PPRGamers/status/2117752725484065104
 SOTD 2026-11-04 | https://x.com/PPRGamers/status/2117954989909754065
 https://pprgaming.com/news/rsi-launcher-2-19-1-shader-compilation-new-download-panel/ | RSI Launcher 2.19.1 can now build Star Citizen's shader cache before you log in, and adds a new download panel | https://x.com/PPRGamers/status/2117967718649323860
+https://pprgaming.com/news/steam-build-review-12-business-days-new-release-checklist/ | Steam build reviews are taking up to 12 business days, so Valve is making developers play their own games through Steam first | https://x.com/PPRGamers/status/2117978869898596390
