@@ -32,7 +32,8 @@ The page also promises **brand-new vehicle announcements**, **live releases**, e
 
 ## What the official promo actually shows
 
-The 30-second video on [RSI's announcement](https://x.com/RobertsSpaceInd/status/2118736577425719759) is a New Babbage flyover packed with fleet shots. Over icy **microTech**, above **New Babbage**, the dark multi-engine hull with orange thruster glow is the **RSI Perseus**, flying in a rear trio with the **RSI Polaris** and **RSI Galaxy**. Elsewhere in the same promo, the small Drake is the **Drake Marauder**, and the bulky industrial Drake silhouette is the **Drake Ironclad**. Those hulls are what the promo shows. They are still **not** named as the "new ship releases" in the X post or Comm-Link, so we are not inventing which ones get a fresh pledge drop, prices or a pledge page during the expo.
+The 30-second video on [RSI's announcement](https://x.com/RobertsSpaceInd/status/2118736577425719759) is a New Babbage flyover packed with fleet shots. RSI headlines the show, but there are several new ships sneaking in with that Perseus, Polaris and Galaxy shot — plus that awesome small carrier, the Anvil Liberator. This expo is going to be one to remember!
+
 
 ## Manufacturer schedule is up; full ship lineup still TBA
 
