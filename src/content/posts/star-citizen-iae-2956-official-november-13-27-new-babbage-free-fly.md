@@ -3,7 +3,7 @@ image: "/images/posts/star-citizen-iae-2956-official-november-13-27-new-babbage-
 imageAlt: "Official IAE 2956 pledge and free rental schedule graphic showing manufacturer days from November 13 through 27"
 imageCredit: "Image: Cloud Imperium Games / Roberts Space Industries"
 title: "Official: Star Citizen IAE 2956 lands in New Babbage November 13–27 with Free Fly and 200+ rentals"
-description: "RSI has officially announced Intergalactic Aerospace Expo 2956 for November 13–27 at Tobin Expo Center in New Babbage, with Free Fly through the event, 200+ free ship and ground vehicle rentals, and new ship releases still unnamed in the Comm-Link."
+description: "RSI has officially announced Intergalactic Aerospace Expo 2956 for November 13–27 at Tobin Expo Center in New Babbage, with Free Fly through the event, 200+ free ship and ground vehicle rentals. The promo shows the RSI Perseus, RSI Galaxy, Drake Marauder and Drake Ironclad; Comm-Link still does not name the new pledge releases."
 date: 2026-11-06T11:40:00-05:00
 author: "Ron Carter Jr."
 category: star-citizen
@@ -32,7 +32,7 @@ The page also promises **brand-new vehicle announcements**, **live releases**, e
 
 ## What the official promo actually shows
 
-The 30-second video on [RSI's announcement](https://x.com/RobertsSpaceInd/status/2118736577425719759) is a New Babbage flyover packed with fleet shots. Over the icy planet, a dark multi-engine hull with orange thruster glow flies in company with other large RSI shapes that read as the **Perseus**, **Polaris** and **Galaxy**. Elsewhere in the same promo, a bulky industrial Drake silhouette — the **Ironclad** — is easy to pick out among the traffic. Those are ships you can already recognize from CIG's existing lineup and concept work. They are **not** named as the "new ship releases" in the post or Comm-Link, so we are not inventing which hulls get a fresh pledge drop during the expo.
+The 30-second video on [RSI's announcement](https://x.com/RobertsSpaceInd/status/2118736577425719759) is a New Babbage flyover packed with fleet shots. Over the icy planet, the dark multi-engine hull with orange thruster glow is the **RSI Perseus**, flying in a rear trio with the **RSI Polaris** and **RSI Galaxy**. Elsewhere in the same promo, the small Drake is the **Drake Marauder**, and the bulky industrial Drake silhouette is the **Drake Ironclad**. Those hulls are what the promo shows. They are still **not** named as the "new ship releases" in the X post or Comm-Link, so we are not inventing which ones get a fresh pledge drop, prices or a pledge page during the expo.
 
 ## Manufacturer schedule is up; full ship lineup still TBA
 
@@ -52,4 +52,4 @@ The Comm-Link includes an official **IAE 2956 pledge and free rental schedule** 
 
 That lines up with RSI leading the celebration on the opening days. Individual ship SKUs, warbond wording and any Best in Show winner are still not listed on the page.
 
-**PPR take:** This is the Save the Date I wanted after the Tobin PTU drop. Location was already feeling right....snow, expo halls, that New Babbage energy. Now we have the real window: November 13 through 27, Free Fly the whole way, and over 200 rentals off the kiosks. RSI opening the schedule is also on brand for a manufacturer-led year. The promo is pure eye candy — Perseus, Polaris, Galaxy and the Ironclad showing up in the fleet shots — but CIG still has not named the actual new releases in the Comm-Link. I'm not guessing which hull gets the first pledge page. Clearing the calendar and waiting for the real drop list. o7
+**PPR take:** This is the Save the Date I wanted after the Tobin PTU drop. Location was already feeling right....snow, expo halls, that New Babbage energy. Now we have the real window: November 13 through 27, Free Fly the whole way, and over 200 rentals off the kiosks. RSI opening the schedule is also on brand for a manufacturer-led year. The promo is pure eye candy — RSI Perseus, Polaris, Galaxy, the Drake Marauder and the Ironclad all show up in the fleet shots — but CIG still has not named the actual new releases in the Comm-Link. I'm not guessing which hull gets the first pledge page. Clearing the calendar and waiting for the real drop list. o7
