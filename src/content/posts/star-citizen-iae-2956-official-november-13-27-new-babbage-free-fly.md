@@ -3,14 +3,14 @@ image: "/images/posts/star-citizen-iae-2956-official-november-13-27-new-babbage-
 imageAlt: "Official IAE 2956 pledge and free rental schedule graphic showing manufacturer days from November 13 through 27"
 imageCredit: "Image: Cloud Imperium Games / Roberts Space Industries"
 title: "Official: Star Citizen IAE 2956 lands in New Babbage November 13–27 with Free Fly and 200+ rentals"
-description: "RSI has officially announced Intergalactic Aerospace Expo 2956 for November 13–27 at Tobin Expo Center in New Babbage, with Free Fly through the event, 200+ free ship and ground vehicle rentals, and new ship releases still unnamed."
-date: 2026-11-06T11:35:00-05:00
+description: "RSI announced IAE 2956 for November 13–27 at Tobin Expo Center in New Babbage, with Free Fly through the event and 200+ free rentals. The official promo video also teases the Drake Marauder silhouette; CIG has not posted a formal ship page yet."
+date: 2026-11-06T11:40:00-05:00
 author: "Ron Carter Jr."
 category: star-citizen
-tags: [star-citizen, iae, iae 2956, intergalactic aerospace expo, free fly, new babbage, microtech, rsi]
+tags: [star-citizen, iae, iae 2956, intergalactic aerospace expo, free fly, new babbage, microtech, rsi, drake, marauder]
 starCitizen: true
 sources:
-  - { name: "Roberts Space Industries on X — IAE 2956 announcement", url: "https://x.com/RobertsSpaceInd/status/2118736577425719759" }
+  - { name: "Roberts Space Industries on X — IAE 2956 announcement (promo video)", url: "https://x.com/RobertsSpaceInd/status/2118736577425719759" }
   - { name: "RSI Comm-Link — Countdown to IAE 2956 / play.sc/iae2956", url: "https://robertsspaceindustries.com/en/comm-link/transmission/21389-Countdown-To-IAE-2956" }
   - { name: "PPRGaming — IAE 2956 PTU testing at Tobin Expo Center", url: "https://pprgaming.com/news/star-citizen-iae-2956-ptu-testing-tobin-expo-center-new-babbage/" }
 ---
@@ -28,7 +28,13 @@ RSI's copy says New Babbage is hosting "the biggest ship show in the 'verse," an
 - **Discover the latest spacecraft** from the manufacturers on the floor
 - **Pick up exclusive IAE armor, vehicle paints, and in-game items**
 
-The page also promises **brand-new vehicle announcements**, **live releases**, exclusive gear and event-themed paints. It does **not** name any of those new ships yet. RSI's post only says "New ship releases," so that is all we are treating as confirmed.
+The page also promises **brand-new vehicle announcements**, **live releases**, exclusive gear and event-themed paints. The Comm-Link text itself still does **not** name those new ships. RSI's X post only says "New ship releases."
+
+## Drake Marauder teased in the official promo
+
+The 30-second video attached to [RSI's announcement](https://x.com/RobertsSpaceInd/status/2118736577425719759) is where the first clear new-hull tease lands. In several shots, a **dark, multi-engine ship with bright orange thrusters** flies through New Babbage and across microTech terrain. The silhouette does not match a flyable hull already on the schedule graphic's nameplate list, and from that official promo footage we are calling it the **Drake Marauder**.
+
+What is **not** up yet: CIG has not published a formal Marauder ship page, pledge SKU or nameplate in the Countdown Comm-Link copy. There is no official role card, size class, price or feature list in the materials RSI posted Friday. Until that page drops, treat the Marauder as a **promo tease** sourced from the RSI video, not a fully documented store release.
 
 ## Manufacturer schedule is up; full ship lineup still TBA
 
@@ -46,6 +52,6 @@ The Comm-Link includes an official **IAE 2956 pledge and free rental schedule** 
 - **Nov. 22:** Best in Show
 - **Nov. 23–27:** Finale — last chance to try all IAE vehicles for free
 
-That lines up with RSI leading the celebration on the opening days. Individual ship SKUs, warbond/Warbond wording and any Best in Show winner are still not listed on the page.
+That lines up with RSI leading the celebration on the opening days, and puts **Drake on Nov. 17–18** — the natural window if the Marauder is heading for a formal reveal during manufacturer week. Individual ship SKUs, warbond wording and any Best in Show winner are still not listed on the page.
 
-**PPR take:** This is the Save the Date I wanted after the Tobin PTU drop. Location was already feeling right....snow, expo halls, that New Babbage energy. Now we have the real window: November 13 through 27, Free Fly the whole way, and over 200 rentals off the kiosks. RSI opening the schedule is also on brand for a manufacturer-led year. I'm not inventing which hulls drop on which day. CIG said new ship releases and brand-new vehicle announcements without naming them, so the hype stays there until they put a silhouette or a pledge page up. For now I'm clearing the calendar, telling friends who haven't logged in in a while that Free Fly is coming, and getting ready to walk those halls again. o7
+**PPR take:** This is the Save the Date I wanted after the Tobin PTU drop. Location was already feeling right....snow, expo halls, that New Babbage energy. Now we have the real window: November 13 through 27, Free Fly the whole way, and over 200 rentals off the kiosks. And yeah, that dark multi-engine girl with the orange thrusters in RSI's own promo....that's the **Drake Marauder** getting teased in official footage. I'm not inventing a role, a price or a hard drop day. CIG still has not put a Marauder ship page or Comm-Link nameplate up. But putting that silhouette in the IAE trailer is exactly how they start these years, and Drake day on the schedule is staring right at us. Clearing the calendar. o7
