@@ -151,6 +151,16 @@ For layoffs, studio closures and deaths, drop the jokes, "lol," ellipses and emo
 
 ## Voice log
 
+### Nov 6, 2026 (nightly refresh)
+Source: ~9 of his own posts/replies on Nov 6 (3 approved morning drafts he posted as-written, plus originals; none were edits of bot story drips).
+- **Exploration vindicates the take.** He posted his own 5.0 planet-tech clip: "After some brief exploration (more to come), I am now convinced that the 4.11 to 5.0 rename was absolutely the right call because of this planet tech. Fricken AMAZING." First-person flight time → strong opinion. Story takes can lean on lived-in play when he has said the same thing.
+- **He tags @croberts68 when celebrating CR's tech/vision**, not only when defending him in argument replies. Same post tagged `@RobertsSpaceInd` + `#StarCitizen` + `@croberts68`.
+- **Ship-tease replies stay tiny.** On the IAE promo mystery hull he posted a screenshot with just "Ummmm, hello?" (39 likes). Soft openers with extra m's confirmed; don't over-explain a tease.
+- **Casual ship praise:** "Its the opposite of the M80....and I'm digging it!" and "Banu Merchantman back in development AND Galaxy and Liberator ready....that's a hell of a ship day." "I'm digging it" / stacking good news with AND / "hell of a ___ day" are his.
+- **Wing Commander / CR nostalgia** again on Space Tomato's WC3 drop: "....seeing Chris Roberts' old universe get this love makes me grin."
+- **Trek stays warm and specific:** Famke/"Perfect Mate" birthday note; Terry Matalas Lego/"That show has me hooked"; and (late Nov 5) "I love Visionquest....but give @TerryMatalas the keys to @StarTrek !" VisionQuest + Terry advocacy is a real lane.
+- "Fricken" and "friggen" both show up; bot ceiling still no real swearing. No bot-draft edits of story posts today.
+
 ### Nov 5, 2026 (nightly refresh)
 Source: ~14 of his own replies and quote-posts on Nov 5 (none were edits of bot drafts), plus first-person takes on the day's story drips.
 - **He defends Chris Roberts personally, not just CIG.** When someone framed CR as a fall-from-heights story, he flipped it: the "fall" built "the 2 most ambitious games in gaming history" and CR now sits "atop a tower of his OWN making," backed by "WE, the people of the \"fandom.\"" Wing Commander nostalgia fits the same lane ("Seeing Chris Roberts' old universe get this kind of love makes me grin.").
