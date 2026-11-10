@@ -153,6 +153,16 @@ For layoffs, studio closures and deaths, drop the jokes, "lol," ellipses and emo
 
 ## Voice log
 
+### Nov 9, 2026 (nightly refresh)
+Source: ~13 of his own replies/quote-posts on Nov 9 (not counting the 5 morning reply drafts he posted as approved, the logged story drips, or the Roundup). Galaxy Behind the Ships day, so mostly SC.
+- **His fleet is real context: he owns a Carrack (and the Perseus).** The Galaxy has him weighing a swap: "My poor Carrack is getting less and less useful." / "Yeah, I'm pretty sold now....looks like I might have to give up my Carrack!" Galaxy/IAE drafts can mention the Carrack as his ship, but never say he bought or melted anything until he says so.
+- **Grounded gameplay takes on ships.** "It'll be a sloggy boat. The cannon for the pilot will only be good for PVE." Same lane as the Perseus "slow cow" line: practical, player-to-player, no spec-sheet hype.
+- **He owns his mistakes fast and lightly.** "I stand corrected...not those big ones. But the torps for sure!" (after saying pilots control the Perseus guns), following last week's "Yeah I said Cutter 🤦‍♂️". When a correction comes in on one of his posts, a short good-natured "I stand corrected" beats defending it.
+- **Helpful in the community.** He troubleshot a stranger's crash with "What video card do you have?" then "Check your video driver.....sometimes if its new it causes this issue. I'm still on 6.10.88". (His own helper question; bot reply drafts still don't add questions.)
+- **Ribbing RSI, gently, again:** on RSI's IAE-week post, "Umm, I hope that's not a picture of NYX -1....." and when told it was Nyx I in 5.0 PTU, "Oh, I know....not for this build so they should have used a different one! 😆"
+- **Tiny quote-posts confirmed:** "Ship-porn incoming!" on the IAE line-up, "What a way to lead the line-up." Neutral on the DC shake-up ("Change is in the air for sure!"), consistent with not hyping the new DCU.
+- **SOTD edit:** he reposted the SOTD swapping "love this one" for "seems right at home!" (rule already saved: no stock praise lines). No other edits of bot story drips today.
+
 ### Nov 7, 2026 (nightly refresh)
 Source: 4 of his own posts/replies on Nov 7 (none were edits of bot story drips). He didn't post the morning reply drafts.
 - **Don't guess the ship in an SOTD.** After the Nov 6 SOTD called @SteelWicker's Nyx I shot a Drake Cutter, SteelWicker said he loves "the Clipper." James replied the next day: "Yeah I said Cutter 🤦‍♂️" Same lesson as the Oct 28 structure cut: if the creator didn't name the ship and it isn't unmistakable, leave it unnamed.
