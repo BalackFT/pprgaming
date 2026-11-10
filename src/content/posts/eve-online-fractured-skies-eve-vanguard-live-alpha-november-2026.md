@@ -4,7 +4,7 @@ imageAlt: "Split key art with an EVE Online warship and smaller ship on the left
 imageCredit: "Image: Fenris Creations"
 title: "EVE Online's Fractured Skies expansion is live, and EVE Vanguard's alpha is now open 24/7 for $15"
 description: "Fenris Creations launched EVE Online: Fractured Skies on November 10 with four Military Campaigns, four Navy Attack Battlecruisers and 13 free starter ships. EVE Vanguard moved from timed playtests to a persistent paid alpha that feeds new sites into EVE Online."
-date: 2026-11-10T12:45:00-05:00
+date: 2026-11-10T12:30:00-05:00
 author: "Ron Carter Jr."
 category: releases
 tags: [eve online, eve vanguard, fenris creations, fractured skies, factional warfare, mmo, space games]

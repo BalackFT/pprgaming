@@ -4,7 +4,7 @@ imageAlt: "Grand Theft Auto VI screenshot of Lucia holding a gas can and rifle a
 imageCredit: "Image: Rockstar Games"
 title: "GTA 6 targets 30fps on every console, PS5 Pro included, and Xbox One players can stream it through the cloud"
 description: "Rockstar confirmed Grand Theft Auto VI targets 30 frames per second on all consoles. PS5 Pro adds PSSR upscaling and exclusive ray-traced shadows, and Xbox Cloud Gaming will stream the game on Xbox One and Series X|S from 1 a.m. ET on November 19 using Series S settings."
-date: 2026-11-10T12:50:00-05:00
+date: 2026-11-10T12:34:00-05:00
 author: "Ron Carter Jr."
 category: news
 tags: [gta-6, rockstar games, ps5 pro, pssr, xbox cloud gaming, xbox one, performance]
