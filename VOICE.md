@@ -153,6 +153,14 @@ For layoffs, studio closures and deaths, drop the jokes, "lol," ellipses and emo
 
 ## Voice log
 
+### Nov 10, 2026 (nightly refresh)
+Source: ~8 of his own replies and quote-posts on Nov 10 (plus 4 approved morning drafts he posted as-written; story drips went out as drafted, no edits).
+- **Creator doom reads to him as click-chasing.** Two separate replies in the SaltEMike/Turik thread: "Negativity = more clicks." and, quoting a creator's own self-description, "...and that's enough for clicks." Same lane as the Nov 4 anti-doom pushback. Drafts can note that negativity gets clicks in general terms, but still never draft anything to @saltEMike and don't pick fights.
+- **Tiny hype quote-posts keep coming:** "Can't wait @TerryMatalas !" and "They LOVE their Gold and Black! @RobertsSpaceInd". Space before "!" after a handle is his habit, not a typo to fix.
+- **Show praise with a jab at another show:** "Now THAT'S how you end a TV show! (Looking at you #Lanterns)". Parenthetical asides are his.
+- **Light corrections again:** "Maye you're right...dark, dark blue?" Matches the Nov 9 own-it-lightly rule.
+- **Shared play:** "That's happened to me and mine a couple of time too... The worst was a 30k mid boss fight!" Lived-in, first-person frustration with a specific number.
+
 ### Nov 9, 2026 (nightly refresh)
 Source: ~13 of his own replies/quote-posts on Nov 9 (not counting the 5 morning reply drafts he posted as approved, the logged story drips, or the Roundup). Galaxy Behind the Ships day, so mostly SC.
 - **His fleet is real context: he owns a Carrack (and the Perseus).** The Galaxy has him weighing a swap: "My poor Carrack is getting less and less useful." / "Yeah, I'm pretty sold now....looks like I might have to give up my Carrack!" Galaxy/IAE drafts can mention the Carrack as his ship, but never say he bought or melted anything until he says so.
