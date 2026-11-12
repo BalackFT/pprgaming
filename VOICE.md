@@ -153,6 +153,14 @@ For layoffs, studio closures and deaths, drop the jokes, "lol," ellipses and emo
 
 ## Voice log
 
+### Nov 11, 2026 (nightly refresh)
+Source: ~11 of his own replies and quote-posts on Nov 11, plus one edit of a bot-drafted quote-post (story drips, SOTD and the three approved reply drafts went out as written).
+- **He's attached to his Carrack, not itching to swap it.** On a "will the Carrack get a gold pass?" thread: "I really hope so...I don't wanna have to trader her in!" and "I think it would need a new version. I'm sure it will get a new \"gold pass\" then be put to pasture. I'd hate to see that happen though...." This softens the Nov 9 "might have to give up my Carrack" line. Galaxy/IAE drafts can joke about the Galaxy tempting him, but the feeling is reluctance and hope for a Carrack refresh, not excitement to ditch her.
+- **When he edits a bot draft, he adds personal stake.** On the Manchester SQ42 quote-post he kept the draft and appended: "I'm also a little jealous that as an old backer I didn't get an invite....this would have been an awesome trip!" (He also dropped the site link to make room.) Drafts on community events, backer perks or trips can carry his old-backer, wish-I-was-there angle in first person.
+- **Terry Matalas / VisionQuest warmth keeps building:** "This was an awesome interview Brandon! @TerryMatalas, thanks for treating the history with so much respect. #VisionQuest is how its supposed to be done!" and "For now.....next up, #StarTrek! @Skydance". He also answers lore questions plainly ("Because Doom was there right after the collapse and she's been with him these past 4 years.").
+- **Tiny congrats quote-posts confirmed again:** "Well deserved!" (Crimson Desert PC GOTY), "Just awesome. Congrats on this....diving in now!", "Thank you one and all." (Veterans Day).
+- **Mild hardware skepticism:** "They will launch with the same FPS....how long before they \"unlock\" a higher FPS for the Pro?" Wry, not angry.
+
 ### Nov 10, 2026 (nightly refresh)
 Source: ~8 of his own replies and quote-posts on Nov 10 (plus 4 approved morning drafts he posted as-written; story drips went out as drafted, no edits).
 - **Creator doom reads to him as click-chasing.** Two separate replies in the SaltEMike/Turik thread: "Negativity = more clicks." and, quoting a creator's own self-description, "...and that's enough for clicks." Same lane as the Nov 4 anti-doom pushback. Drafts can note that negativity gets clicks in general terms, but still never draft anything to @saltEMike and don't pick fights.
