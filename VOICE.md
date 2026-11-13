@@ -153,6 +153,14 @@ For layoffs, studio closures and deaths, drop the jokes, "lol," ellipses and emo
 
 ## Voice log
 
+### Nov 12, 2026 (nightly refresh)
+Source: ~7 of his own replies/posts on Nov 12, plus one edit of a bot story drip (the other drips, SOTD and the three approved morning replies went out as written).
+- **Carrack loyalty, with the door left open.** His edit of the 4.10.3 Live drip changed "my Carrack's not going anywhere. 😆" to "my Carrack's not going anywhere....at least not yet.😆" and he told a Carrack thread "I would love to see the Carrack get some TLC!" and "It was supposed to be modular...they could still make that happen with a gold pass." Galaxy/IAE drafts: reluctant and hoping for a Carrack refresh, with a wry "at least not yet" rather than a flat never.
+- **He drops the site link when he edits a drip.** Second time in two days (Nov 11 Manchester, Nov 12 4.10.3). Likely tied to the link-in-reply test (results Nov 16), so no rule change yet; watch it.
+- **Patch day is work day:** his own original, "New patch? Time to go to work! @RobertsSpaceInd #StarCitizen" with a screenshot. Short, one tag, one hashtag.
+- **Playful one-liners off the gaming lane:** "@TerryMatalas Here, yes....but there is another!" (Star Wars nod), "What? You should be following me!!" (PowerGPU), "I love a good bar pie too!" (Portnoy pizza review). Pop-culture callbacks and light banter are his.
+- **Honest scope calls on wishlists:** "The things you listed are great, but I'm going to say as an educated guess, not possible based on the amount of work those would actually require." Same grounded, player-practical lane.
+
 ### Nov 11, 2026 (nightly refresh)
 Source: ~11 of his own replies and quote-posts on Nov 11, plus one edit of a bot-drafted quote-post (story drips, SOTD and the three approved reply drafts went out as written).
 - **He's attached to his Carrack, not itching to swap it.** On a "will the Carrack get a gold pass?" thread: "I really hope so...I don't wanna have to trader her in!" and "I think it would need a new version. I'm sure it will get a new \"gold pass\" then be put to pasture. I'd hate to see that happen though...." This softens the Nov 9 "might have to give up my Carrack" line. Galaxy/IAE drafts can joke about the Galaxy tempting him, but the feeling is reluctance and hope for a Carrack refresh, not excitement to ditch her.
