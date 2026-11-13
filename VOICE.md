@@ -221,3 +221,6 @@ Source: 9 of his own replies and posts on Nov 4 (none were edits of bot drafts),
 4. If it's SC or SQ42, does it tag @RobertsSpaceInd, with one hashtag at most?
 5. Is there at most one emoji, and is it a reaction?
 6. Is it free of swearing, em dashes and "Here's what you need to know"?
+
+## X post length (James, Nov 12, 2026)
+Keep every @PPRGamers post to about 280 characters, so the hook, James's take, the tags and the link all sit above X's "Show more" cutoff. If there's more to say, put it in a reply under the post.
