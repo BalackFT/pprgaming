@@ -153,6 +153,12 @@ For layoffs, studio closures and deaths, drop the jokes, "lol," ellipses and emo
 
 ## Voice log
 
+### Nov 13, 2026 (nightly refresh)
+Source: 5 of his own posts/replies on Nov 13 (IAE Day 1). No edits of bot story drips; the SOTD, drips and Roundup went out as written.
+- **The Galaxy trade-in is the Ironclad, not the Carrack.** To @SteelWicker: "Yeah, I think I'm gonna give up my IronchadAss and swoop up the Galaxy. I like the Chad but I don't do a ton of over 1k cargo. And besides, you can buy a Hull Hauler in-game now so I should be good." His fleet includes a Drake Ironclad, which he nicknames "IronchadAss" / "the Chad." Galaxy drafts can now sound like he's leaning toward picking one up by giving up the Ironclad (his "I think I'm gonna" is still a plan, so never say he bought, melted or CCU'd anything). The Carrack stays out of Galaxy posts by default (Nov 13 rule above still holds). His reasoning is the usual player-practical kind: how much cargo he really hauls, and what he can get in-game instead.
+- **IAE hype stays tiny:** "And awaaaaay we go!" (stretched vowels) on RSI's Day 1 post, "Unreal!" on a community clip, and a screenshot post captioned just "Day 1 - IAE2956 @RobertsSpaceInd #StarCitizen".
+- **Terry Matalas lane again:** "Are you fricken' kidding me! Wow! I can't wait to watch @TerryMatalas" ("fricken'" with the apostrophe this time).
+
 ### Nov 12, 2026 (nightly refresh)
 Source: ~7 of his own replies/posts on Nov 12, plus one edit of a bot story drip (the other drips, SOTD and the three approved morning replies went out as written).
 - **Don't overuse the Carrack (Nov 13, 2026, James's direct ask).** "Don't over use this. You don't have to say that every time you mention the Galaxy." The Carrack / "at least not yet" line had shown up in the SOTD, a drip, a story and a reply draft on the same day. By default, Galaxy/IAE posts, stories and replies should NOT mention his Carrack at all. Use it only rarely, when it genuinely adds something, never more than once in a few days across site + X, and never with the same "not going anywhere / at least not yet" wording. This overrides the Carrack notes below.
