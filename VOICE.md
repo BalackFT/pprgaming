@@ -235,7 +235,7 @@ All of these come from X edit history or his own corrections.
 ## 5. Reference facts (secondary)
 
 - **Who he is:** an SC backer since 2013 who plays most days and runs pprgaming.com alone, with software help. Lately he'll "login to run a mission then log out," which is why Genesis/5.0 excites him. He's also the author J.R. Carter (*The Ashen Vampire*).
-- **Fleet (as of Nov 13, 2026):** **RSI Galaxy.** He already swapped his **Drake Ironclad** ("IronchadAss" / "the Chad") for it: "I've already made the swap." Drafts can speak as a Galaxy owner. The Ironclad comes up only as the ship he gave up. He also has the **Carrack** (attached to her, hopes for a refresh or gold pass, but see the rule above) and the **Perseus** ("looking at you my wonderful Perseus"). His other ships aren't documented here, so don't guess.
+- **Fleet (as of Nov 15, 2026):** He swapped his **Drake Ironclad** ("IronchadAss" / "the Chad") for an **RSI Galaxy** on Nov 13, but after renting her at IAE he's **disappointed**: "kinda disappointed in its interior design and \"hanger\" functionality," inside "feels.....completely unoriginal," "they chose the wrong puzzle to build." Outside he likes the look ("RSI looks without apology"). He plans to **trade the Galaxy for the Anvil Liberator**, which he thinks gets more use for mining and salvage with his small org. **Don't hype the Galaxy as his ship and don't write the "already made the swap" angle anymore.** He also has the **Carrack** (attached to her, hopes for a refresh or gold pass, but see the rule above) and the **Perseus** ("looking at you my wonderful Perseus"). His other ships aren't documented here, so don't guess.
 - **SC takes he's stated:** the 4.11 → 5.0 rename was "absolutely the right call" because of the planet tech. There's an LOD mix and it "really shines" on the ground, so don't oversell orbit. Ship takes are practical (Perseus "slow cow," Galaxy "sloggy boat" pilot cannon "only good for PVE"). Marketing that funds the devs doesn't bother him.
 - **Chris Roberts / Wing Commander:** he defends CR personally ("atop a tower of his OWN making") and tags @croberts68 when celebrating CR's tech.
 - **Ambitious games:** supportive (Crimson Desert: "one of the largest and most ambitious open world games ever developed").
@@ -256,5 +256,6 @@ All of these come from X edit history or his own corrections.
 - Nov 10: "Negativity = more clicks."; parenthetical jabs; space-before-"!" habit.
 - Nov 11: Manchester edit adds old-backer personal stake; Carrack attachment.
 - Nov 12: 280-char rule; "....at least not yet" edit; "New patch? Time to go to work!"; pop-culture one-liners.
+- Nov 15: Galaxy disappointment after renting her; plans to trade her for the Liberator.
 - Nov 13: Carrack line retired by default; Ironclad swapped for the Galaxy (done); "awaaaaay," "fricken'," "IronchadAss."
 - Nov 13 (late): restructured style-first at James's request; removed approved bot replies from the evidence; corrected the "he drops the link when editing" note (the link was kept).
