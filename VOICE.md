@@ -19,6 +19,8 @@ Every post on @PPRGamers (news drips, breaking posts, SOTD, replies, the Roundup
   - "And awaaaaay we go!"
   - "Day 1 - IAE2956 @RobertsSpaceInd #StarCitizen"
   - "5.0 - A Game Changer"
+  - "To Buy or Not To Buy, That Is The Question" (a Shakespeare riff as the whole caption, Nov 15)
+  - A lone emoji can be the whole quote-post: "🫡" (Nov 15)
 - **When he's making an argument, he goes long and talks it through,** often hitting the character limit with spoken connectors like "Think about it," and "I mean right now,". That's the exception. Short is the default.
   - "Genesis is so much of a change, I really don't blame them. Think about it, the way planets are generated and populated and the way the additional servers are being set up make this an actual complete change to the game."
   - "I get it but its just an internal name change to their own content flow."
@@ -49,6 +51,10 @@ Every post on @PPRGamers (news drips, breaking posts, SOTD, replies, the Roundup
   - "honor the fans (and @SirPatStew ) with #StarTrekLegacy !"
   - "After some brief exploration (more to come), I am now convinced..."
 - **His spacing quirks are his to keep, not the bot's.** He often puts a space before "!" after a handle ("Your move, @Skydance !", "Can't wait @TerryMatalas !"), and sometimes skips a space ("Unreal!#StarCitizen", "😄Also"). Don't fix these on his posts, and don't imitate them in drafts.
+- **He puts scare quotes around a word to side-eye it.** Wry, not angry, and often paired with "..lol".
+  - "I can probably think of several other \"fixes\" that should probably happen first..lol."
+  - "Her \"Mom\" did not make her dress...lol."
+  - He did the same to the Galaxy's hangar ("disappointed in its interior design and \"hanger\" functionality"; his spelling, don't copy it).
 - **No em dashes.** He doesn't use them. The only one in his sample came from the bot's book-blurb text that he kept.
 
 ### How he opens
@@ -56,7 +62,7 @@ Every post on @PPRGamers (news drips, breaking posts, SOTD, replies, the Roundup
   - "Ummmm, hello?"
   - "Umm, I hope that's not a picture of NYX -1....."
   - "Hmm, I think its time for an updated version. Mark II is on its way!"
-  - Others: "So yeah...", "Ummm, so this is awesome.", "Oh, I know....", "Yeah,", "In all honesty,", "FYI-", "What?"
+  - Others: "So yeah...", "Ummm, so this is awesome.", "Oh, I know....", "Yeah,", "In all honesty,", "Honestly, this is where I'm at.", "FYI-", "What?"
 - **A short question can be the hook in his OWN posts.** This is his move only. Reply drafts still get no questions.
   - "New patch? Time to go to work!"
   - "Are you fricken' kidding me! Wow!"
@@ -76,6 +82,8 @@ Every post on @PPRGamers (news drips, breaking posts, SOTD, replies, the Roundup
 - **He stretches words for sound.** "awaaaaay", "Ummmm", "Mee too!"
 - **He gives ships and things nicknames and mild innuendo.**
   - "IronchadAss" / "the Chad" (his old Ironclad)
+  - "Libby" / "the Lib" (the Anvil Liberator, Nov 15): "Peering from the deck of Libby.", "the Lib will get far more use for mining and salvage ops."
+  - He talks straight to a ship like it's a person: "Hey RSI Galaxy....Liberator signing off! 🤣"
   - "but a slow cow as well", "It'll be a sloggy boat."
   - "Ship-porn incoming!"
   - "your severs are not servering very well this evening"
@@ -258,4 +266,5 @@ All of these come from X edit history or his own corrections.
 - Nov 12: 280-char rule; "....at least not yet" edit; "New patch? Time to go to work!"; pop-culture one-liners.
 - Nov 15: Galaxy disappointment after renting her; plans to trade her for the Liberator.
 - Nov 13: Carrack line retired by default; Ironclad swapped for the Galaxy (done); "awaaaaay," "fricken'," "IronchadAss."
+- Nov 15 (nightly): "Libby"/"the Lib" nickname; talking to a ship ("Hey RSI Galaxy....Liberator signing off! 🤣"); scare quotes as a side-eye ("fixes"); emoji-only and Shakespeare-riff captions; "Honestly," opener.
 - Nov 13 (late): restructured style-first at James's request; removed approved bot replies from the evidence; corrected the "he drops the link when editing" note (the link was kept).
