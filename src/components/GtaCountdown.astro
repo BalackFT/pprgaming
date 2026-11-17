@@ -1,8 +1,8 @@
 ---
 import { GTA6_UNLOCK_US_ISO } from '../gta6.js';
-const { label = 'until the US unlock, 12:00 AM ET Thursday', doneLabel = 'Unlocked in the US at 12:00 AM ET, Thu Nov 19' } = Astro.props;
+const { iso = GTA6_UNLOCK_US_ISO, label = 'until the US unlock, 12:00 AM ET Thursday', doneText = 'Out now', doneLabel = 'Unlocked in the US at 12:00 AM ET, Thu Nov 19' } = Astro.props;
 ---
-<div class="gta-count" data-unlock={GTA6_UNLOCK_US_ISO} data-label={label} data-done-label={doneLabel}><b class="gta-count-num">&nbsp;</b><span class="gta-count-label">{label}</span></div>
+<div class="gta-count" data-unlock={iso} data-label={label} data-done-text={doneText} data-done-label={doneLabel}><b class="gta-count-num">&nbsp;</b><span class="gta-count-label">{label}</span></div>
 <script is:inline>
 (function(){
   if (window.__gtaCountdown) return; window.__gtaCountdown = true;
@@ -12,7 +12,7 @@ const { label = 'until the US unlock, 12:00 AM ET Thursday', doneLabel = 'Unlock
     boxes.forEach(function(box){
       var t=new Date(box.getAttribute('data-unlock')).getTime(), d=t-Date.now();
       var num=box.querySelector('.gta-count-num'), lab=box.querySelector('.gta-count-label');
-      if(d<=0){num.textContent='Out now';lab.textContent=box.getAttribute('data-done-label');return;}
+      if(d<=0){num.textContent=box.getAttribute('data-done-text');lab.textContent=box.getAttribute('data-done-label');return;}
       live=true;
       var s=Math.floor(d/1000),dd=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),ss=s%60;
       num.textContent=dd+'d '+p(h)+'h '+p(m)+'m '+p(ss)+'s';

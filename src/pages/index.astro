@@ -11,10 +11,13 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
 <section class="sc" id="star-citizen">
   <div class="hub-split">
     <div class="hub-half hub-sc">
+      <p class="gta-kicker">{hub.starCitizenFeature.kicker}</p>
       <h2>Star Citizen Hub</h2>
+      {hub.starCitizenFeature.countdownTo && <GtaCountdown iso={hub.starCitizenFeature.countdownTo} label={hub.starCitizenFeature.countdownLabel} doneText={hub.starCitizenFeature.doneText} doneLabel={hub.starCitizenFeature.doneLabel}/>}
       <div class="status">
         {hub.starCitizen.map(t=><div><b><a href={t.url} rel="noopener">{t.value}</a></b><span>{t.note}</span></div>)}
       </div>
+      <p class="hub-gta-links">{hub.starCitizenFeature.links.map((l,i)=>i===0 ? <a class="btn" href={l.url}>{l.text}</a> : <a href={l.url} rel="noopener">{l.text}</a>)}</p>
     </div>
     <div class="hub-half hub-gta">
       <p class="gta-kicker">Launch week</p>
