@@ -1,9 +1,12 @@
 ---
 import { SITE, CATEGORIES } from '../site.js';
 import '../styles.css';
-const { title, description = SITE.desc, image, type = 'website' } = Astro.props;
+const { title, description = SITE.desc, image, imageAlt, imageWidth, imageHeight, type = 'website' } = Astro.props;
 const t = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${SITE.full}`;
-const ogImage = new URL(image || '/og.svg', SITE.url);
+const ogImage = new URL(image || '/og.png', SITE.url);
+// Dimensions are only stated for our own 1200x630 cards (default or an explicit size); post covers keep their natural size.
+const ogW = image ? imageWidth : 1200; const ogH = image ? imageHeight : 630;
+const ogAlt = imageAlt || (image ? t : 'PPRGaming: Star Citizen and gaming news');
 const canonical = new URL(Astro.url.pathname, SITE.url);
 const bookHref = SITE.amazonTag
   ? `${SITE.book.url}${SITE.book.url.includes('?') ? '&' : '?'}tag=${SITE.amazonTag}`
@@ -17,8 +20,8 @@ const bookHref = SITE.amazonTag
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>{t}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
 <meta property="og:title" content={t}/><meta property="og:description" content={description}/><meta property="og:type" content={type}/>
-<meta property="og:url" content={canonical}/><meta property="og:image" content={ogImage}/><meta property="og:site_name" content={SITE.name}/>
-<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGamers"/><meta name="twitter:title" content={t}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={ogImage}/>
+<meta property="og:url" content={canonical}/><meta property="og:image" content={ogImage}/>{ogW && <meta property="og:image:width" content={String(ogW)}/>}{ogH && <meta property="og:image:height" content={String(ogH)}/>}<meta property="og:image:alt" content={ogAlt}/><meta property="og:site_name" content={SITE.name}/>
+<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGamers"/><meta name="twitter:title" content={t}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={ogImage}/><meta name="twitter:image:alt" content={ogAlt}/>
 <link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" href="/favicon.png"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 <link rel="alternate" type="application/rss+xml" title="PPRGaming" href="/rss.xml"/>
 {SITE.adsenseClient && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>}
