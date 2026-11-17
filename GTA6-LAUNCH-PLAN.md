@@ -66,3 +66,8 @@ Keep Star Citizen stories in their normal slots. GTA takes 2 to 3 of the daily s
 - Reviews are reported to drop Nov 18 but unconfirmed. Don't state a time. Don't call a score real until it is on Metacritic/OpenCritic. Metacritic briefly showed a 6.5 user score on Nov 16 that vanished; ignore it. Ignore DotComParker-type infographics and fake Metacritic numbers.
 - Never claim James has played or bought it. Don't hype the Galaxy or bring the Carrack into GTA stories. Keep the voice guide: spoken, no catchphrases, no em dashes.
 - Stale posts: the Oct 28 story says "reportedly 210GB" and "November 12 pre-load" (Rockstar later said up to 212GB and Nov 10). Suggest a one-line correction note for James's approval.
+
+## US-unlock routine: approved midnight post
+Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope that 212GB finished! 😆 Everything we have is on the hub. #GTA6 https://pprgaming.com/gta-6/
+
+## Live notes
