@@ -1,0 +1,10 @@
+{
+  "_readme": "Homepage Star Citizen hub tiles. Edit values here, nothing else. Each tile: value (bold line), note (small line, use event dates like 'live since Nov 12', never 'as of'), url (primary source, linked from the tile). Bump 'checked' to today's date (YYYY-MM-DD) whenever you verify the tiles against RSI. Update when: a patch goes Live or to PTU, an event starts or ends, or CIG gives a new date.",
+  "checked": "2026-11-17",
+  "starCitizen": [
+    { "value": "Alpha 4.10.3", "note": "Live now, since Nov 12 (build 13165946)", "url": "https://status.robertsspaceindustries.com/" },
+    { "value": "Alpha 5.0 PTU", "note": "Wave 1 testing, build 13201184. Committed for Q4 2026, no Live date yet", "url": "https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-5-0-ptu-patch-notes-1/9237938" },
+    { "value": "IAE 2956", "note": "In New Babbage through Nov 27, Free Fly runs the whole event", "url": "https://pprgaming.com/news/star-citizen-iae-2956-faq-stock-limited-waves-prospector-price/" },
+    { "value": "Squadron 42", "note": "Target Q2 2027, no exact date yet", "url": "https://support.robertsspaceindustries.com/hc/en-us/articles/360042914633-Where-can-I-download-Squadron-42" }
+  ]
+}

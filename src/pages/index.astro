@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Ad from '../components/Ad.astro'; import Newsletter from '../components/Newsletter.astro'; import Shot from '../components/Shot.astro'; import XWidgets from '../components/XWidgets.astro'; import BookPromo from '../components/BookPromo.astro';
-import { getCollection } from 'astro:content'; import { SITE } from '../site.js'; import { isGta6 } from '../gta6.js';
+import { getCollection } from 'astro:content'; import { SITE } from '../site.js'; import { isGta6 } from '../gta6.js'; import GtaCountdown from '../components/GtaCountdown.astro'; import hub from '../data/hub-status.json';
 const all = (await getCollection('posts', p => !p.data.draft)).sort((a,b)=>b.data.date-a.data.date);
 const latestShot = (await getCollection('shots')).sort((a,b)=>b.data.date-a.data.date)[0];
 const gta = all.filter(isGta6).slice(0,3);
@@ -9,12 +9,25 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
 <Base>
 <section class="hero"><h1>News from the <em>Perpetual Realm</em></h1><p>{SITE.desc}</p></section>
 <section class="sc" id="star-citizen">
-  <h2>Star Citizen Hub</h2>
-  <div class="status">
-    <div><b>Alpha 4.10.2</b><span>Live PU patch (as of Oct 15, 2026)</span></div>
-    <div><b>Alpha 4.11</b><span>Tentative Q4 2026 per RSI roadmap</span></div>
-    <div><b>RSI Discovery Month</b><span>Twitch Drops run until Oct 27</span></div>
-    <div><b>Squadron 42</b><span>No release date announced yet</span></div>
+  <div class="hub-split">
+    <div class="hub-half hub-sc">
+      <h2>Star Citizen Hub</h2>
+      <div class="status">
+        {hub.starCitizen.map(t=><div><b><a href={t.url} rel="noopener">{t.value}</a></b><span>{t.note}</span></div>)}
+      </div>
+    </div>
+    <div class="hub-half hub-gta">
+      <p class="gta-kicker">Launch week</p>
+      <h2><a href="/gta-6/">GTA 6 Hub</a></h2>
+      <GtaCountdown/>
+      <div class="status">
+        <div><b>Nov 19, 2026</b><span>PS5 and Xbox Series X|S</span></div>
+        <div><b>12:00 AM ET</b><span>US unlock, Thursday. 9 PM PT Wednesday.</span></div>
+        <div><b>Up to 212 GB</b><span>Rockstar's pre-load figure</span></div>
+        <div><b>$79.99 / $99.99</b><span>Standard / Ultimate</span></div>
+      </div>
+      <p class="hub-gta-links"><a class="btn" href="/gta-6/">Open the GTA 6 hub →</a> <a href="/gta-6/#unlock">Unlock times in ET →</a></p>
+    </div>
   </div>
   {latestShot && <div class="sotd"><h3><span>📸</span> Screenshot of the Day</h3><p class="sotd-shout">Shout-out to <a href={latestShot.data.source==='x' ? `https://x.com/${latestShot.data.handle}` : 'https://x.com/PPRGamers'} rel="noopener">@{latestShot.data.source==='x' ? latestShot.data.handle : 'PPRGamers'}</a> {latestShot.data.shout ? ` — ${latestShot.data.shout}` : ` for today's shot${latestShot.data.title ? ` — ${latestShot.data.title}` : ''}.`}</p><Shot shot={latestShot} showShout={false}/><p class="small"><a href="/screenshots/">Browse all screenshots →</a></p></div>}
   <div class="grid">{sc.slice(0,6).map(p=><Card post={p}/>)}</div>

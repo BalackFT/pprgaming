@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro'; import Card from '../../components/Card.astro'; import Ad from '../../components/Ad.astro'; import Newsletter from '../../components/Newsletter.astro';
 import { getCollection } from 'astro:content';
-import { isGta6, UNLOCK_TIMES, GTA6_UNLOCK_US_ISO } from '../../gta6.js';
+import GtaCountdown from '../../components/GtaCountdown.astro';
+import { isGta6, UNLOCK_TIMES } from '../../gta6.js';
 const posts = (await getCollection('posts', p => !p.data.draft && isGta6(p))).sort((a,b)=>b.data.date-a.data.date);
 const latest = posts.slice(0,3); const rest = posts.slice(3);
 const L = (href, text) => ({ href, text });
@@ -31,7 +32,7 @@ const official = [
   <p class="gta-kicker">Launch week · Nov 17 to 23</p>
   <h1>Grand Theft Auto <em>VI</em></h1>
   <p class="gta-lede">It lands Thursday, and in the US that means midnight Eastern, so Wednesday night if you're out west. Everything we have on it lives on this page. The facts up top are only things Rockstar, Sony or Microsoft have put in writing, and anything still unconfirmed is marked that way.</p>
-  <div class="gta-count" data-unlock={GTA6_UNLOCK_US_ISO}><b id="gta-count-num">&nbsp;</b><span id="gta-count-label">until the US unlock, 12:00 AM ET Thursday</span></div>
+  <GtaCountdown/>
   <div class="status gta-status">
     <div><b>Nov 19, 2026</b><span>PS5 and Xbox Series X|S</span></div>
     <div><b>12:00 AM ET</b><span>US unlock, Thursday. 9 PM PT Wednesday.</span></div>
@@ -64,20 +65,4 @@ const official = [
   : <p>No GTA 6 stories yet, check back soon.</p>}
 <Ad unit="category"/>
 <Newsletter/>
-<script is:inline>
-(function(){
-  var box=document.querySelector('.gta-count'); if(!box) return;
-  var t=new Date(box.getAttribute('data-unlock')).getTime();
-  var num=document.getElementById('gta-count-num'), lab=document.getElementById('gta-count-label');
-  function p(n){return n<10?'0'+n:''+n;}
-  function tick(){
-    var d=t-Date.now();
-    if(d<=0){num.textContent='GTA VI is unlocked in the US';lab.textContent='';return;}
-    var s=Math.floor(d/1000),dd=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),ss=s%60;
-    num.textContent=dd+'d '+p(h)+'h '+p(m)+'m '+p(ss)+'s';
-    setTimeout(tick,1000);
-  }
-  tick();
-})();
-</script>
 </Base>
