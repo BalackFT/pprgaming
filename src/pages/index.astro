@@ -1,8 +1,9 @@
 ---
 import Base from '../layouts/Base.astro'; import Card from '../components/Card.astro'; import Ad from '../components/Ad.astro'; import Newsletter from '../components/Newsletter.astro'; import Shot from '../components/Shot.astro'; import XWidgets from '../components/XWidgets.astro'; import BookPromo from '../components/BookPromo.astro';
-import { getCollection } from 'astro:content'; import { SITE } from '../site.js';
+import { getCollection } from 'astro:content'; import { SITE } from '../site.js'; import { isGta6 } from '../gta6.js';
 const all = (await getCollection('posts', p => !p.data.draft)).sort((a,b)=>b.data.date-a.data.date);
 const latestShot = (await getCollection('shots')).sort((a,b)=>b.data.date-a.data.date)[0];
+const gta = all.filter(isGta6).slice(0,3);
 const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.data.starCitizen);
 ---
 <Base>
@@ -19,6 +20,13 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
   <div class="grid">{sc.slice(0,6).map(p=><Card post={p}/>)}</div>
   <div class="ref"><div><strong>New to Star Citizen?</strong> Use referral code <code>{SITE.rsiReferral}</code> when you create your account to get bonus in-game credits.</div><a class="btn" href="https://robertsspaceindustries.com/enlist?referral=STAR-KRBQ-RNS9" rel="nofollow">Enlist at RSI →</a></div>
   <p class="small"><a href="/category/star-citizen/">All Star Citizen news →</a> · <a href="/category/squadron-42/">Squadron 42 →</a></p>
+</section>
+<section class="gta gta-teaser">
+  <p class="gta-kicker">GTA 6 launch week</p>
+  <h2><a href="/gta-6/">Grand Theft Auto <em>VI</em>: unlock times in ET, pre-load, editions and every story</a></h2>
+  <p class="gta-lede">Unlocks 12:00 AM ET Thursday, Nov 19, on PS5 and Xbox Series X|S.</p>
+  <ul class="gta-links">{gta.map(p=><li><a href={`/news/${p.slug}/`}>{p.data.title}</a></li>)}</ul>
+  <a class="btn" href="/gta-6/">Open the GTA 6 hub →</a>
 </section>
 <BookPromo/>
 <Ad unit="home-top"/>

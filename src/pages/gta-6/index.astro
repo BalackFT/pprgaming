@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro'; import Card from '../../components/Card.astro'; import Ad from '../../components/Ad.astro'; import Newsletter from '../../components/Newsletter.astro';
+import { getCollection } from 'astro:content';
+import { isGta6, UNLOCK_TIMES, GTA6_UNLOCK_US_ISO } from '../../gta6.js';
+const posts = (await getCollection('posts', p => !p.data.draft && isGta6(p))).sort((a,b)=>b.data.date-a.data.date);
+const latest = posts.slice(0,3); const rest = posts.slice(3);
+const L = (href, text) => ({ href, text });
+const confirmed = [
+  { fact: 'GTA VI launches Thursday, November 19, 2026 on PlayStation 5 and Xbox Series X|S.', src: [L('https://www.rockstargames.com/VI','Rockstar'), L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two')] },
+  { fact: 'It unlocks at midnight local time, country by country. In the US that is one moment for everyone: 12:00 AM ET Thursday, which is 9:00 PM PT Wednesday.', src: [L('https://www.playstation.com/en-us/support/games/gta-vi-support/','PlayStation Support'), L('https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/','PlayStation Blog'), L('https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map','IGN, relaying Rockstar\'s list')] },
+  { fact: 'Pre-loading has been live since November 10. Rockstar says to leave room for up to 212 GB, depending on your device.', src: [L('https://www.rockstargames.com/VI/pre-load-now','Rockstar'), L('https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games','The Verge')] },
+  { fact: 'Standard Edition is $79.99. The digital-only Ultimate Edition is $99.99. Boxed copies are code-in-box, with no disc.', src: [L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two'), L('https://www.playstation.com/en-us/support/games/gta-vi-support/','PlayStation Support')] },
+  { fact: 'Anything bought before November 20 includes the Vintage Vice City Pack.', src: [L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two')] },
+  { fact: 'Xbox One and Series X|S players can also stream it through Xbox Cloud Gaming from 1:00 AM ET on November 19, at Xbox Series S settings. The game is bought separately.', src: [L('https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/','Xbox Wire')] },
+  { fact: 'A printable cover poster and a map of Leonida go up on Rockstar\'s site as free downloads on launch day.', src: [L('https://www.polygon.com/gta-6-preload-when-is-ps5-xbox-times-file-size-gb-poster-map-rockstar/','Polygon, relaying Rockstar')] },
+];
+const open = [
+  { fact: 'Reviews.', note: 'Insider reports say the embargo lifts Wednesday, November 18. Rockstar hasn\'t confirmed the date or the time of day.', src: [L('https://www.gamewatcher.com/gta-vi-review-copies-reportedly-sent-out-as-rockstar-keeps-november-18-embargo','GameWatcher')] },
+  { fact: 'A PC version.', note: 'Not announced. One report points to early 2027, and Rockstar hasn\'t said a word about it.', src: [L('https://www.usatoday.com/story/tech/gaming/2026/11/16/gta-6-everything-to-know-preorder-story-actors-cost/92711409007/','USA Today')] },
+  { fact: 'Multiplayer.', note: 'Rockstar still calls GTA VI a single-player experience and hasn\'t announced an online mode. GTA Online in GTA V keeps running.', src: [L('https://uk.pcmag.com/games/168419/felony-fun-with-friends-can-you-play-gta-6-online-at-launch-this-week','PCMag')] },
+];
+const official = [
+  L('https://www.rockstargames.com/VI','Rockstar: Grand Theft Auto VI'), L('https://www.rockstargames.com/newswire','Rockstar Newswire'),
+  L('https://x.com/RockstarGames','@RockstarGames'), L('https://x.com/RockstarSupport','@RockstarSupport'),
+  L('https://www.playstation.com/en-us/support/games/gta-vi-support/','PlayStation GTA VI support'), L('https://news.xbox.com/en-us/','Xbox Wire'),
+  L('https://ir.take2games.com/','Take-Two investor relations'),
+];
+---
+<Base title="GTA 6 Launch Week" description="Everything PPRGaming has on Grand Theft Auto VI: unlock times in ET, pre-load, editions and price, plus every story, updated through launch week.">
+<section class="gta" id="gta-6">
+  <p class="gta-kicker">Launch week · Nov 17 to 23</p>
+  <h1>Grand Theft Auto <em>VI</em></h1>
+  <p class="gta-lede">It lands Thursday, and in the US that means midnight Eastern, so Wednesday night if you're out west. Everything we have on it lives on this page. The facts up top are only things Rockstar, Sony or Microsoft have put in writing, and anything still unconfirmed is marked that way.</p>
+  <div class="gta-count" data-unlock={GTA6_UNLOCK_US_ISO}><b id="gta-count-num">&nbsp;</b><span id="gta-count-label">until the US unlock, 12:00 AM ET Thursday</span></div>
+  <div class="status gta-status">
+    <div><b>Nov 19, 2026</b><span>PS5 and Xbox Series X|S</span></div>
+    <div><b>12:00 AM ET</b><span>US unlock, Thursday. 9 PM PT Wednesday.</span></div>
+    <div><b>Up to 212 GB</b><span>Rockstar's pre-load figure, depends on device</span></div>
+    <div><b>$79.99 / $99.99</b><span>Standard / Ultimate (digital only)</span></div>
+    <div><b>Pre-load is live</b><span>Open since Nov 10</span></div>
+    <div><b>PC: not announced</b><span>Nothing official from Rockstar</span></div>
+  </div>
+  <p class="small gta-asof">Facts as of Nov 17, 2026. We update this page through launch week.</p>
+</section>
+
+{latest.length>0 && <><h2 class="sec">Latest GTA 6 stories</h2><div class="grid">{latest.map(p=><Card post={p}/>)}</div></>}
+
+<h2 class="sec" id="unlock">Unlock times in ET</h2>
+<p>Rockstar is unlocking the game at midnight local time in each country, so the US is one of the last places to get it. Players in New Zealand and Australia will be well into it by Wednesday morning for us. Expect spoilers in your feed from then on.</p>
+<div class="tbl-wrap"><table class="gta-tbl"><thead><tr><th>Where</th><th>Rockstar's unlock</th><th>In Eastern Time</th></tr></thead><tbody>
+{UNLOCK_TIMES.map(r=><tr class={r.us?'us':''}><td>{r.region}</td><td>{r.local}</td><td><b>{r.et}</b></td></tr>)}
+</tbody></table></div>
+<p class="small">Times converted from Rockstar's midnight-local schedule (<a href="https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map" rel="noopener">IGN's table</a>, <a href="https://www.playstation.com/en-us/support/games/gta-vi-support/" rel="noopener">PlayStation Support</a>). Xbox Cloud Gaming opens separately at 1:00 AM ET Thursday.</p>
+
+<div class="gta-two">
+  <section><h2 class="sec">Confirmed</h2><ul class="gta-list">{confirmed.map(c=><li>{c.fact} <span class="gta-src">{c.src.map((s,i)=><>{i>0 && ', '}<a href={s.href} rel="noopener" target="_blank">{s.text}</a></>)}</span></li>)}</ul></section>
+  <section><h2 class="sec">Not confirmed yet</h2><ul class="gta-list gta-open">{open.map(c=><li><b>{c.fact}</b> {c.note} <span class="gta-src">{c.src.map((s,i)=><>{i>0 && ', '}<a href={s.href} rel="noopener" target="_blank">{s.text}</a></>)}</span></li>)}</ul>
+  <h3 class="gta-h3">Official sources</h3><ul class="gta-links">{official.map(s=><li><a href={s.href} rel="noopener" target="_blank">{s.text}</a></li>)}</ul></section>
+</div>
+
+<h2 class="sec">{rest.length>0 ? 'More GTA 6 coverage' : 'GTA 6 coverage'}</h2>
+{(rest.length>0 ? rest : posts).length>0
+  ? <div class="grid">{(rest.length>0 ? rest : posts).map(p=><Card post={p}/>)}</div>
+  : <p>No GTA 6 stories yet, check back soon.</p>}
+<Ad unit="category"/>
+<Newsletter/>
+<script is:inline>
+(function(){
+  var box=document.querySelector('.gta-count'); if(!box) return;
+  var t=new Date(box.getAttribute('data-unlock')).getTime();
+  var num=document.getElementById('gta-count-num'), lab=document.getElementById('gta-count-label');
+  function p(n){return n<10?'0'+n:''+n;}
+  function tick(){
+    var d=t-Date.now();
+    if(d<=0){num.textContent='GTA VI is unlocked in the US';lab.textContent='';return;}
+    var s=Math.floor(d/1000),dd=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),ss=s%60;
+    num.textContent=dd+'d '+p(h)+'h '+p(m)+'m '+p(ss)+'s';
+    setTimeout(tick,1000);
+  }
+  tick();
+})();
+</script>
+</Base>

@@ -15,10 +15,13 @@ const toDate = (v) => { if (!v) return null; const d = new Date(v); return isNaN
 
 // Story slug -> { date, category }
 const posts = new Map();
+const gtaTags = /^tags:.*\b(gta-6|gta 6|gta vi|grand theft auto vi)\b/im;
+const gtaDates = [];
 for (const f of fs.readdirSync(POSTS_DIR).filter((f) => /\.mdx?$/.test(f))) {
   const fm = frontmatter(path.join(POSTS_DIR, f));
   if (/^draft:\s*true/m.test(fm)) continue;
   const date = toDate(field(fm, 'updatedDate')) || toDate(field(fm, 'pubDate')) || toDate(field(fm, 'date'));
+  if (date && (gtaTags.test(fm) || /^title:.*\b(gta\s?(6|vi)|grand theft auto\s?(6|vi))\b/im.test(fm))) gtaDates.push(date);
   if (date) posts.set(f.replace(/\.mdx?$/, ''), { date, category: field(fm, 'category') });
 }
 const newest = (dates) => dates.filter(Boolean).reduce((a, b) => (!a || b > a ? b : a), null);
@@ -44,6 +47,7 @@ function lastmodFor(url) {
   if ((m = p.match(/^\/news\/([^/]+)\/$/))) return posts.get(m[1])?.date ?? null;
   if (p === '/') return newest([newestPost, newestShot]);
   if (p === '/news/') return newestPost;
+  if (p === '/gta-6/') return newest(gtaDates);
   if ((m = p.match(/^\/category\/([^/]+)\/$/))) return newest(allPosts.filter((x) => x.category === m[1]).map((x) => x.date));
   if (p === '/screenshots/') return newestShot;
   if ((m = p.match(/^\/([^/]+)\/$/)) && STATIC[m[1]]) return gitDate(...STATIC[m[1]]);
