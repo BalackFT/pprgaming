@@ -19,3 +19,5 @@ sources:
 **Pre-load opens November 12.** That part is official. Take-Two's [pre-order announcement](https://ir.take2games.com/node/32311/pdf) says digital pre-orders can start pre-loading on **November 12**, a week before launch on **November 19** for PS5 and Xbox Series X|S. Physical copies come with a **download code** in the box and go on sale November 12 so those players can pre-load too. The standard edition is **$79.99** and the Ultimate Edition is $99.99. PlayStation Game Size also lists the release time as **midnight**.
 
 **PPR take:** 210GB is a lot of drive for one game, especially on a Series S. If you've pre-ordered, plan to start that download on the 12th instead of launch night.
+
+**Update (Nov 17):** Rockstar has since confirmed the details, and two things here changed. Pre-loading opened early, on November 10, not November 12. And the size is "up to 212GB, depending on your device," per [The Verge](https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games) and [Rockstar](https://www.rockstargames.com/VI/pre-load-now), a little over the 210GB reported here. Unlock times and everything else are on our [GTA 6 hub](/gta-6/).
