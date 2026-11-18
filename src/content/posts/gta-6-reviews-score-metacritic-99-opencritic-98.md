@@ -8,7 +8,7 @@ date: 2026-11-18T09:00:00-05:00
 author: "Ron Carter Jr."
 category: releases
 tags: [gta-6, rockstar games, reviews, metacritic, opencritic]
-draft: true
+draft: false
 sources:
   - { name: "Metacritic - Grand Theft Auto VI", url: "https://www.metacritic.com/game/grand-theft-auto-vi/" }
   - { name: "OpenCritic - Grand Theft Auto VI", url: "https://opencritic.com/game/15398/grand-theft-auto-vi" }
