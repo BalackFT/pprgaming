@@ -74,3 +74,5 @@ Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope 
 
 - Nov 18, 6:20 AM ET check: NZ unlock happened (midnight NZDT = 11:00 UTC / 6 AM ET); BBC live blog covers it. Reviews are LIVE: Metacritic 99 from 115 critic reviews (all positive; PS5 tab 99 from 10), OpenCritic 98 Top Critic Average, 100% recommend. Lowest seen: Digitally Downloaded 90 on Metacritic. GTA V and RDR2 pages show 97 each. Reviews story is written: src/content/posts/gta-6-reviews-score-metacritic-99-opencritic-98.md (still draft: true, publish at 7:30 batch). Hub Reviews fact updated.
 - No official Rockstar/Sony/Microsoft word on day-one patch contents; Newswire has nothing after the Nov 10 pre-load post. Patches 1.002.000 / 01.002.001 still reported-only.
+
+- HOLD (James, 7:05 AM ET Nov 18): Do NOT publish the GTA 6 reviews story (gta-6-reviews-score-metacritic-99-opencritic-98, keep draft: true) and do NOT post it to X until James explicitly says so in chat.
