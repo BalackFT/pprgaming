@@ -8,7 +8,7 @@ date: 2026-11-18T07:50:00-05:00
 author: "Ron Carter Jr."
 category: releases
 tags: [gta-6, rockstar games, launch guide, pre-load, ps5, xbox series x, xbox cloud gaming]
-draft: true
+draft: false
 sources:
   - { name: "Rockstar Games - Grand Theft Auto VI", url: "https://www.rockstargames.com/VI" }
   - { name: "Rockstar Games - Grand Theft Auto VI: Pre-Load Now", url: "https://www.rockstargames.com/VI/pre-load-now" }
@@ -21,9 +21,7 @@ sources:
   - { name: "Polygon - GTA 6 early preload times and file size confirmed by Rockstar", url: "https://www.polygon.com/gta-6-preload-when-is-ps5-xbox-times-file-size-gb-poster-map-rockstar/" }
   - { name: "The Verge - GTA VI's download will need up to 212GB of hard drive space", url: "https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games" }
 ---
-<!-- DRAFT. Re-check every number against the sources above on publish morning, and update anything Rockstar has changed since Nov 17. -->
-
-**Grand Theft Auto VI unlocks at 12:00 AM Eastern on Thursday, November 19, and everybody in the US gets it at the same moment.** That's 9 PM Pacific on Wednesday. Rockstar is releasing it at midnight local time country by country, so a lot of the world is playing long before we are.
+**Grand Theft Auto VI unlocks at 12:00 AM Eastern on Thursday, November 19, and everybody in the US gets it at the same moment.** That's 9 PM Pacific on Wednesday. Rockstar is releasing it at midnight local time country by country, so a lot of the world is already playing. New Zealand got it at 6:00 AM ET this morning.
 
 ## When it unlocks
 
@@ -54,10 +52,10 @@ Pre-loading has been open since November 10. Rockstar tells you to leave room fo
 
 ## What it isn't
 
-There's no PC version announced. Rockstar still describes GTA VI as a single-player experience, and it hasn't announced an online mode. GTA Online in GTA V keeps running as its own game. Reviews are reportedly set to land Wednesday, but Rockstar hasn't confirmed an embargo date or time, so treat any score you see early with suspicion.
+There's no PC version announced. Rockstar still describes GTA VI as a single-player experience, and it hasn't announced an online mode. GTA Online in GTA V keeps running as its own game. Reviews are out now, and they're huge: [99 on Metacritic and 98 on OpenCritic](/news/gta-6-reviews-score-metacritic-99-opencritic-98/).
 
 ## Before midnight
 
-Check your free space, make sure the console is up to date, and sign in a little early. Sony and Microsoft both told people to pre-load early because of demand. If you care about spoilers, mute the game's name on your socials from Wednesday morning, because New Zealand and Australia will be well into it before you are.
+Check your free space, make sure the console is up to date, and sign in a little early. Sony and Microsoft both told people to pre-load early because of demand. If you care about spoilers, mute the game's name on your socials today, because New Zealand and Australia are already well into it.
 
 **PPR take:** The part that stings is waiting while the rest of the world plays for the better part of a day, but a single midnight ET unlock for the whole US is at least clean. Pre-loading was the smart call from Rockstar, and I wouldn't wait until 11:55 PM to find out whether your install is actually finished. Free space is the one thing you can't fix at midnight.
