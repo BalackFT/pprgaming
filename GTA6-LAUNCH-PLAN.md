@@ -76,3 +76,4 @@ Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope 
 - No official Rockstar/Sony/Microsoft word on day-one patch contents; Newswire has nothing after the Nov 10 pre-load post. Patches 1.002.000 / 01.002.001 still reported-only.
 
 - UPDATE (James, 7:06 AM ET Nov 18): Reviews story published to the site. Its X post goes out at 8:00 AM ET via a one-off routine; do NOT post it from the drip or batches.
+- QUEUED (James approved, 6:58 PM ET Nov 18): The 7:30 AM Nov 19 batch must include a GTA 6 story on Rockstar saying there is no 60fps option on PS5 Pro (IGN reported it Nov 18, bit.ly/4zSDbmv). Source it from Rockstar's own statement or IGN's article and quote what Rockstar actually said. It counts as one of the day's GTA stories and goes in the normal drip.
