@@ -71,3 +71,6 @@ Keep Star Citizen stories in their normal slots. GTA takes 2 to 3 of the daily s
 Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope that 212GB finished! 😆 Everything we have is on the hub. #GTA6 https://pprgaming.com/gta-6/
 
 ## Live notes
+
+- Nov 18, 6:20 AM ET check: NZ unlock happened (midnight NZDT = 11:00 UTC / 6 AM ET); BBC live blog covers it. Reviews are LIVE: Metacritic 99 from 115 critic reviews (all positive; PS5 tab 99 from 10), OpenCritic 98 Top Critic Average, 100% recommend. Lowest seen: Digitally Downloaded 90 on Metacritic. GTA V and RDR2 pages show 97 each. Reviews story is written: src/content/posts/gta-6-reviews-score-metacritic-99-opencritic-98.md (still draft: true, publish at 7:30 batch). Hub Reviews fact updated.
+- No official Rockstar/Sony/Microsoft word on day-one patch contents; Newswire has nothing after the Nov 10 pre-load post. Patches 1.002.000 / 01.002.001 still reported-only.
