@@ -3,7 +3,7 @@ image: "/images/posts/daily-roundup-2026-11-18-cover.webp"
 imageAlt: "PPRGaming Daily Roundup title card for November 18, 2026"
 title: "PPRGaming Daily Roundup – November 18, 2026"
 description: "Wednesday extras: Star Citizen 5.0 PTU opens to Wave 3, Sony beats the £2 billion PlayStation Store claim in the UK, and Spyro: A Realm Beyond is headed to The Game Awards."
-date: 2026-11-18T16:45:00-05:00
+date: 2026-11-18T16:30:00-05:00
 category: news
 tags: [daily roundup, star citizen, alpha 5.0, ptu, sony, playstation, spyro, the game awards, industry]
 sources:
