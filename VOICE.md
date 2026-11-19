@@ -248,7 +248,7 @@ All of these come from X edit history or his own corrections.
 5. Is it ≤280 characters, with ≤1 hashtag and @RobertsSpaceInd on SC posts?
 6. Does it have at most one emoji, used as a reaction? No swearing, no em dashes, no "Here's what you need to know"?
 7. If it's a reply draft: is it free of questions, and not aimed at a blocked account?
-- X card image check (James, Nov 19): before clicking Post on ANY @PPRGamers post, wait for the composer link-card preview and confirm it shows an image, not the grey placeholder. After posting, open the live post and confirm the card image renders. If it is imageless, do not post; use a fresh query on the URL (e.g. ?v=2, ?v=3) to bust X's cache, and report if it still fails.
+- X card image check (James, Nov 19; revised same day): before posting ANY @PPRGamers post, confirm the page's og:image/twitter:image tags are set and the page and image return 200. X's composer preview is unreliable (often blank or a spinner even when the live card works), so a blank composer preview does NOT block posting. After posting, open the live post, wait ~30s, reload, and confirm the card image renders. If the live card is imageless or a grey placeholder, delete that post and repost with a fresh query on the URL (?v=2, ?v=3, ...) to bust X's cache; report if it still fails after two tries.
 
 ---
 
