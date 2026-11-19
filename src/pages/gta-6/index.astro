@@ -12,8 +12,8 @@ const confirmed = [
   { fact: 'Pre-loading has been live since November 10. Rockstar says to leave room for up to 212 GB, depending on your device.', src: [L('https://www.rockstargames.com/VI/pre-load-now','Rockstar'), L('https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games','The Verge')] },
   { fact: 'Standard Edition is $79.99. The digital-only Ultimate Edition is $99.99. Boxed copies are code-in-box, with no disc.', src: [L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two'), L('https://www.playstation.com/en-us/support/games/gta-vi-support/','PlayStation Support')] },
   { fact: 'Anything bought before November 20 includes the Vintage Vice City Pack.', src: [L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two')] },
-  { fact: 'Xbox One and Series X|S players can also stream it through Xbox Cloud Gaming from 1:00 AM ET on November 19, at Xbox Series S settings. The game is bought separately.', src: [L('https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/','Xbox Wire')] },
-  { fact: 'A printable cover poster and a map of Leonida go up on Rockstar\'s site as free downloads on launch day.', src: [L('https://www.polygon.com/gta-6-preload-when-is-ps5-xbox-times-file-size-gb-poster-map-rockstar/','Polygon, relaying Rockstar')] },
+  { fact: 'Xbox Cloud Gaming is live on Xbox One and Series X|S. Microsoft said streaming would start at 1:00 AM ET on November 19, and Xbox\'s official game and store pages now list Grand Theft Auto VI as available and cloud playable on Xbox consoles, at Xbox Series S settings. The game is bought separately.', src: [L('https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/','Xbox Wire'), L('https://www.xbox.com/en-US/games/grand-theft-auto-vi','Xbox'), L('https://www.xbox.com/en-US/games/store/grand-theft-auto-vi/9nl3wwnzlzzn','Xbox Store')] },
+  { fact: 'Rockstar said a printable cover poster and a map of Leonida would go up as free downloads on its site on launch day. As of 1:20 AM ET Thursday, they were not listed on the official downloads or Rockstar Store pages.', src: [L('https://www.polygon.com/gta-6-preload-when-is-ps5-xbox-times-file-size-gb-poster-map-rockstar/','Polygon, relaying Rockstar'), L('https://www.rockstargames.com/VI/downloads','Rockstar downloads')] },
 ];
 const open = [
   { fact: 'Reviews.', note: 'Reviews went up Wednesday, November 18. Metacritic shows a 99 Metascore from 115 critic reviews and OpenCritic a 98 Top Critic Average, as of the morning of Nov 18.', src: [L('https://www.metacritic.com/game/grand-theft-auto-vi/','Metacritic'),L('https://opencritic.com/game/15398/grand-theft-auto-vi','OpenCritic')] },
@@ -31,17 +31,17 @@ const official = [
 <section class="gta" id="gta-6">
   <p class="gta-kicker">Launch week · Nov 17 to 23</p>
   <h1>Grand Theft Auto <em>VI</em></h1>
-  <p class="gta-lede">It's out. GTA VI unlocked in the US at midnight Eastern on Thursday, Nov 19, and was already live in New Zealand and Europe. Everything we have on it lives on this page. The facts up top are only things Rockstar, Sony or Microsoft have put in writing, and anything still unconfirmed is marked that way.</p>
+  <p class="gta-lede">It's out. GTA VI unlocked in the US at midnight Eastern on Thursday, Nov 19, and was already live in New Zealand and Europe. Xbox Cloud Gaming is up on Xbox One and Series X|S as well. Everything we have on it lives on this page. The facts up top are only things Rockstar, Sony or Microsoft have put in writing, and anything still unconfirmed is marked that way.</p>
   <GtaCountdown/>
   <div class="status gta-status">
     <div><b>Nov 19, 2026</b><span>PS5 and Xbox Series X|S</span></div>
     <div><b>Out now in the US</b><span>Unlocked 12:00 AM ET, Thursday Nov 19</span></div>
     <div><b>Up to 212 GB</b><span>Rockstar's pre-load figure, depends on device</span></div>
     <div><b>$79.99 / $99.99</b><span>Standard / Ultimate (digital only)</span></div>
-    <div><b>Launch day</b><span>Pre-load opened Nov 10</span></div>
+    <div><b>Cloud Gaming</b><span>Live on Xbox consoles from 1:00 AM ET</span></div>
     <div><b>PC: not announced</b><span>Nothing official from Rockstar</span></div>
   </div>
-  <p class="small gta-asof">Facts as of 12:30 AM ET, Nov 19, 2026. We update this page through launch week.</p>
+  <p class="small gta-asof">Facts as of 1:20 AM ET, Nov 19, 2026. We update this page through launch week.</p>
 </section>
 
 {latest.length>0 && <><h2 class="sec">Latest GTA 6 stories</h2><div class="grid">{latest.map(p=><Card post={p}/>)}</div></>}
@@ -51,7 +51,7 @@ const official = [
 <div class="tbl-wrap"><table class="gta-tbl"><thead><tr><th>Where</th><th>Rockstar's unlock</th><th>In Eastern Time</th></tr></thead><tbody>
 {UNLOCK_TIMES.map(r=><tr class={r.us?'us':''}><td>{r.region}</td><td>{r.local}</td><td><b>{r.et}</b></td></tr>)}
 </tbody></table></div>
-<p class="small">Times converted from Rockstar's midnight-local schedule (<a href="https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map" rel="noopener">IGN's table</a>, <a href="https://www.playstation.com/en-us/support/games/gta-vi-support/" rel="noopener">PlayStation Support</a>). Xbox Cloud Gaming opens separately at 1:00 AM ET Thursday.</p>
+<p class="small">Times converted from Rockstar's midnight-local schedule (<a href="https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map" rel="noopener">IGN's table</a>, <a href="https://www.playstation.com/en-us/support/games/gta-vi-support/" rel="noopener">PlayStation Support</a>). Xbox Cloud Gaming opened separately at 1:00 AM ET Thursday.</p>
 
 <div class="gta-two">
   <section><h2 class="sec">Confirmed</h2><ul class="gta-list">{confirmed.map(c=><li>{c.fact} <span class="gta-src">{c.src.map((s,i)=><>{i>0 && ', '}<a href={s.href} rel="noopener" target="_blank">{s.text}</a></>)}</span></li>)}</ul></section>
