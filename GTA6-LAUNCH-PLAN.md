@@ -88,3 +88,5 @@ Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope 
 
   Hub facts and the homepage GTA teaser were updated. Nothing posted to X.
 
+
+- Nov 19, 8 AM ET batch (~7:45 AM): Published the launch-day story (gta-6-out-now-us-midnight-unlock-xbox-cloud-gaming-live, template removed) and the PS5 Pro no-60fps story (gta-6-no-60fps-ps5-pro-rockstar-cpu-not-powerful-enough; Marc Chambers quote via Kotaku, IGN). Re-checked /VI/downloads at ~7:40 AM ET: printable poster and Leonida map still NOT listed (Artwork & Wallpapers = 27 items, nav still says "Pre-Order Now"). Rockstar Store says "Out now on PS5 and XBOX Series X|S." Metacritic now 99 from 156 critic reviews. No official day-one patch notes. Rockstar support/servicestatus unreachable from the box this check. Hub and homepage tiles: 212 GB pre-load tile replaced with Metacritic 99; 30fps/no-60fps-on-Pro added to Confirmed. Rockstar also told TechRadar (via IGN India, Nov 19) why there's no 40fps mode (Jonathon Ashcroft: "only 33ms to do it"); possible follow-up item. Nothing posted to X.

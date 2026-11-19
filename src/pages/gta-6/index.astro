@@ -13,10 +13,11 @@ const confirmed = [
   { fact: 'Standard Edition is $79.99. The digital-only Ultimate Edition is $99.99. Boxed copies are code-in-box, with no disc.', src: [L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two'), L('https://www.playstation.com/en-us/support/games/gta-vi-support/','PlayStation Support')] },
   { fact: 'Anything bought before November 20 includes the Vintage Vice City Pack.', src: [L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two')] },
   { fact: 'Xbox Cloud Gaming is live on Xbox One and Series X|S. Microsoft said streaming would start at 1:00 AM ET on November 19, and Xbox\'s official game and store pages now list Grand Theft Auto VI as available and cloud playable on Xbox consoles, at Xbox Series S settings. The game is bought separately.', src: [L('https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/','Xbox Wire'), L('https://www.xbox.com/en-US/games/grand-theft-auto-vi','Xbox'), L('https://www.xbox.com/en-US/games/store/grand-theft-auto-vi/9nl3wwnzlzzn','Xbox Store')] },
-  { fact: 'Rockstar said a printable cover poster and a map of Leonida would go up as free downloads on its site on launch day. As of 1:20 AM ET Thursday, they were not listed on the official downloads or Rockstar Store pages.', src: [L('https://www.polygon.com/gta-6-preload-when-is-ps5-xbox-times-file-size-gb-poster-map-rockstar/','Polygon, relaying Rockstar'), L('https://www.rockstargames.com/VI/downloads','Rockstar downloads')] },
+  { fact: 'GTA VI targets 30fps on every console, and Rockstar says there will be no 60fps or 40fps mode on PS5 Pro. The Pro adds ray-traced shadows and PSSR upscaling instead.', src: [L('https://kotaku.com/gta-6-wont-get-a-60-fps-mode-even-on-ps5-pro-because-its-not-powerful-enough-2000755979','Kotaku, quoting Rockstar'), L('https://gameinformer.com/2026/11/10/grand-theft-auto-vi-will-run-at-30-fps-on-all-consoles-but-ps5-pro-will-feature-improved','Game Informer')] },
+  { fact: 'Rockstar said a printable cover poster and a map of Leonida would go up as free downloads on its site on launch day. They were still not listed on the official downloads page when we checked at 7:45 AM ET Thursday.', src: [L('https://www.polygon.com/gta-6-preload-when-is-ps5-xbox-times-file-size-gb-poster-map-rockstar/','Polygon, relaying Rockstar'), L('https://www.rockstargames.com/VI/downloads','Rockstar downloads')] },
 ];
 const open = [
-  { fact: 'Reviews.', note: 'Reviews went up Wednesday, November 18. Metacritic shows a 99 Metascore from 115 critic reviews and OpenCritic a 98 Top Critic Average, as of the morning of Nov 18.', src: [L('https://www.metacritic.com/game/grand-theft-auto-vi/','Metacritic'),L('https://opencritic.com/game/15398/grand-theft-auto-vi','OpenCritic')] },
+  { fact: 'Reviews.', note: 'Reviews went up Wednesday, November 18. Metacritic shows a 99 Metascore from 156 critic reviews (checked Thursday morning), and OpenCritic showed a 98 Top Critic Average on Wednesday.', src: [L('https://www.metacritic.com/game/grand-theft-auto-vi/','Metacritic'),L('https://opencritic.com/game/15398/grand-theft-auto-vi','OpenCritic')] },
   { fact: 'A PC version.', note: 'Not announced. One report points to early 2027, and Rockstar hasn\'t said a word about it.', src: [L('https://www.usatoday.com/story/tech/gaming/2026/11/16/gta-6-everything-to-know-preorder-story-actors-cost/92711409007/','USA Today')] },
   { fact: 'Multiplayer.', note: 'Rockstar still calls GTA VI a single-player experience and hasn\'t announced an online mode. GTA Online in GTA V keeps running.', src: [L('https://uk.pcmag.com/games/168419/felony-fun-with-friends-can-you-play-gta-6-online-at-launch-this-week','PCMag')] },
 ];
@@ -36,12 +37,12 @@ const official = [
   <div class="status gta-status">
     <div><b>Nov 19, 2026</b><span>PS5 and Xbox Series X|S</span></div>
     <div><b>Out now in the US</b><span>Unlocked 12:00 AM ET, Thursday Nov 19</span></div>
-    <div><b>Up to 212 GB</b><span>Rockstar's pre-load figure, depends on device</span></div>
+    <div><b>Metacritic 99</b><span>Metascore from 156 critic reviews</span></div>
     <div><b>$79.99 / $99.99</b><span>Standard / Ultimate (digital only)</span></div>
     <div><b>Cloud Gaming</b><span>Live on Xbox consoles from 1:00 AM ET</span></div>
     <div><b>PC: not announced</b><span>Nothing official from Rockstar</span></div>
   </div>
-  <p class="small gta-asof">Facts as of 1:20 AM ET, Nov 19, 2026. We update this page through launch week.</p>
+  <p class="small gta-asof">Facts last checked 7:45 AM ET, Nov 19, 2026. We update this page through launch week.</p>
 </section>
 
 {latest.length>0 && <><h2 class="sec">Latest GTA 6 stories</h2><div class="grid">{latest.map(p=><Card post={p}/>)}</div></>}
