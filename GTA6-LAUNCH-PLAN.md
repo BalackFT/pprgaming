@@ -77,3 +77,5 @@ Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope 
 
 - UPDATE (James, 7:06 AM ET Nov 18): Reviews story published to the site. Its X post goes out at 8:00 AM ET via a one-off routine; do NOT post it from the drip or batches.
 - QUEUED (James approved, 6:58 PM ET Nov 18): The 7:30 AM Nov 19 batch must include a GTA 6 story on Rockstar saying there is no 60fps option on PS5 Pro (IGN reported it Nov 18, bit.ly/4zSDbmv). Source it from Rockstar's own statement or IGN's article and quote what Rockstar actually said. It counts as one of the day's GTA stories and goes in the normal drip.
+
+- Nov 19, 12:30 AM ET US-unlock check: US unlock happened at 12:00 AM ET (05:00 UTC); thegta6map live blog and Rockstar service status (all services operational, no GTA VI row) show no delay. Reported-only, unconfirmed by Rockstar: some PS5 shutdown/crash reports; a PSN sign-in outage ~2:30 PM ET Nov 18 (recovered); PS5 system update 14.23 required. Official printable map/poster not yet confirmed live. Hub updated to say it is out. Midnight X post sent (see x-posted.txt).
