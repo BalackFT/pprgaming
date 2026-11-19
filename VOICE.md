@@ -251,6 +251,7 @@ All of these come from X edit history or his own corrections.
 
 ---
 
+- X card image check (James, Nov 19): before clicking Post on ANY @PPRGamers post, wait for the composer link-card preview and confirm it shows an image, not the grey placeholder. After posting, open the live post and confirm the card image renders. If it is imageless, do not post; use a fresh query on the URL (e.g. ?v=2, ?v=3) to bust X's cache, and report if it still fails.
 ## 5. Reference facts (secondary)
 
 - **Who he is:** an SC backer since 2013 who plays most days and runs pprgaming.com alone, with software help. Lately he'll "login to run a mission then log out," which is why Genesis/5.0 excites him. He's also the author J.R. Carter (*The Ashen Vampire*).
