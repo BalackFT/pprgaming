@@ -70,6 +70,13 @@ Keep Star Citizen stories in their normal slots. GTA takes 2 to 3 of the daily s
 ## US-unlock routine: approved midnight post
 Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope that 212GB finished! 😆 Everything we have is on the hub. #GTA6 https://pprgaming.com/gta-6/
 
+## Standing: GTA 6 Tips & Tricks page (James asked Nov 19, 2026)
+- Page: src/pages/gta-6/tips.astro, live at https://pprgaming.com/gta-6/tips/ (linked from the /gta-6/ hub and the homepage GTA tile).
+- 1 PM and 5 PM batches (and the 7:30 AM batch): if a good new tip turns up, add it to the `sections` array in tips.astro and bump `UPDATED` (ET). Tips-page updates do NOT count toward the daily story cap and need no X post.
+- A tip goes in only if: at least one credible outlet or the original creator published it since launch (Nov 19), it is credited with an inline source link, and it is spoiler-free (no story, mission, ending, character-reveal or later-map content, nothing from leaked builds, no cheats or anything that could get someone banned).
+- Write it in James's voice (VOICE.md), short and practical. Keep glitches labeled (tag: 'Glitch · may be patched') and drop or relabel any tip once a patch breaks it.
+- Do not post tips-page updates to X on their own. A new tip can be a normal drip or Roundup mention if James has OK'd it.
+
 ## Live notes
 
 - Nov 18, 6:20 AM ET check: NZ unlock happened (midnight NZDT = 11:00 UTC / 6 AM ET); BBC live blog covers it. Reviews are LIVE: Metacritic 99 from 115 critic reviews (all positive; PS5 tab 99 from 10), OpenCritic 98 Top Critic Average, 100% recommend. Lowest seen: Digitally Downloaded 90 on Metacritic. GTA V and RDR2 pages show 97 each. Reviews story is written: src/content/posts/gta-6-reviews-score-metacritic-99-opencritic-98.md (still draft: true, publish at 7:30 batch). Hub Reviews fact updated.
@@ -93,3 +100,4 @@ Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope 
 
 - Nov 19, 1 PM ET batch (~12:35 PM): Printable cover art poster and Leonida map are NOW on /VI/downloads (zips last-modified 8:47 AM ET, 19.25 x 26.33 in). Published gta-6-printable-poster-leonida-map-live-vintage-vice-city-pack-last-day (also covers Vice City Pack last day, Take-Two cutoff "before November 20"). Hub: poster/map fact updated, pre-load fact removed, launch fact now "out now". Rockstar retweeted an IGN official interactive map/guide collab (possible follow-up). Still no official day-one patch notes.
 - Nov 19, 5 PM ET batch (~4:30 PM): No new GTA full story (3 GTA stories already today). Roundup leads with GTA streaming/internet records (Streams Charts 7.91M combined via Variety; SullyGnome Twitch 3,293,515 via Dot Esports) and the IGN x Rockstar official map/guide. Ignored the Cyberleek leak/torrent chatter per no-leaks rule. Still no official day-one patch notes or official sales numbers.
+- Nov 19, ~6 PM ET: Built the GTA 6 Tips & Tricks page (15 sourced, spoiler-free tips) at /gta-6/tips/; hub and homepage tiles link to it. See the Standing section above for how batches keep it fresh. X announcement post drafted for James, not posted.

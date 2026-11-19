@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro'; import Ad from '../../components/Ad.astro'; import Newsletter from '../../components/Newsletter.astro';
+// GTA 6 tips page. Keep it spoiler-free and sourced: every tip needs at least one credible source published since launch (Nov 19, 2026).
+// No story, mission, ending, character-reveal or late-map content. No leaked-build content. No cheats or anything that risks a ban.
+// When you add or change a tip, bump UPDATED below (ET). Tips-page updates don't count toward the daily story cap.
+const UPDATED = '6:05 PM ET, Thursday, Nov 19, 2026';
+const L = (href, text) => ({ href, text });
+const ENG_BLUR = L('https://www.engadget.com/2321944/gta-6-how-to-adjust-turn-off-blur-motion/', 'Engadget');
+const ENG_CAM = L('https://www.engadget.com/2321960/gta-6-how-to-switch-camera-views/', 'Engadget');
+const POLY = L('https://www.polygon.com/gta-6-grand-theft-auto-beginners-tips-tricks/', 'Polygon');
+const GS = L('https://www.gamespot.com/articles/gta-6-tips-everything-i-wish-i-knew-before-i-started-playing/', 'GameSpot');
+const sections = [
+  { id: 'settings', title: 'Settings & camera', tips: [
+    { t: 'Turn the motion blur down (or off)', d: 'Pause, Settings, Display tab, Motion Blur Strength. It ships at 3 out of 10 and it\'s a slider, not a switch. If it makes you queasy or you just want a cleaner picture, drag it down. Don\'t just slam it to zero without trying a notch or two, though. This game is 30fps and a little blur can smooth out the camera moves.', src: [ENG_BLUR] },
+    { t: 'Flip on Auto Equip Helmet', d: 'Gameplay tab, scroll down, toggle it on. A helmet takes a lot of the sting out of a crash, and every bicycle, bike and scooter comes with one. You just don\'t wear it unless you pick it from your loadout every single time.', src: [POLY] },
+    { t: 'Change the camera on the fly', d: 'In any land or water vehicle, hold Down on the d-pad and pick one of three camera heights. The cinematic camera is in that menu too. It looks great in a chase....but it\'s harder to steer with.', src: [ENG_CAM] },
+    { t: 'First-person the official way (it\'s limited)', d: 'There\'s no full first-person mode at launch. Standing on foot, hold L2 and click R3 (LT and right stick on Xbox) for a closer look around. Put a real sight on your gun (iron sights don\'t count) and click the right stick while aiming to snap into first person. You can also turn on a first-person view for the phone in the Camera settings, and it shows up while you drive with the phone out.', src: [ENG_CAM, GS] },
+    { t: 'First-person the unofficial way (a glitch, may get patched)', d: 'This is a workaround a player found hours after launch, not something Rockstar built in. PS5 steps as posted: Settings, Controller, Touch Pad Button, change it to Camera. Sit in the driver\'s seat, pull out the phone (d-pad up), put it away (Circle, or B), then spam the touch pad a few times. You\'re now in first person and can get out and walk around. The catch: you have to reload your save to get back to third person, so make a manual save first. It\'s unofficial and Rockstar could patch it any time.', src: [L('https://x.com/GTAVI_Countdown/status/2123528804463251558', '@GTAVI_Countdown'), L('https://youtu.be/CJi2DWXxsoQ', 'oneboyler on YouTube'), L('https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/', 'Dexerto')], tag: 'Glitch · may be patched' },
+  ] },
+  { id: 'start', title: 'Getting started & money', tips: [
+    { t: 'Don\'t walk around with a pile of cash', d: 'If you die with cash on you, it\'s gone for good. Stash it under the loose floorboard in Jason\'s bedroom, and once you can bank it, hit an ATM. The BuckMe app on your phone has an ATM Finder under the main screen, and it covers most payments so you don\'t need to carry much.', src: [POLY] },
+    { t: 'Make hard saves, and use more than one slot', d: 'The game moves on and doesn\'t let you wander back to how things were. A manual save is your only way back to an earlier moment, so don\'t lean on the autosave alone.', src: [GS] },
+    { t: 'Read everything you can pick up', d: 'Magazines and flyers aren\'t just set dressing. Flip all the way through them and some will add contact numbers to your phone or fishing spots to your map.', src: [GS] },
+    { t: 'Eat, sleep, shower and work out', d: 'It\'s a lot more sim than past GTAs. Health, Stamina and Focus all respond to what you do, and a good routine gives you temporary buffs. Lifting builds health, cardio builds stamina, and quiet stuff like fishing or pool builds Focus, which is the one that stays.', src: [GS] },
+    { t: 'Use Focus mode outside of fights', d: 'Click both sticks. With a gun out it slows time so you can line up shots. Out of combat it doesn\'t drain, and it lights up the world: enemies red, things you can use yellow, cash green. Good for spotting loose loot and notes that may hide a safe code.', src: [GS, POLY] },
+  ] },
+  { id: 'driving', title: 'Driving & getting around', tips: [
+    { t: 'There\'s no map warp, but you have options', d: 'Mark a spot on the map and call a RydeMe once you unlock the app. Pay an extra $100 and you skip straight to the destination. Short on cash? Buses and trains run on a schedule across Leonida, so they do the job if you\'re willing to wait.', src: [GS] },
+    { t: 'Check a car before you steal it', d: 'Hold Up on the d-pad to open the Waink app, then highlight a vehicle. It shows its security system, what it sells for and what registering it costs. Alarms, trackers and keyless locks all change how easy the theft is.', src: [GS] },
+    { t: 'Chase tricks: handbrake U-turn, duck, and get your car back', d: 'To shake a tail, steer and hold the handbrake (X on PS5, A on Xbox) for a sudden U-turn. Duck behind the wheel with Circle (B on Xbox) when someone is shooting at you. If the cops impound your car, the Scooter Bros app can have it delivered for a few hundred bucks, stashed goods included in most cases.', src: [POLY] },
+  ] },
+  { id: 'heat', title: 'Heat & robberies', tips: [
+    { t: 'Lose the cops by changing what they saw', d: 'The police don\'t just know where you are anymore. They go on your look, outfit, visible weapon, vehicle, CCTV and your partner. Swap or ditch the car, change clothes (a trunk spare or any clothing store changing room works), holster the pistol and stow the long guns. A hat and sunglasses on or off counts as a quick change of look.', src: [GS, POLY] },
+    { t: 'Rob smart: read the map, go for the register and the safe', d: 'Check a store\'s security level on the map before you walk in. Ignore the customers and head straight for the cash register, then look for a safe in the back. Safe codes are randomized, so use Focus mode to find the note.', src: [GS, POLY] },
+  ] },
+];
+const total = sections.reduce((n, s) => n + s.tips.length, 0);
+---
+<Base title="GTA 6 Tips & Tricks (No Spoilers)" image="/og-gta6.jpg" imageWidth={1200} imageHeight={630} imageAlt="Grand Theft Auto VI official key art with the text GTA 6 Launch Week, PPRGaming" description="Spoiler-free GTA 6 tips and tricks: settings, camera, money, driving and the cops, each one sourced. Includes the first-person workaround, updated through launch week.">
+<section class="gta" id="gta-6-tips">
+  <p class="gta-kicker"><a href="/gta-6/">GTA 6 hub</a> · Tips &amp; Tricks</p>
+  <h1>GTA 6 Tips &amp; <em>Tricks</em> (No Spoilers)</h1>
+  <p class="gta-lede"><b>No spoilers, promise.</b> Nothing here touches the story, missions, characters or anywhere you haven't been yet. Just stuff that makes the game feel better to play. Every tip comes from someone who's played the released game, and the credit is right there with it. If one stops working after a patch, it comes down.</p>
+  <p class="small gta-asof">Last updated {UPDATED}. {total} tips so far, with more added as good ones turn up.</p>
+  <p class="tips-jump">{sections.map((s,i)=><><a href={`#${s.id}`}>{s.title}</a>{sections.length-1>i && ' · '}</>)}</p>
+</section>
+
+{sections.map(s=><>
+  <h2 class="sec" id={s.id}>{s.title}</h2>
+  <ul class="tips-list">{s.tips.map(t=><li>
+    <h3>{t.t}{t.tag && <span class="tips-tag">{t.tag}</span>}</h3>
+    <p>{t.d}</p>
+    <p class="gta-src">Source: {t.src.map((x,i)=><>{i>0 && ', '}<a href={x.href} rel="noopener" target="_blank">{x.text}</a></>)}</p>
+  </li>)}</ul>
+</>)}
+
+<p class="small">Got a tip we should know about? Send it through the <a href="/contact/">contact page</a>. We only add ones we can back up, and we keep the spoilers out. Looking for launch facts, unlock times and the free poster and map? That's all on the <a href="/gta-6/">GTA 6 hub</a>.</p>
+<Ad unit="category"/>
+<Newsletter/>
+</Base>

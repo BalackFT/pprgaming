@@ -29,7 +29,7 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
         <div><b>Metacritic 99</b><span>Metascore from 156 critic reviews</span></div>
         <div><b>$79.99 / $99.99</b><span>Standard / Ultimate</span></div>
       </div>
-      <p class="hub-gta-links"><a class="btn" href="/gta-6/">Open the GTA 6 hub →</a> <a href="/gta-6/#unlock">Unlock times in ET →</a></p>
+      <p class="hub-gta-links"><a class="btn" href="/gta-6/">Open the GTA 6 hub →</a> <a href="/gta-6/tips/">Tips &amp; Tricks (no spoilers) →</a></p>
     </div>
   </div>
   {latestShot && <div class="sotd"><h3><span>📸</span> Screenshot of the Day</h3><p class="sotd-shout">Shout-out to <a href={latestShot.data.source==='x' ? `https://x.com/${latestShot.data.handle}` : 'https://x.com/PPRGamers'} rel="noopener">@{latestShot.data.source==='x' ? latestShot.data.handle : 'PPRGamers'}</a> {latestShot.data.shout ? ` — ${latestShot.data.shout}` : ` for today's shot${latestShot.data.title ? ` — ${latestShot.data.title}` : ''}.`}</p><Shot shot={latestShot} showShout={false}/><p class="small"><a href="/screenshots/">Browse all screenshots →</a></p></div>}
@@ -42,7 +42,7 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
   <h2><a href="/gta-6/">Grand Theft Auto <em>VI</em>: launch facts, editions, the free map and every story</a></h2>
   <p class="gta-lede">It's out now on PS5 and Xbox Series X|S. Unlocked in the US at 12:00 AM ET Thursday, Nov 19, and today is the last day for the Vintage Vice City Pack.</p>
   <ul class="gta-links">{gta.map(p=><li><a href={`/news/${p.slug}/`}>{p.data.title}</a></li>)}</ul>
-  <a class="btn" href="/gta-6/">Open the GTA 6 hub →</a>
+  <a class="btn" href="/gta-6/">Open the GTA 6 hub →</a> <a href="/gta-6/tips/">Tips &amp; Tricks (no spoilers) →</a>
 </section>
 <BookPromo/>
 <Ad unit="home-top"/>

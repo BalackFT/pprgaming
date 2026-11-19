@@ -264,3 +264,14 @@ nav a.nav-gta:hover{color:var(--cyan)}
 .hub-sc h2{margin:0 0 .3em}
 .hub-sc .gta-count b{color:var(--acc2);text-shadow:0 0 18px rgba(255,138,61,.4);font-size:clamp(1.4rem,3vw,2rem)}
 .hub-gta h2{margin:0 0 .3em}
+
+/* GTA 6 tips page */
+.tips-jump{margin:10px 0 0;font-size:.9rem}
+.tips-list{list-style:none;padding:0;margin:10px 0 24px;display:grid;gap:14px}
+.tips-list li{border:1px solid var(--line);border-left:3px solid #ff6fb5;border-radius:8px;padding:14px 16px;background:rgba(255,255,255,.02)}
+.tips-list h3{margin:0 0 6px;font-size:1.08rem}
+.tips-list p{margin:0 0 6px}
+.tips-list p.gta-src{margin:0}
+.tips-tag{display:inline-block;margin-left:10px;padding:1px 8px;border-radius:999px;font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:#ffd166;border:1px solid rgba(255,209,102,.5);vertical-align:middle}
+.gta-tipsbox{border:1px solid #5a3a66;border-radius:10px;padding:14px 18px;margin:18px 0 0;background:rgba(255,111,181,.06)}
+.gta-tipsbox b{color:#ff6fb5}
