@@ -8,3 +8,4 @@
 2026-11-12 | normal | https://x.com/PPRGamers/status/2120936519821082870 | - | Star Citizen Alpha 4.10.3 is Live (posted early at 12:47 PM ET, used as today's comparison)
 2026-11-17 | link-in-reply | https://x.com/PPRGamers/status/2122757021095051760 | https://x.com/PPRGamers/status/2122757150074175779 | Star Citizen: Drake Marauder is flyable for IAE 2956 with seven Size 3 guns, and CIG explains the trade-offs
 2026-11-17 | normal | https://x.com/PPRGamers/status/2122773042984108214 | - | The Game Awards 2026 nominees are out: GTA 6 leads with eight nods before it even launches, and Crimson Desert makes the list
+2026-11-19 | link-in-reply | https://x.com/PPRGamers/status/2123480475700211840 | https://x.com/PPRGamers/status/2123480642960998651 | Rockstar says GTA 6 won't get a 60fps mode on PS5 Pro, because its CPU is "not powerful enough"
