@@ -2,10 +2,10 @@
 image: "/images/posts/daily-roundup-2026-11-20-cover.webp"
 imageAlt: "PPRGaming Daily Roundup title card for November 20, 2026"
 title: "PPRGaming Daily Roundup – November 20, 2026"
-description: "Star Citizen's sixth ship TTK balancing pass buffs turrets and trims Size 2 shields, IAE 2956 Day 8 belongs to Aegis, a 4.10.3 client hotfix targets the top Vulkan crash, and Crimson Desert's 2.05.01 hotfix lets you examine treasure maps from your inventory."
+description: "Star Citizen's sixth ship TTK balancing pass buffs turrets and trims Size 2 shields, IAE 2956 Day 8 belongs to Aegis, a 4.10.3 client hotfix targets the top Vulkan crash, Crimson Desert's 2.05.01 hotfix lets you examine treasure maps from your inventory, and NVIDIA issued GeForce Hotfix Driver 621.35 for excessive nvlog writes."
 date: 2026-11-20T16:52:00-05:00
 category: news
-tags: [daily roundup, star citizen, alpha 5.0, 4.10.3, iae 2956, aegis, crimson desert, pearl abyss]
+tags: [daily roundup, star citizen, alpha 5.0, 4.10.3, iae 2956, aegis, crimson desert, pearl abyss, nvidia]
 sources:
   - { name: "RSI Spectrum - [5.0 PTU Feedback] Ship TTK Balancing Update #6 (Shark-CIG)", url: "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/5-0-ptu-feedback-ship-ttk-balancing-update-6" }
   - { name: "Star Citizen on X - Dedicated To Excellence, Day 8 of IAE 2956", url: "https://x.com/RobertsSpaceInd/status/2123810971189723313" }
@@ -13,6 +13,8 @@ sources:
   - { name: "RSI Spectrum - Star Citizen Alpha 4.10.3 LIVE - Hotfix Central (Updated 11.19.2026)", url: "https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-4-10-live-hotfix-central" }
   - { name: "Crimson Desert - Patch Notes Version 2.05.01 (All Platforms Hotfix)", url: "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=161" }
   - { name: "PlayStation Universe - Crimson Desert Update 2.05.01", url: "https://www.psu.com/news/crimson-desert-update-2-05-01-improves-inventory-so-you-can-now-examine-treasure-maps-directly-from-it-full-patch-notes-listed/" }
+  - { name: "NVIDIA - GeForce Hotfix Display Driver version 621.35", url: "https://nvidia.custhelp.com/app/answers/detail/a_id/5940" }
+  - { name: "NVIDIA Customer Care on X - GeForce Hotfix Driver v621.35", url: "https://x.com/nvidiacc/status/2123899436892033037" }
 ---
 Hey everyone! Friday's wrapping up, so here are a few more things from around the 'verse and beyond that are worth a quick look before the weekend.
 
@@ -32,4 +34,8 @@ CIG moved [client hotfix 13220821](https://robertsspaceindustries.com/spectrum/c
 
 Pearl Abyss pushed [Crimson Desert patch 2.05.01](https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=161) to Steam, PlayStation, Xbox and Epic, with the Mac App Store version coming later. The handiest change: Treasure Maps, Wanted Posters and books can now be examined straight from the inventory through View Details, though a book stays locked until you've learned its knowledge. The camera on the dye and haircut screens can now be dragged from anywhere on screen, and the character's upper body moves more naturally when you start walking. The rest is fixes, including Kutum not attacking, quest items you couldn't get while building the Flame Knights' Castle and Drakesfall Castle, and a Kuku Pot bug that deleted extra copies when you discarded several at once, per the patch notes and [PlayStation Universe](https://www.psu.com/news/crimson-desert-update-2-05-01-improves-inventory-so-you-can-now-examine-treasure-maps-directly-from-it-full-patch-notes-listed/).
 
-**PPR take:** Doubling turret HP is the right call. Crewed ships should feel like crewed ships, not a turret that pops in three seconds. Six passes in and CIG is still asking for feedback....that's how it should work. As for Aegis day, the military look is always fun to walk around in....even if the Lib's not going anywhere..lol. And if the Vulkan crash has been dumping you mid-IAE, the Thursday client hotfix is on LIVE now....worth a launcher check. A Kuku Pot that eats your stuff? That's one sneaky pot. 😆
+<h2 id="nvidia-geforce-hotfix-driver-621-35">NVIDIA's GeForce Hotfix Driver 621.35 stops excessive nvlog writes</h2>
+
+NVIDIA posted [GeForce Hotfix Driver v621.35](https://nvidia.custhelp.com/app/answers/detail/a_id/5940) today, based on the latest Game Ready driver, with one fix: excessive writes to the file nvlog.nvlgstg that may run in the background. It's a hotfix, so it's optional, basically beta, and only worth grabbing if you're seeing that log-write issue. Everyone else can wait for the next official Game Ready driver, which NVIDIA says will include the fix.
+
+**PPR take:** Doubling turret HP is the right call. Crewed ships should feel like crewed ships, not a turret that pops in three seconds. Six passes in and CIG is still asking for feedback....that's how it should work. As for Aegis day, the military look is always fun to walk around in....even if the Lib's not going anywhere..lol. And if the Vulkan crash has been dumping you mid-IAE, the Thursday client hotfix is on LIVE now....worth a launcher check. A Kuku Pot that eats your stuff? That's one sneaky pot. 😆 And if your NVIDIA driver has been quietly writing to nvlog.nvlgstg in the background, the 621.35 hotfix is out....only grab it if you're actually seeing the issue.
