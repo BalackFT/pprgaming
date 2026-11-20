@@ -2,11 +2,13 @@
 image: "/images/posts/daily-roundup-2026-11-20-cover.webp"
 imageAlt: "PPRGaming Daily Roundup title card for November 20, 2026"
 title: "PPRGaming Daily Roundup – November 20, 2026"
-description: "Star Citizen's sixth ship TTK balancing pass buffs turrets and trims Size 2 shields, IAE 2956 Day 8 belongs to Aegis, a 4.10.3 client hotfix targets the top Vulkan crash, Crimson Desert's 2.05.01 hotfix lets you examine treasure maps from your inventory, and NVIDIA issued GeForce Hotfix Driver 621.35 for excessive nvlog writes."
+description: "A BioWare Edmonton staffer says today is the studio's last day, a month after EA announced the closure. Also: Star Citizen's sixth ship TTK balancing pass, IAE 2956 Day 8, a 4.10.3 Vulkan crash hotfix, Crimson Desert 2.05.01, and NVIDIA GeForce Hotfix Driver 621.35."
 date: 2026-11-20T16:52:00-05:00
 category: news
-tags: [daily roundup, star citizen, alpha 5.0, 4.10.3, iae 2956, aegis, crimson desert, pearl abyss, nvidia]
+tags: [daily roundup, bioware, mass effect, star citizen, alpha 5.0, 4.10.3, iae 2956, aegis, crimson desert, pearl abyss, nvidia]
 sources:
+  - { name: "Devon Gardner on X - Today is BioWare's last day", url: "https://x.com/devonkgardner/status/2123902125063483554" }
+  - { name: "BioWare Blog - BioWare Update", url: "https://blog.bioware.com/2026/10/21/bioware-update/" }
   - { name: "RSI Spectrum - [5.0 PTU Feedback] Ship TTK Balancing Update #6 (Shark-CIG)", url: "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/5-0-ptu-feedback-ship-ttk-balancing-update-6" }
   - { name: "Star Citizen on X - Dedicated To Excellence, Day 8 of IAE 2956", url: "https://x.com/RobertsSpaceInd/status/2123810971189723313" }
   - { name: "RSI - IAE 2956", url: "https://robertsspaceindustries.com/en/iae2956" }
@@ -16,7 +18,11 @@ sources:
   - { name: "NVIDIA - GeForce Hotfix Display Driver version 621.35", url: "https://nvidia.custhelp.com/app/answers/detail/a_id/5940" }
   - { name: "NVIDIA Customer Care on X - GeForce Hotfix Driver v621.35", url: "https://x.com/nvidiacc/status/2123899436892033037" }
 ---
-Hey everyone! Friday's wrapping up, so here are a few more things from around the 'verse and beyond that are worth a quick look before the weekend.
+Hey everyone. Friday's wrapping up with news from around the 'verse and beyond, but I'm starting with a heavy one.
+
+<h2 id="bioware-last-day">Today is BioWare's last day, a staffer says</h2>
+
+Devon Gardner, who lists himself as Consumer Products Licensing Manager at BioWare Edmonton, [posted](https://x.com/devonkgardner/status/2123902125063483554) this afternoon: "Today is BioWare's last day. It's a heavy day, but happy for the ride." And then: "You did good, son." That's a staff post, not an EA statement. The line is Admiral Anderson's, to Shepard, at the end of Mass Effect 3. EA [announced](https://blog.bioware.com/2026/10/21/bioware-update/) on October 21 that it was [closing the studio](/news/bioware-closing-ea-mass-effect-cancelled/) and ending early work on the next Mass Effect, after 31 years. Baldur's Gate, Knights of the Old Republic, Mass Effect, Dragon Age: those games are why so many of us are here. Thoughts with everyone who built them, and everyone whose last day is today.
 
 <h2 id="star-citizen-ttk-balancing-update-6">Star Citizen's sixth ship TTK pass doubles turret health and trims Size 2 shields</h2>
 
@@ -38,4 +44,4 @@ Pearl Abyss pushed [Crimson Desert patch 2.05.01](https://crimsondesert.pearlaby
 
 NVIDIA posted [GeForce Hotfix Driver v621.35](https://nvidia.custhelp.com/app/answers/detail/a_id/5940) today, based on the latest Game Ready driver, with one fix: excessive writes to the file nvlog.nvlgstg that may run in the background. It's a hotfix, so it's optional, basically beta, and only worth grabbing if you're seeing that log-write issue. Everyone else can wait for the next official Game Ready driver, which NVIDIA says will include the fix.
 
-**PPR take:** Doubling turret HP is the right call. Crewed ships should feel like crewed ships, not a turret that pops in three seconds. Six passes in and CIG is still asking for feedback....that's how it should work. As for Aegis day, the military look is always fun to walk around in....even if the Lib's not going anywhere..lol. And if the Vulkan crash has been dumping you mid-IAE, the Thursday client hotfix is on LIVE now....worth a launcher check. A Kuku Pot that eats your stuff? That's one sneaky pot. 😆 And if your NVIDIA driver has been quietly writing to nvlog.nvlgstg in the background, the 621.35 hotfix is out....only grab it if you're actually seeing the issue.
+**PPR take:** That's a hard way to close a Friday. Those games meant a lot to a lot of people. Thoughts with everyone whose last day is today. As for the rest of the day: doubling turret HP is the right call. Crewed ships should feel like crewed ships, not a turret that pops in three seconds. Six passes in and CIG is still asking for feedback....that's how it should work. As for Aegis day, the military look is always fun to walk around in....even if the Lib's not going anywhere..lol. And if the Vulkan crash has been dumping you mid-IAE, the Thursday client hotfix is on LIVE now....worth a launcher check. A Kuku Pot that eats your stuff? That's one sneaky pot. 😆 And if your NVIDIA driver has been quietly writing to nvlog.nvlgstg in the background, the 621.35 hotfix is out....only grab it if you're actually seeing the issue.
