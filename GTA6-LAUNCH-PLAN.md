@@ -103,3 +103,5 @@ Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope 
 - Nov 19, ~6 PM ET: Built the GTA 6 Tips & Tricks page (15 sourced, spoiler-free tips) at /gta-6/tips/; hub and homepage tiles link to it. See the Standing section above for how batches keep it fresh. X announcement post drafted for James, not posted.
 
 - Nov 20, 8 AM ET batch (~7:30 AM): Published gta-6-sensor-tower-2-36-billion-24-6-million-launch-estimate (Sensor Tower estimate via Deadline/BBC/Reuters/CNBC/USA Today, clearly labeled as estimates; Rockstar/Take-Two still no official numbers, only "unprecedented"). Hub/homepage: Vintage Vice City Pack wording moved to past tense, Metacritic now 99 from 158 critic reviews. Not added to hub facts: sales (estimate, not official). Still no official patch notes. Nothing posted to X.
+
+- Nov 20, 1 PM ET batch (~12:35 PM): Published gta-6-the-album-out-now-34-tracks-dua-lipa-travis-scott-lana-del-rey (Rockstar X post 9:00 AM ET "NOW AVAILABLE", 34 tracks via Atlantic). Not added to hub facts. Still no official patch notes or official sales numbers; no new sourced tips. Nothing posted to X.
