@@ -25,6 +25,7 @@ Every post on @PPRGamers (news drips, breaking posts, SOTD, replies, the Roundup
 - **When he's making an argument, he goes long and talks it through,** often hitting the character limit with spoken connectors like "Think about it," and "I mean right now,". That's the exception. Short is the default.
   - "Genesis is so much of a change, I really don't blame them. Think about it, the way planets are generated and populated and the way the additional servers are being set up make this an actual complete change to the game."
   - "I get it but its just an internal name change to their own content flow."
+  - **A structured pushback opens "Couple of thoughts. First, ..."** and puts caps only on the hinge words, then states where his line is (Nov 20, on a rumored SC reputation boost): "I'll tell you this, as [a] 2013 back[er] who has pretty much been an Imperator subscriber the entire time, I do NOT back any reputation boost. Claim cost and claim time I can be OK with AFTER 1.0. But not anything" (it ran out of room mid-thought; he didn't trim to fit).
 - **Sentences are spoken, not composed.** He uses run-ons and loose grammar, and a thought often trails off instead of wrapping up neatly.
   - "Yeah, I think I'm gonna give up my IronchadAss and swoop up the Galaxy. I like the Chad but I don't do a ton of over 1k cargo. And besides, you can buy a Hull Hauler in-game now so I should be good."
 
@@ -81,6 +82,7 @@ Every post on @PPRGamers (news drips, breaking posts, SOTD, replies, the Roundup
   - "1000? How about 500? Or 300...lol."
 - **He ends on one reaction emoji, or none.** (See Emoji below.)
 - **Often there's no closer at all.** The post just stops after the reaction: "Breathtaking!", "Change is in the air for sure!"
+- **He laughs at his own goofs instead of deleting them** (Nov 20): owning a typo in a follow-up reply, "\"OK0po-9\" - this is what happens when your cat walks on your keyboard...lol."; and after looking up a phrase someone used on him, "You ever read a phrase and think you know what it means..but look it up anyway? Yeah, that was me. 🤣" (a setup question answered by "Yeah, that was me." -- his own reply; the no-questions rule for reply drafts still stands).
 - **Deadpan two- or three-word replies are complete posts:** "The right thing." "🍻 We tried!" (Nov 16; note the reaction emoji up front there.)
 
 ### Word choice, slang and nicknames
@@ -145,6 +147,8 @@ Every post on @PPRGamers (news drips, breaking posts, SOTD, replies, the Roundup
   - **He brushes off a preachy take in five words:** "Now you're just being silly." (to a "take an actual girl to the beach instead" GTA reply).
   - **CIG cashing in on someone else's hype gets approval, not a jab:** "Smart marketing!" (on the $19 GTA-themed Neonwave bundle).
   - **A quote-post can be a player PSA with an @RobertsSpaceInd tag** when he's seen a bug himself: "This is definitely a thing...make sure not [to] grab anything off the grid while you are moving! @RobertsSpaceInd"
+- **Mock-reassurance sarcasm, then the straight point** (Nov 20 quote-post on identical-looking coverage): "Don't worry, its totally normal. No coordination whatsoever. This is why you need independent media and opinions." Two deadpan lines that mean the opposite, then one sincere sentence. Use rarely, for media/PR spin, never at players.
+- **Quote-then-verdict exit:** he pastes the other side's words (or a definition of them) in quotes, then the spaced " - " hinge and a shrug: "\"Emotionally stunted idiocracy = ...\" - Welp, I'm out..lol." (Nov 20, leaving a rage-bait exchange). "Welp" is his word for walking away; he disengages with a laugh rather than escalating.
 - **Somber: short, human, no jokes.** This is thin evidence: two posts.
   - "I listened to the ATC squawk...and then wished I hadn't. Thoughts go out the family."
   - "Have some heart NEWS PEOPLE." (to @ABC, for posting tragedy footage)
@@ -274,6 +278,8 @@ All of these come from X edit history or his own corrections.
 
 ---
 
+- **SC reputation boost (Nov 20):** he's against any paid/subscriber reputation boost; claim cost/claim time tweaks are OK with him only after 1.0. SC drafts on rep/subscriber perks should read that way.
+
 ## Changelog
 - Oct 28: guide created from 79 of his posts (median ~87 characters; 86% no hashtags; 52% first person; 28% dot runs); scope split SC voice vs. industry news; anti-bot checklist.
 - Nov 4: pro-CIG pushback lane; argued replies run long; no swearing in drafts.
@@ -291,3 +297,4 @@ All of these come from X edit history or his own corrections.
 - Nov 17 (nightly): "Too much fun...and now I'm sold." caption (sold on the Marauder); "$$$$" as a verb; "Woot! Way to go!"; skeptical TGA reply about an unreleased game's GOTY nod. No bot-draft edits today.
 - Nov 19 (nightly): GTA 6 launch-day lane (money/hype cynicism, not the game: "They made their money."); stacked incredulous questions for overblown takes ("De-toxify? I'm sorry?"); spaced " - " hinge; "Smart marketing!" for CIG's GTA-themed bundle; SC bug PSA quote-post. No bot-draft edits today.
 - Nov 13 (late): restructured style-first at James's request; removed approved bot replies from the evidence; corrected the "he drops the link when editing" note (the link was kept).
+- Nov 20 (nightly): 'Couple of thoughts. First,' structured pushback with caps on hinge words; mock-reassurance sarcasm ('Don't worry, its totally normal. No coordination whatsoever.'); quote-then-' - Welp, I'm out..lol.' exit; laughing at his own typo/goof ('Yeah, that was me. 🤣'); against SC rep boosts. No bot-draft edits today.
