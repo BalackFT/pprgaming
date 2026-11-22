@@ -1,0 +1,1 @@
+https://pprgaming.com/news/unreal-engine-6-drops-blueprints-early-access-verse-scene-graph-ai-conversion/ | Unreal Engine 6 won't have Blueprints at all, not even in Early Access, and Epic is betting on AI to move your UE5 project over
