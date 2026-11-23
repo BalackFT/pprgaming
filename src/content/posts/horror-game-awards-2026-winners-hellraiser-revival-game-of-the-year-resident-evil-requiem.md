@@ -44,4 +44,6 @@ I like this result. Requiem is the bigger game, and the fans clearly loved it, s
 
 Doug Bradley winning for Pinhead is the cool part for me. The man played that role in the films back in the late '80s, and he's still the voice people hear when they think of the Cenobites. Getting recognized for it in a game, decades later, is a great moment.
 
+Mrs. PPRGaming played both Requiem and Hellraiser on the PS5, and her vote goes to Resident Evil. She still thought Hellraiser was good, just with a lot of S&M. That's Hellraiser for you. She also played Silent Hill: Townfall and calls it the best of the recent Silent Hill games, though not on Requiem's level.
+
 REANIMAL going 1 for 10 stings a little, though. Leading the nominations and leaving with one trophy happens, but Tarsier deserved better. And with The Game Awards still not giving horror its own category, the Horror Game Awards keep earning their spot on the calendar.
