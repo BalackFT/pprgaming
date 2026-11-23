@@ -18,7 +18,7 @@ sources:
   - { name: "PPRGaming - GTA 6 has a 99 from critics and a 5.6 from Metacritic users (Nov 22)", url: "https://pprgaming.com/news/gta-6-metacritic-user-score-5-6-review-bombing-critics-99-ps5-crashes/" }
   - { name: "Rockstar Games Customer Support - Grand Theft Auto VI Launch Updates (PS5 / Xbox Series X|S)", url: "https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/" }
 ---
-**Update (Nov 23, 10:55 AM ET):** Rockstar has now posted notes. At 9:42 AM ET [@RockstarSupport said](https://x.com/RockstarSupport/status/2124876263357648915) "a new update is now available" on PS5 and Xbox Series X|S, linking its [GTA VI Launch Updates page](https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/). Rockstar's notes don't list a version number. The November 23 entry says it:
+**Update (Nov 23, 10:45 AM ET):** Rockstar has now posted notes. At 9:42 AM ET [@RockstarSupport said](https://x.com/RockstarSupport/status/2124876263357648915) "a new update is now available" on PS5 and Xbox Series X|S, linking its [GTA VI Launch Updates page](https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/). Rockstar's notes don't list a version number. The November 23 entry says it:
 
 - Fixed several issues that caused the game to crash
 - Fixed weather not changing for extended periods
