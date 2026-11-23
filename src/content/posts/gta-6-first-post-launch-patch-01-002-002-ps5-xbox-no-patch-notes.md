@@ -16,7 +16,20 @@ sources:
   - { name: "VICE - GTA 6 Patch Update 01.002.002 Is Live on PS5 and Xbox Series X", url: "https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/" }
   - { name: "PlayStation Support - PS5 error code CE-108255-1", url: "https://www.playstation.com/en-us/support/error-codes/ps5/ce-108255-1/" }
   - { name: "PPRGaming - GTA 6 has a 99 from critics and a 5.6 from Metacritic users (Nov 22)", url: "https://pprgaming.com/news/gta-6-metacritic-user-score-5-6-review-bombing-critics-99-ps5-crashes/" }
+  - { name: "Rockstar Games Customer Support - Grand Theft Auto VI Launch Updates (PS5 / Xbox Series X|S)", url: "https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/" }
 ---
+**Update (Nov 23, 10:55 AM ET):** Rockstar has now posted notes. At 9:42 AM ET [@RockstarSupport said](https://x.com/RockstarSupport/status/2124876263357648915) "a new update is now available" on PS5 and Xbox Series X|S, linking its [GTA VI Launch Updates page](https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/). Rockstar's notes don't list a version number. The November 23 entry says it:
+
+- Fixed several issues that caused the game to crash
+- Fixed weather not changing for extended periods
+- Fixed the game not autosaving correctly
+- Fixed several issues with phone calls not triggering, including ones that progress the story or unlock mission content
+- Fixed players being unable to lose their Wanted Level
+- Fixed players being unable to use the deadlift bar in the gym
+- Fixed partners not handing over bags to sell to fences
+
+Rockstar doesn't name error CE-108255-1 specifically, so we still can't say whether that crash is fixed. The rest of this story is as published at 7:55 AM.
+
 **Four days after launch, GTA 6 has its first real update.** Rockstar dataminer Tex2 [flagged it on X](https://x.com/TexFunz2/status/2124804109022937382) just before 5 AM ET this morning: version **01.002.002** on PS5 and **1.0.2.2** on Xbox Series X|S. A few minutes later [he confirmed it was live](https://x.com/TexFunz2/status/2124806178047721848), at **603.8 MB on PS5 and 1.6 GB on Xbox**. [VICE](https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/) picked it up and calls it the first patch since the November 19 launch. The two before it, 01.002.000 and 01.002.001, both landed before release day.
 
 ## PS5 gets it in waves
