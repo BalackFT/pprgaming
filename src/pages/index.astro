@@ -20,7 +20,7 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
       <p class="hub-gta-links">{hub.starCitizenFeature.links.map((l,i)=>i===0 ? <a class="btn" href={l.url}>{l.text}</a> : <a href={l.url} rel="noopener">{l.text}</a>)}</p>
     </div>
     <div class="hub-half hub-gta">
-      <p class="gta-kicker">Out now · launch week</p>
+      <p class="gta-kicker">Out now · PS5 and Xbox Series X|S</p>
       <h2><a href="/gta-6/">GTA 6 Hub</a></h2>
       <GtaCountdown/>
       <div class="status">
@@ -38,9 +38,9 @@ const sc = all.filter(p=>p.data.starCitizen); const other = all.filter(p=>!p.dat
   <p class="small"><a href="/category/star-citizen/">All Star Citizen news →</a> · <a href="/category/squadron-42/">Squadron 42 →</a></p>
 </section>
 <section class="gta gta-teaser">
-  <p class="gta-kicker">GTA 6 launch week</p>
+  <p class="gta-kicker">GTA 6 · out now</p>
   <h2><a href="/gta-6/">Grand Theft Auto <em>VI</em>: launch facts, editions, the free map and every story</a></h2>
-  <p class="gta-lede">It's out now on PS5 and Xbox Series X|S. Unlocked in the US at 12:00 AM ET Thursday, Nov 19. The free printable poster and Leonida map are up on Rockstar's site.</p>
+  <p class="gta-lede">It's out now on PS5 and Xbox Series X|S, and Rockstar's first patch landed Monday, Nov 23. Sony says 39M+ players started it on PS5 in its first four days. The free printable poster and Leonida map are up on Rockstar's site.</p>
   <ul class="gta-links">{gta.map(p=><li><a href={`/news/${p.slug}/`}>{p.data.title}</a></li>)}</ul>
   <a class="btn" href="/gta-6/">Open the GTA 6 hub →</a> <a href="/gta-6/tips/">Tips &amp; Tricks (no spoilers) →</a>
 </section>

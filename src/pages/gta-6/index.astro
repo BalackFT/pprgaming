@@ -2,13 +2,13 @@
 import Base from '../../layouts/Base.astro'; import Card from '../../components/Card.astro'; import Ad from '../../components/Ad.astro'; import Newsletter from '../../components/Newsletter.astro';
 import { getCollection } from 'astro:content';
 import GtaCountdown from '../../components/GtaCountdown.astro';
-import { isGta6, UNLOCK_TIMES } from '../../gta6.js';
+import { isGta6 } from '../../gta6.js';
 const posts = (await getCollection('posts', p => !p.data.draft && isGta6(p))).sort((a,b)=>b.data.date-a.data.date);
 const latest = posts.slice(0,3); const rest = posts.slice(3);
 const L = (href, text) => ({ href, text });
 const confirmed = [
   { fact: 'GTA VI is out now on PlayStation 5 and Xbox Series X|S. It launched Thursday, November 19, 2026.', src: [L('https://x.com/RockstarGames/status/2123417684985495637','Rockstar on X'), L('https://www.rockstargames.com/VI','Rockstar'), L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two')] },
-  { fact: 'It unlocks at midnight local time, country by country. In the US that is one moment for everyone: 12:00 AM ET Thursday, which is 9:00 PM PT Wednesday.', src: [L('https://www.playstation.com/en-us/support/games/gta-vi-support/','PlayStation Support'), L('https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/','PlayStation Blog'), L('https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map','IGN, relaying Rockstar\'s list')] },
+  { fact: 'It unlocked at midnight local time, country by country. In the US that was one moment for everyone: 12:00 AM ET Thursday, November 19 (9:00 PM PT Wednesday).', src: [L('https://www.playstation.com/en-us/support/games/gta-vi-support/','PlayStation Support'), L('https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/','PlayStation Blog'), L('https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map','IGN, relaying Rockstar\'s list')] },
   { fact: 'Standard Edition is $79.99. The digital-only Ultimate Edition is $99.99. Boxed copies are code-in-box, with no disc.', src: [L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two'), L('https://www.playstation.com/en-us/support/games/gta-vi-support/','PlayStation Support')] },
   { fact: 'Anything bought before November 20 includes the Vintage Vice City Pack (the \'55 Vapid Stanier and garage, Jason and Lucia outfits and hairstyles, and a weapon pattern), so that offer closed after Thursday, November 19.', src: [L('https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-pre-orders-grand-theft-auto-vi/','Take-Two')] },
   { fact: 'Xbox Cloud Gaming is live on Xbox One and Series X|S. Microsoft said streaming would start at 1:00 AM ET on November 19, and Xbox\'s official game and store pages now list Grand Theft Auto VI as available and cloud playable on Xbox consoles, at Xbox Series S settings. The game is bought separately.', src: [L('https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/','Xbox Wire'), L('https://www.xbox.com/en-US/games/grand-theft-auto-vi','Xbox'), L('https://www.xbox.com/en-US/games/store/grand-theft-auto-vi/9nl3wwnzlzzn','Xbox Store')] },
@@ -32,34 +32,27 @@ const official = [
   L('https://ir.take2games.com/','Take-Two investor relations'),
 ];
 ---
-<Base title="GTA 6 Launch Week" image="/og-gta6.jpg" imageWidth={1200} imageHeight={630} imageAlt="Grand Theft Auto VI official key art with the text GTA 6 Launch Week, PPRGaming" description="Everything PPRGaming has on Grand Theft Auto VI: unlock times in ET, pre-load, editions and price, plus every story, updated through launch week.">
+<Base title="GTA 6 Hub" image="/og-gta6.jpg" imageWidth={1200} imageHeight={630} imageAlt="Grand Theft Auto VI official key art with the text GTA 6 Launch Week, PPRGaming" description="Everything PPRGaming has on Grand Theft Auto VI: official sales and player numbers, patches, editions and price, Xbox Cloud Gaming, tips, and every story we've written.">
 <section class="gta" id="gta-6">
-  <p class="gta-kicker">Launch week · Nov 17 to 23</p>
+  <p class="gta-kicker">Out now · PS5 and Xbox Series X|S</p>
   <h1>Grand Theft Auto <em>VI</em></h1>
-  <p class="gta-lede">It's out. GTA VI unlocked in the US at midnight Eastern on Thursday, Nov 19, and was already live in New Zealand and Europe. Xbox Cloud Gaming is up on Xbox One and Series X|S as well. Everything we have on it lives on this page. The facts up top are only things Rockstar, Sony or Microsoft have put in writing, and anything still unconfirmed is marked that way.</p>
+  <p class="gta-lede">GTA VI has been out since Thursday, Nov 19, on PS5 and Xbox Series X|S, with Xbox Cloud Gaming on Xbox One too. Rockstar's first patch landed Monday, Nov 23. Everything we have on it lives on this page. The facts up top are only things Rockstar, Sony or Microsoft have put in writing, and anything still unconfirmed is marked that way.</p>
   <GtaCountdown/>
   <div class="status gta-status">
     <div><b>Nov 19, 2026</b><span>PS5 and Xbox Series X|S</span></div>
-    <div><b>Out now in the US</b><span>Unlocked 12:00 AM ET, Thursday Nov 19</span></div>
+    <div><b>First patch out</b><span>Nov 23: crash, autosave and story phone call fixes</span></div>
     <div><b>$3.79B day one</b><span>Take-Two estimate through Nov 19, 32.5M sold pre-release</span></div>
     <div><b>39M+ PS5 players</b><span>Sony, Nov 19 to 22: biggest PlayStation launch ever</span></div>
     <div><b>Metacritic 99</b><span>Metascore from 158 critic reviews</span></div>
     <div><b>$79.99 / $99.99</b><span>Standard / Ultimate (digital only)</span></div>
-    <div><b>Cloud Gaming</b><span>Live on Xbox consoles from 1:00 AM ET</span></div>
+    <div><b>Cloud Gaming</b><span>Xbox One and Series X|S, at Series S settings</span></div>
     <div><b>PC: not announced</b><span>Nothing official from Rockstar</span></div>
   </div>
-  <p class="small gta-asof">Facts last checked 12:45 PM ET, Nov 23, 2026. Take-Two's official day-one sales added 3:50 PM ET, Nov 20. Sony's PS5 player numbers added 8:40 PM ET, Nov 23. We update this page through launch week.</p>
+  <p class="small gta-asof">Facts checked Nov 23, 2026, Metacritic rechecked Nov 24. Take-Two's day-one sales added Nov 20, Sony's PS5 player numbers added Nov 23, and Rockstar's first patch added Nov 23. We keep this page updated as Rockstar, Sony and Microsoft confirm more.</p>
   <p class="gta-tipsbox"><b>New: <a href="/gta-6/tips/">GTA 6 Tips &amp; Tricks (No Spoilers)</a></b>. Settings, camera, money, driving and the cops, each one sourced, plus the first-person workaround. No story, nothing you haven't played yet.</p>
 </section>
 
 {latest.length>0 && <><h2 class="sec">Latest GTA 6 stories</h2><div class="grid">{latest.map(p=><Card post={p}/>)}</div></>}
-
-<h2 class="sec" id="unlock">Unlock times in ET</h2>
-<p>Rockstar is unlocking the game at midnight local time in each country, so the US is one of the last places to get it. Players in New Zealand and Australia will be well into it by Wednesday morning for us. Expect spoilers in your feed from then on.</p>
-<div class="tbl-wrap"><table class="gta-tbl"><thead><tr><th>Where</th><th>Rockstar's unlock</th><th>In Eastern Time</th></tr></thead><tbody>
-{UNLOCK_TIMES.map(r=><tr class={r.us?'us':''}><td>{r.region}</td><td>{r.local}</td><td><b>{r.et}</b></td></tr>)}
-</tbody></table></div>
-<p class="small">Times converted from Rockstar's midnight-local schedule (<a href="https://in.ign.com/grand-theft-auto-vi/276047/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map" rel="noopener">IGN's table</a>, <a href="https://www.playstation.com/en-us/support/games/gta-vi-support/" rel="noopener">PlayStation Support</a>). Xbox Cloud Gaming opened separately at 1:00 AM ET Thursday.</p>
 
 <div class="gta-two">
   <section><h2 class="sec">Confirmed</h2><ul class="gta-list">{confirmed.map(c=><li>{c.fact} <span class="gta-src">{c.src.map((s,i)=><>{i>0 && ', '}<a href={s.href} rel="noopener" target="_blank">{s.text}</a></>)}</span></li>)}</ul></section>
