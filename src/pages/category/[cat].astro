@@ -2,10 +2,16 @@
 import Base from '../../layouts/Base.astro'; import Card from '../../components/Card.astro'; import Ad from '../../components/Ad.astro';
 import { getCollection } from 'astro:content'; import { CATEGORIES } from '../../site.js';
 export function getStaticPaths(){ return Object.keys(CATEGORIES).map(cat=>({params:{cat}})); }
+const CAT_DESC = {
+  'star-citizen': 'Star Citizen news and analysis from PPRGaming: patch notes, PTU builds, ship sales, Alpha 4.x updates and Invictus and IAE events.',
+  'squadron-42': 'Squadron 42 news from PPRGaming: release updates, development progress and what Cloud Imperium has actually shown so far.',
+  'releases': 'Game release news from PPRGaming: new launches, dates, updates, patches and delistings across PC, console and Switch 2.',
+  'industry': 'Gaming industry news from PPRGaming: studio changes, business deals, platform news and what they mean for players.',
+};
 const { cat } = Astro.params; const name = CATEGORIES[cat];
 const posts = (await getCollection('posts', p=>!p.data.draft && p.data.category===cat)).sort((a,b)=>b.data.date-a.data.date);
 ---
-<Base title={name} description={`Latest ${name} news on PPRGaming.`}>
+<Base title={name} description={CAT_DESC[cat] ?? `Latest ${name} news on PPRGaming.`}>
 <section class="hero"><h1>{name}</h1></section>
 {posts.length ? <div class="grid">{posts.map(p=><Card post={p}/>)}</div> : <p>No posts yet — check back soon.</p>}
 <Ad unit="category"/>

@@ -40,6 +40,7 @@ const gitDate = (...files) => {
 const STATIC = { about: ['src/pages/about.astro'], contact: ['src/pages/contact.astro'], privacy: ['src/pages/privacy.astro'],
   terms: ['src/pages/terms.astro'], support: ['src/pages/support.astro'], editorial: ['src/pages/editorial.astro'],
   gear: ['src/pages/gear.astro', 'src/gear.js'] };
+const GTA_TIPS = ['src/pages/gta-6/tips.astro'];
 
 function lastmodFor(url) {
   const p = new URL(url).pathname;
@@ -47,6 +48,7 @@ function lastmodFor(url) {
   if ((m = p.match(/^\/news\/([^/]+)\/$/))) return posts.get(m[1])?.date ?? null;
   if (p === '/') return newest([newestPost, newestShot]);
   if (p === '/news/') return newestPost;
+  if (p === '/gta-6/tips/') return gitDate(...GTA_TIPS);
   if (p === '/gta-6/') return newest(gtaDates);
   if ((m = p.match(/^\/category\/([^/]+)\/$/))) return newest(allPosts.filter((x) => x.category === m[1]).map((x) => x.date));
   if (p === '/screenshots/') return newestShot;

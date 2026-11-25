@@ -1,13 +1,17 @@
 ---
 import { SITE, CATEGORIES } from '../site.js';
 import '../styles.css';
-const { title, description = SITE.desc, image, imageAlt, imageWidth, imageHeight, type = 'website' } = Astro.props;
+const { title, description = SITE.desc, image, imageAlt, imageWidth, imageHeight, type = 'website', noindex = false, publishedTime, modifiedTime, section } = Astro.props;
 const t = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${SITE.full}`;
 const ogImage = new URL(image || '/og.png', SITE.url);
 // Dimensions are only stated for our own 1200x630 cards (default or an explicit size); post covers keep their natural size.
 const ogW = image ? imageWidth : 1200; const ogH = image ? imageHeight : 630;
 const ogAlt = imageAlt || (image ? t : 'PPRGaming: Star Citizen and gaming news');
 const canonical = new URL(Astro.url.pathname, SITE.url);
+const orgLd = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'Organization', '@id': `${SITE.url}/#org`, name: SITE.name, alternateName: SITE.full, url: `${SITE.url}/`, logo: { '@type': 'ImageObject', url: `${SITE.url}/logo.png` }, sameAs: [SITE.x] },
+  { '@type': 'WebSite', '@id': `${SITE.url}/#website`, name: SITE.name, url: `${SITE.url}/`, publisher: { '@id': `${SITE.url}/#org` } },
+] };
 const bookHref = SITE.amazonTag
   ? `${SITE.book.url}${SITE.book.url.includes('?') ? '&' : '?'}tag=${SITE.amazonTag}`
   : SITE.book.url;
@@ -18,12 +22,13 @@ const bookHref = SITE.amazonTag
 <script is:inline>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-37MW8FJNNR');</script>
 
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>{t}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
+<title>{t}</title><meta name="description" content={description}/>{noindex ? <meta name="robots" content="noindex,follow"/> : <meta name="robots" content="index,follow,max-image-preview:large"/>}{!noindex && <link rel="canonical" href={canonical}/>}
 <meta property="og:title" content={t}/><meta property="og:description" content={description}/><meta property="og:type" content={type}/>
-<meta property="og:url" content={canonical}/><meta property="og:image" content={ogImage}/>{ogW && <meta property="og:image:width" content={String(ogW)}/>}{ogH && <meta property="og:image:height" content={String(ogH)}/>}<meta property="og:image:alt" content={ogAlt}/><meta property="og:site_name" content={SITE.name}/>
+<meta property="og:url" content={canonical}/><meta property="og:image" content={ogImage}/>{ogW && <meta property="og:image:width" content={String(ogW)}/>}{ogH && <meta property="og:image:height" content={String(ogH)}/>}<meta property="og:image:alt" content={ogAlt}/><meta property="og:site_name" content={SITE.name}/><meta property="og:locale" content="en_US"/>{publishedTime && <meta property="article:published_time" content={publishedTime}/>}{modifiedTime && <meta property="article:modified_time" content={modifiedTime}/>}{section && <meta property="article:section" content={section}/>}
 <meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@PPRGamers"/><meta name="twitter:title" content={t}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={ogImage}/><meta name="twitter:image:alt" content={ogAlt}/>
 <link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" href="/favicon.png"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 <link rel="alternate" type="application/rss+xml" title="PPRGaming" href="/rss.xml"/>
+<script type="application/ld+json" set:html={JSON.stringify(orgLd)}></script>
 {SITE.adsenseClient && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>}
 </head><body>
 <header class="top"><div class="wrap nav">

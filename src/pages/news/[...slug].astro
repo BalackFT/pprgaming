@@ -9,10 +9,36 @@ const related = others.filter(p=>p.data.category===post.data.category).slice(0,3
 const tagSet = new Set(post.data.tags.map(t=>t.toLowerCase()));
 const isMatch = p => p.data.category===post.data.category || (post.data.starCitizen && p.data.starCitizen) || p.data.tags.some(t=>tagSet.has(t.toLowerCase()));
 const more = [...others.filter(isMatch), ...others.filter(p=>!isMatch(p))].slice(0,4);
-const ld = { '@context':'https://schema.org','@type':'NewsArticle',headline:post.data.title,datePublished:post.data.date.toISOString(),author:{'@type':'Organization',name:post.data.author ?? 'PPRGaming'},publisher:{'@type':'Organization',name:'PPRGaming'},description:post.data.description, ...(post.data.image?{image:new URL(post.data.image, SITE.url).href}:{}) };
+const modified = post.data.updatedDate ?? post.data.date;
+const url = `${SITE.url}/news/${post.slug}/`;
+const imgUrl = new URL(post.data.image || '/og.png', SITE.url).href;
+const catName = CATEGORIES[post.data.category] ?? post.data.category;
+const isGta = post.data.tags.some(t=>/^(gta[- ]?6|gta[- ]?vi|grand-theft-auto-vi)$/i.test(t)) || /\b(gta\s?(6|vi)|grand theft auto\s?(6|vi))\b/i.test(post.data.title);
+const hubs = [
+  ...(post.data.starCitizen ? [{ href: '/category/star-citizen/', label: 'Star Citizen Hub' }] : []),
+  ...(isGta ? [{ href: '/gta-6/', label: 'GTA 6 Hub' }, { href: '/gta-6/tips/', label: 'GTA 6 Tips & Tricks (No Spoilers)' }] : []),
+];
+const ld = {
+  '@context':'https://schema.org','@type':'NewsArticle',
+  mainEntityOfPage:{'@type':'WebPage','@id':url},
+  headline:post.data.title.length>110?post.data.title.slice(0,107).replace(/\s+\S*$/,'')+'…':post.data.title,
+  description:post.data.description,
+  image:[imgUrl],
+  datePublished:post.data.date.toISOString(), dateModified:modified.toISOString(),
+  author:post.data.author?{'@type':'Person',name:post.data.author}:{'@type':'Organization',name:'PPRGaming',url:SITE.url+'/'},
+  publisher:{'@type':'Organization',name:'PPRGaming',url:SITE.url+'/',logo:{'@type':'ImageObject',url:SITE.url+'/logo.png'}},
+  articleSection:catName,
+  ...(post.data.tags.length?{keywords:post.data.tags.join(', ')}:{}),
+};
+const crumbs = { '@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[
+  {'@type':'ListItem',position:1,name:'Home',item:SITE.url+'/'},
+  {'@type':'ListItem',position:2,name:catName,item:`${SITE.url}/category/${post.data.category}/`},
+  {'@type':'ListItem',position:3,name:post.data.title,item:url},
+]};
 ---
-<Base title={post.data.title} description={post.data.description} type="article" image={post.data.image}>
+<Base title={post.data.title} description={post.data.description} type="article" image={post.data.image} publishedTime={post.data.date.toISOString()} modifiedTime={modified.toISOString()} section={catName}>
 <script type="application/ld+json" set:html={JSON.stringify(ld)}></script>
+<script type="application/ld+json" set:html={JSON.stringify(crumbs)}></script>
 <div class="layout"><article class="post">
 <a class="tag" href={`/category/${post.data.category}/`}>{CATEGORIES[post.data.category]}</a>
 <h1>{post.data.title}</h1>
@@ -24,7 +50,7 @@ const ld = { '@context':'https://schema.org','@type':'NewsArticle',headline:post
 <div class="post-body"><Content/></div>
 {post.data.starCitizen && <div class="ref"><div>Starting Star Citizen? Referral code <code>{SITE.rsiReferral}</code> gets you bonus starting credits.</div><a class="btn" href="https://robertsspaceindustries.com/enlist?referral=STAR-KRBQ-RNS9" rel="nofollow">Enlist →</a></div>}
 {post.data.sources.length>0 && <div class="sources"><strong>Sources</strong><ul>{post.data.sources.map(s=><li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ul></div>}
-<section class="more-stories"><h2>More stories</h2><div class="grid grid-sm">{more.map(p=><Card post={p} compact/>)}</div><p class="small"><a href="/news/">All news →</a></p></section>
+<section class="more-stories"><h2>More stories</h2><div class="grid grid-sm">{more.map(p=><Card post={p} compact/>)}</div><p class="small"><a href="/news/">All news →</a>{hubs.map(h=><> · <a href={h.href}>{h.label} →</a></>)}</p></section>
 <Ad unit="article-bottom"/><Newsletter/>
 </article>
 <aside class="side"><Ad unit="sidebar" /><h3>Related</h3>{related.map(p=><Card post={p}/>)}</aside></div>
