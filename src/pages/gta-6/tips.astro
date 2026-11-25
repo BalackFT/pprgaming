@@ -42,6 +42,7 @@ const total = sections.reduce((n, s) => n + s.tips.length, 0);
   <h1>GTA 6 Tips &amp; <em>Tricks</em> (No Spoilers)</h1>
   <p class="gta-lede"><b>No spoilers, promise.</b> Nothing here touches the story, missions, characters or anywhere you haven't been yet. Just stuff that makes the game feel better to play. Every tip comes from someone who's played the released game, and the credit is right there with it. If one stops working after a patch, it comes down.</p>
   <p class="small gta-asof">Last updated {UPDATED}. {total} tips so far, with more added as good ones turn up.</p>
+  <p class="gta-tipsbox"><b>More GTA 6 guides:</b> <a href="/gta-6/ps5-vs-ps5-pro/">PS5 vs PS5 Pro performance and settings</a> · <a href="/gta-6/controls-accessibility/">Controls and accessibility options</a>. Same rules: sourced, no spoilers.</p>
   <p class="tips-jump">{sections.map((s,i)=><><a href={`#${s.id}`}>{s.title}</a>{sections.length-1>i && ' · '}</>)}</p>
 </section>
 

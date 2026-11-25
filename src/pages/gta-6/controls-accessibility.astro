@@ -1,0 +1,84 @@
+---
+// Evergreen GTA 6 guide: control schemes, remapping on PS5, and Rockstar's accessibility options. Spoiler-free and sourced.
+// Same rules as /gta-6/tips/: sourced, no story or mission content, James has NOT played GTA 6 (nothing first-person), GTA 6 is not on PC.
+// Primary source is Rockstar Support's accessibility article (updated Nov 23, 2026). If Rockstar updates it, re-check every bullet and bump UPDATED.
+import GuideLayout from '../../components/GuideLayout.astro';
+const PUBLISHED = '2026-11-25T14:00:00-05:00';
+const UPDATED = '2026-11-25T14:00:00-05:00';
+const UPDATED_TEXT = 'Nov 25, 2026';
+const TITLE = 'GTA 6 Controls and Accessibility Options Explained';
+const DESC = 'GTA 6 controls and accessibility, sourced: Default, Classic and Left-Handed schemes, PS5 button remapping, subtitles, colorblind modes, Auto Drive and more.';
+const LOG = [['Nov 25, 2026', 'Page created from Rockstar Support\'s Nov 23 accessibility article, GamesRadar, Centre for Accessibility Australia and PlayStation Support.']];
+const RS = 'https://support.rockstargames.com/articles/5g5CmDTne3WcpK7nsWsMR8/grand-theft-auto-vi-accessibility-features';
+const groups = [
+  ['Controller', ['Three control schemes: Default, Classic or Left-Handed.', 'Stick sensitivity and deadzone adjustment for look and aim, for both sticks.', 'Invert toggles for movement and look, plus underwater swimming, aircraft vertical control and 3D map rotation.', 'Vibration and haptics strength, and adaptive trigger vibration and resistance adjustments on PlayStation DualSense controllers.']],
+  ['Gameplay', ['Accessible combat, which adjusts enemy health and the damage they deal, and reduced vehicle damage (adjusts vehicle health).', 'Simplified minigames and interactions that need several inputs at once, such as exercising and hotwiring vehicles.', 'Lock-on types, Aim Assist strength, Shooting Assist for close targets and Drive-By Assist.', 'Auto Drive, which uses the cinematic camera in most situations to drive to a set destination. You can move it from Restricted to Unrestricted so it works in more situations.', 'Input assists: switch hold inputs to taps (for aiming or nitrous, for example), shorten hold times with a multiplier, switch taps to holds, and change the inputs for fishing reel and Focus Mode.']],
+  ['Display', ['Intensity adjustment for the effects tied to low health, being hit, and being near enemies or chased by police.', 'Motion blur adjustment for fast actions, and a dark flash option for flashbangs.', 'High-contrast shaders that highlight the player, allies, threats and interactions and darken the world, with adjustable opacity.', 'A brightness reduction filter that softens the overall brightness of scenes.']],
+  ['Interface', ['Colorblind modes, including an alternative for Focus Trails used in hunting.', 'Text size, HUD size, and the size of map, minimap and in-world markers.', 'Subtitle and closed-caption size, an adjustable background and speaker names.', 'A GPS turn indicator with optional voice or audio tones.', 'Reticle shape and size, a persistent center dot, a projectile path for throwables, and granular show/hide settings for the HUD.']],
+  ['Camera', ['Camera-follow speeds, vertical and horizontal, for scenarios like on foot or in vehicles.', 'Camera shake, bobbing and sway adjustments.']],
+  ['Audio', ['Volume by category (effects, UI, dialogue and more), a mono output toggle and a tinnitus reduction toggle for flashbang ringing.', 'Menu narration with adjustable volume, speed and voice, and audio descriptions for cinematics with adjustable volume. Both are English only.']],
+];
+const src = [
+  { name: 'Rockstar Support: Grand Theft Auto VI Accessibility Features (updated Nov 23, 2026)', url: RS },
+  { name: 'GamesRadar: How to get classic GTA 5 controls in GTA 6 (updated Nov 19, 2026)', url: 'https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/' },
+  { name: 'Centre for Accessibility Australia: Grand Theft Auto VI Accessibility Review (Nov 20, 2026)', url: 'https://www.accessibility.org.au/grand-theft-auto-vi-accessibility-review-what-works-and-what-needs-improving/' },
+  { name: 'PlayStation Support: How to use accessibility settings on PS5 consoles', url: 'https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/' },
+  { name: 'PlayStation Store: Grand Theft Auto VI, accessibility features list', url: 'https://www.playstation.com/en-us/games/grand-theft-auto-vi/' },
+];
+---
+<GuideLayout title={TITLE} description={DESC} path="/gta-6/controls-accessibility/" published={PUBLISHED} modified={UPDATED}
+  image="/og-gta6.jpg" imageWidth={1200} imageHeight={630} imageAlt="Grand Theft Auto VI official key art with the text GTA 6 Launch Week, PPRGaming"
+  crumbs={[{ name: 'GTA 6', href: '/gta-6/' }, { name: 'Tips & Tricks', href: '/gta-6/tips/' }]} section="GTA 6"
+  keywords={['gta 6 controls', 'gta 6 accessibility options', 'gta 6 classic controls', 'gta 6 remap buttons', 'gta 6 subtitles colorblind']}>
+<Fragment slot="head">
+  <section class="gta" id="gta-6-controls-accessibility">
+    <p class="gta-kicker"><a href="/gta-6/">GTA 6 hub</a> · <a href="/gta-6/tips/">Tips &amp; Tricks</a> · Controls</p>
+    <h1>GTA 6 Controls &amp; <em>Accessibility</em> Options</h1>
+    <p class="gta-lede"><b>Heads up: I haven't played GTA 6.</b> Everything here comes from Rockstar's own support page and the outlets linked in each section, not from my time with the game. No spoilers.</p>
+    <p class="small gta-asof">Last updated {UPDATED_TEXT}. Rockstar's accessibility article was last updated Nov 23, 2026.</p>
+  </section>
+</Fragment>
+
+<h2 class="sec">The short answer</h2>
+<ul>
+  <li><b>There are three control schemes:</b> Default, Classic and Left-Handed. You can pick one at first launch and change it any time in Settings.</li>
+  <li><b>You can't freely remap buttons in the game.</b> Rockstar's list doesn't include it, and the Centre for Accessibility Australia says the controls can't be remapped in game, so it points players to the PS5 and Xbox system settings. On PS5 that's a console feature, and the steps are below.</li>
+  <li><b>The accessibility list is big:</b> colorblind modes, adjustable subtitles with speaker names, accessible combat, Auto Drive, simplified minigames, high contrast, camera shake controls, mono audio, menu narration and audio descriptions.</li>
+</ul>
+
+<h2 class="sec">Default vs Classic vs Left-Handed</h2>
+<p>If your GTA 5 muscle memory fights the new layout, Classic is built for you. GamesRadar says to press the Options/Menu button, go to Settings and switch the scheme there. Per GamesRadar, in the Default scheme running is on L3 (the left stick click) and X/A is jump, with melee on Square/X. Classic changes four things:</p>
+<table class="guide-tbl"><thead><tr><th>Action</th><th>Default</th><th>Classic</th></tr></thead><tbody>
+<tr><td>Run / sprint</td><td>L3 (left stick click)</td><td>X / A</td></tr>
+<tr><td>Jump / climb</td><td>X / A</td><td>Square / X</td></tr>
+<tr><td>Melee</td><td>Square / X</td><td>Circle / B</td></tr>
+<tr><td>Crouch</td><td>Not listed by GamesRadar</td><td>L3</td></tr>
+</tbody></table>
+<p class="small">Table based on GamesRadar's Classic list and its description of the Default scheme. PlayStation button names first, then Xbox. I don't have a sourced list for the Left-Handed layout. Rockstar names it as a scheme but its article doesn't spell out the layout, so check the in-game control screen. Sources: <a href="https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/" rel="noopener" target="_blank">GamesRadar</a>, <a href={RS} rel="noopener" target="_blank">Rockstar Support</a>.</p>
+<h3>The dynamic HUD</h3>
+<p>GamesRadar says the standard Dynamic HUD hides non-essential info, so you press down on the d-pad to bring up things like the minimap, bank balances, and the health, stamina and focus bars. Each of those can be toggled in Settings, and Rockstar lists a large number of granular HUD visibility settings. Want the camera options too? Those are on our <a href="/gta-6/tips/#settings">tips page</a>.</p>
+
+<h2 class="sec">How to remap buttons on PS5</h2>
+<p>Since the game doesn't have free remapping, PlayStation's own steps are the way to go. From PlayStation Support: go to <b>Settings, Accessibility</b>, select <b>Controllers</b>, then <b>Custom Button Assignments for DualSense Wireless Controller</b>. Select the button you want to change, pick the function to assign, then select <b>Apply</b>. Xbox has its own system-level options too, but I only sourced PlayStation's steps, so check Microsoft's support pages for those. Source: <a href="https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/" rel="noopener" target="_blank">PlayStation Support</a>.</p>
+
+<h2 class="sec">Rockstar's accessibility options</h2>
+<p>Rockstar's support article sorts the options into six groups. They can all be set at first launch and changed later in Settings. Here's the list, in plain language, straight from <a href={RS} rel="noopener" target="_blank">Rockstar Support</a>.</p>
+{groups.map(([name, items]) => <>
+  <h3>{name}</h3>
+  <ul>{items.map(i => <li>{i}</li>)}</ul>
+</>)}
+<div class="callout cyan">
+  <p><b>Good to know from an outside review.</b> The Centre for Accessibility Australia says the game asks at first launch whether you want the built-in screen reader, and that the Accessibility section sits in the Gameplay tab with 15 options. It also says the screen reader only works in the pause menu and on the map and story progress screens, and doesn't read out landmark info on the map. They call it good but limited in practice. They conclude Rockstar "put effort into making this game accessible." Source: <a href="https://www.accessibility.org.au/grand-theft-auto-vi-accessibility-review-what-works-and-what-needs-improving/" rel="noopener" target="_blank">Centre for Accessibility Australia</a>.</p>
+</div>
+
+<h2 class="sec">PS5 system options that stack with the game's</h2>
+<p>Your console has its own accessibility settings under Settings, Accessibility. PlayStation lists Zoom, a color filter under Display and Sound, closed captions, a screen reader and Mono Audio for headphones among them. PlayStation's store page for the game also lists the accessibility features it declares for GTA 6, and you can view those from the game's hub in the PlayStation Store. Source: <a href="https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/" rel="noopener" target="_blank">PlayStation Support</a>.</p>
+
+<h2 class="sec">PC?</h2>
+<p>Rockstar hasn't announced a PC version of GTA 6, so these options are for PS5 and Xbox Series X|S only.</p>
+
+<p class="small">Looking for performance and display settings? See <a href="/gta-6/ps5-vs-ps5-pro/">GTA 6 on PS5 vs PS5 Pro</a>. More sourced tips are on the <a href="/gta-6/tips/">Tips &amp; Tricks page</a>, and launch facts are on the <a href="/gta-6/">GTA 6 hub</a>.</p>
+<h2 class="sec">Update log</h2>
+<ul>{LOG.map(([d, t]) => <li><b>{d}:</b> {t}</li>)}</ul>
+<div class="sources"><strong>Sources</strong><ul>{src.map(s => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ul></div>
+</GuideLayout>

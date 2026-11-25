@@ -16,7 +16,7 @@ const catName = CATEGORIES[post.data.category] ?? post.data.category;
 const isGta = post.data.tags.some(t=>/^(gta[- ]?6|gta[- ]?vi|grand-theft-auto-vi)$/i.test(t)) || /\b(gta\s?(6|vi)|grand theft auto\s?(6|vi))\b/i.test(post.data.title);
 const hubs = [
   ...(post.data.starCitizen ? [{ href: '/category/star-citizen/', label: 'Star Citizen Hub' }, { href: '/star-citizen/current-patch/', label: 'Current Patch' }, { href: '/star-citizen/beginners-guide/', label: 'Beginner\'s Guide' }] : []),
-  ...(isGta ? [{ href: '/gta-6/', label: 'GTA 6 Hub' }, { href: '/gta-6/tips/', label: 'GTA 6 Tips & Tricks (No Spoilers)' }] : []),
+  ...(isGta ? [{ href: '/gta-6/', label: 'GTA 6 Hub' }, { href: '/gta-6/tips/', label: 'GTA 6 Tips & Tricks (No Spoilers)' }, { href: '/gta-6/ps5-vs-ps5-pro/', label: 'PS5 vs PS5 Pro' }, { href: '/gta-6/controls-accessibility/', label: 'Controls & Accessibility' }] : []),
 ];
 const ld = {
   '@context':'https://schema.org','@type':'NewsArticle',

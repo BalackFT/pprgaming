@@ -1,0 +1,82 @@
+---
+// Evergreen GTA 6 guide: PS5 vs PS5 Pro performance and the settings that matter. Spoiler-free and sourced.
+// Rules (same as /gta-6/tips/): every claim needs a credible source published since launch (Nov 19, 2026). James has NOT played GTA 6, so nothing here is first-person.
+// No story, mission, ending or character content. No leaked-build content. GTA 6 is not on PC (Rockstar has not announced a PC version).
+// When Rockstar patches performance or adds settings, update the facts, bump UPDATED, and add a line to LOG.
+import GuideLayout from '../../components/GuideLayout.astro';
+const PUBLISHED = '2026-11-25T14:00:00-05:00';
+const UPDATED = '2026-11-25T14:00:00-05:00';
+const UPDATED_TEXT = 'Nov 25, 2026';
+const TITLE = 'GTA 6 PS5 vs PS5 Pro: Performance, Settings and Modes';
+const DESC = 'GTA 6 on PS5 vs PS5 Pro: resolution, frame rate, ray tracing, why there is no performance mode, and the display setting worth changing. Sourced.';
+const LOG = [['Nov 25, 2026', 'Page created from Digital Foundry\'s Nov 18 testing, Rockstar\'s statements, Engadget and Rockstar Support.']];
+const DF = 'https://www.digitalfoundry.net/features/gta-6-ps5-vs-ps5-pro-xbox-series-x-and-series-s-which-console-plays-best';
+const rows = [
+  ['PS5 Pro', '1440p, upscaled to 4K with PSSR', 'Ray-traced global illumination and reflections, plus ray-traced shadows', 'Held 30fps through about 75 hours of testing. Worst case 24fps, briefly, with a grenade launcher on vehicles.'],
+  ['PS5', '1440p, spatial upscale to 4K', 'Ray-traced global illumination and reflections. Shadow maps instead of ray-traced shadows.', '30fps target with dips into the high 20s. Worst case into the low 20s in vehicle destruction.'],
+  ['Xbox Series X', '1440p, spatial upscale to 4K', 'Same as base PS5', '30fps target with minor dips. Can run in a 120Hz VRR container at the system level.'],
+  ['Xbox Series S', '720p internal, about 1080p output with FSR 4', 'Ray-traced global illumination and reflections kept, softer and lower-res', 'Loosest 30fps. Often mid to high 20s, around 20fps in vehicle destruction.'],
+];
+const src = [
+  { name: 'Digital Foundry: GTA 6, PS5 vs PS5 Pro, Xbox Series X and Series S: Which Console Plays Best? (Nov 18, 2026)', url: DF },
+  { name: 'Polygon: GTA 6 won\'t be getting a future performance mode, even on PS5 Pro (Nov 18, 2026), quoting Rockstar\'s Marc Chambers to Kotaku', url: 'https://www.polygon.com/gta-6-30-fps-locked-ps5-pro-performance/' },
+  { name: 'Game Informer: Grand Theft Auto VI will run at 30 FPS on all consoles (Nov 10, 2026)', url: 'https://gameinformer.com/2026/11/10/grand-theft-auto-vi-will-run-at-30-fps-on-all-consoles-but-ps5-pro-will-feature-improved' },
+  { name: 'Engadget: How to adjust and turn off motion blur in GTA 6 (Nov 19, 2026)', url: 'https://www.engadget.com/2321944/gta-6-how-to-adjust-turn-off-blur-motion/' },
+  { name: 'Rockstar Support: Grand Theft Auto VI Accessibility Features (updated Nov 23, 2026)', url: 'https://support.rockstargames.com/articles/5g5CmDTne3WcpK7nsWsMR8/grand-theft-auto-vi-accessibility-features' },
+  { name: 'Rockstar Support: Grand Theft Auto VI Launch Updates (updated Nov 23, 2026)', url: 'https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/' },
+];
+---
+<GuideLayout title={TITLE} description={DESC} path="/gta-6/ps5-vs-ps5-pro/" published={PUBLISHED} modified={UPDATED}
+  image="/og-gta6.jpg" imageWidth={1200} imageHeight={630} imageAlt="Grand Theft Auto VI official key art with the text GTA 6 Launch Week, PPRGaming"
+  crumbs={[{ name: 'GTA 6', href: '/gta-6/' }, { name: 'Tips & Tricks', href: '/gta-6/tips/' }]} section="GTA 6"
+  keywords={['gta 6 ps5 vs ps5 pro', 'gta 6 performance mode', 'gta 6 30fps', 'gta 6 best settings ps5', 'gta 6 motion blur']}>
+<Fragment slot="head">
+  <section class="gta" id="gta-6-ps5-vs-pro">
+    <p class="gta-kicker"><a href="/gta-6/">GTA 6 hub</a> · <a href="/gta-6/tips/">Tips &amp; Tricks</a> · Performance</p>
+    <h1>GTA 6 on PS5 vs <em>PS5 Pro</em>: Performance and Settings</h1>
+    <p class="gta-lede"><b>Heads up: I haven't played GTA 6.</b> This isn't my take on how it feels, it's what Rockstar and the outlets who tested it have said, and every section names its source. No spoilers, nothing from the story.</p>
+    <p class="small gta-asof">Last updated {UPDATED_TEXT}. We update this if Rockstar patches performance or adds settings.</p>
+  </section>
+</Fragment>
+
+<h2 class="sec">The short answer</h2>
+<ul>
+  <li><b>Every console version targets 30fps.</b> Rockstar confirmed that on November 10 (Game Informer), and Digital Foundry says there is no 40fps or 60fps mode on any platform.</li>
+  <li><b>The PS5 Pro is the best version.</b> It renders at the same 1440p as the base PS5, but PSSR upscales it to 4K and it adds ray-traced shadows. Digital Foundry calls it the best option available, with a steadier 30.</li>
+  <li><b>There's no performance mode to switch on, and none is coming.</b> Rockstar told Kotaku the game won't get one, even on the Pro (reported by Polygon).</li>
+  <li><b>Base PS5 is fine, but looser.</b> Digital Foundry saw small dips in regular play and bigger ones when vehicles blow up.</li>
+</ul>
+<p>No performance mode, even on a Pro. Rockstar's reason is the processor, not the price tag..lol.</p>
+
+<h2 class="sec">PS5 vs PS5 Pro vs Xbox, side by side</h2>
+<p>All numbers below are from Digital Foundry's testing, which they say covered more than 100 hours across the four consoles.</p>
+<table class="guide-tbl"><thead><tr><th>Console</th><th>Resolution</th><th>Ray tracing</th><th>Frame rate (30fps target)</th></tr></thead><tbody>
+{rows.map(([a, b, c, d]) => <tr><td><b>{a}</b></td><td>{b}</td><td>{c}</td><td>{d}</td></tr>)}
+</tbody></table>
+<p class="small">The "worst case" is Digital Foundry's stress test with a grenade launcher on vehicles. They say that is not representative of normal play. Source: <a href={DF} rel="noopener" target="_blank">Digital Foundry</a>.</p>
+
+<h2 class="sec">Why is there no 60fps mode?</h2>
+<p>Rockstar's technology production director Marc Chambers told Kotaku the base presentation uses ray-traced reflections and global illumination, and that on PS5 Pro it adds ray-traced shadows and PSSR for clarity. His reason for the frame rate: the Pro's graphics chip and upscaler are upgraded, but <i>"the PS5 Pro's central processor is slightly better than the PS5 base console, it is not powerful enough to run the game's complex simulation at higher frame rates."</i> Source: <a href="https://www.polygon.com/gta-6-30-fps-locked-ps5-pro-performance/" rel="noopener" target="_blank">Polygon</a>. We covered it when it broke in <a href="/news/gta-6-no-60fps-ps5-pro-rockstar-cpu-not-powerful-enough/">our story</a>.</p>
+
+<h2 class="sec">The settings that actually matter</h2>
+<p>Digital Foundry calls motion blur "one of the few settings in the game." Here's what you can and can't change on PS5.</p>
+<h3>Motion Blur Strength: the one to try</h3>
+<p>Pause, go to Settings, then the Display tab (Engadget says use the right shoulder button to get there). Under the visual effects heading you'll find <b>Motion Blur Strength</b>, a slider that defaults to <b>3 out of 10</b>. Set it to 0 to turn blur off. Digital Foundry says higher settings look smoother and lower settings look clearer, and Engadget notes that at lower frame rates a little blur can smooth out jittery camera moves, so try a notch or two before you go to zero. If blur makes you queasy, <a href="/gta-6/controls-accessibility/">the accessibility options</a> include more ways to calm the screen down. Sources: <a href="https://www.engadget.com/2321944/gta-6-how-to-adjust-turn-off-blur-motion/" rel="noopener" target="_blank">Engadget</a>, <a href={DF} rel="noopener" target="_blank">Digital Foundry</a>.</p>
+<h3>Vignetting: no slider, so don't go hunting</h3>
+<p>Digital Foundry says other post-processing, like depth of field and vignetting, can't be adjusted. It adds that Rockstar says it recently identified an issue that made the vignette look stronger than intended. Rockstar's November 23 patch notes list crash, weather, autosave and Wanted Level fixes, and don't mention vignetting or performance. Sources: <a href={DF} rel="noopener" target="_blank">Digital Foundry</a>, <a href="https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/" rel="noopener" target="_blank">Rockstar Support</a>.</p>
+<h3>VRR and 120Hz on PlayStation: leave them alone</h3>
+<p>Digital Foundry says PlayStation has no 120Hz option, and that while you can force VRR on, the PS5's system-level VRR only works above 48fps and has no low frame-rate compensation. In a 30fps game, that means it does nothing. Xbox is different: consoles there can run the game in a 120Hz VRR container, which DF says gives a slightly smoother experience.</p>
+<h3>Screen comfort options</h3>
+<p>Rockstar's accessibility list includes adjustments for how intense the low-health, hit and police-chase screen effects are, camera shake, bobbing and sway adjustments, a high-contrast mode and a brightness reduction filter. We break those down on the <a href="/gta-6/controls-accessibility/">controls and accessibility page</a>. Source: <a href="https://support.rockstargames.com/articles/5g5CmDTne3WcpK7nsWsMR8/grand-theft-auto-vi-accessibility-features" rel="noopener" target="_blank">Rockstar Support</a>.</p>
+
+<h2 class="sec">So which console should you play on?</h2>
+<p>Digital Foundry's verdict: the PS5 Pro is the best option, with solid frame rates, 4K-like image quality and a visual upgrade from the ray-traced shadows. The game "looks and plays well" on base PS5 and Series X too, with occasional minor drops and a softer 1440p image. Series S is the hardest to recommend, with frame rates dropping into the mid-20s and a long list of visual cutbacks.</p>
+
+<h2 class="sec">What about PC?</h2>
+<p>Rockstar hasn't announced a PC version of GTA 6. That means there are no PC graphics settings to tune, and you can skip any "best PC settings" guide you run into. This page covers PS5 and Xbox only.</p>
+
+<p class="small">More tested tips (camera, money, driving and the cops) are on the <a href="/gta-6/tips/">GTA 6 Tips &amp; Tricks page</a>. Launch facts, sales numbers and the poster are on the <a href="/gta-6/">GTA 6 hub</a>.</p>
+<h2 class="sec">Update log</h2>
+<ul>{LOG.map(([d, t]) => <li><b>{d}:</b> {t}</li>)}</ul>
+<div class="sources"><strong>Sources</strong><ul>{src.map(s => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ul></div>
+</GuideLayout>
