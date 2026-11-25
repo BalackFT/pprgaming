@@ -1,0 +1,119 @@
+---
+// RUNNING PAGE: one stable URL, updated in place with every Star Citizen release. Do NOT create a new page per patch.
+// UPDATE CHECKLIST for each Live patch / new PTU build / hotfix:
+//   1) bump UPDATED + UPDATED_TEXT and add a line to LOG (newest first)
+//   2) refresh the `glance` rows (Live, PTU, next) and the TITLE if the Live version changed (keep <= 58 chars; the site adds " | PPRGaming")
+//   3) when a new version goes Live: move the old "Live" block to a "Previous" block and add a new top block
+//   4) add the new PTU build row to `ptuBuilds` and link our story for it
+// Only list things RSI has said (Spectrum patch notes, Comm-Links, status page, Release View). Mark anything else as unconfirmed.
+import GuideLayout from '../../components/GuideLayout.astro';
+const PUBLISHED = '2026-11-25T14:00:00-05:00';
+const UPDATED = '2026-11-25T14:00:00-05:00';
+const UPDATED_TEXT = 'Nov 25, 2026';
+const TITLE = "Star Citizen Current Patch: What's in 4.10.3 and 5.0 PTU";
+const DESC = "What's in Star Citizen's current patch: Live Alpha 4.10.3, the Alpha 5.0 PTU, hotfixes and past versions. One page, updated every release.";
+const LOG = [
+  ['Nov 25, 2026', 'Page created. Live is 4.10.3 (client hotfix 13220821). PTU is 5.0 build 13273298.'],
+];
+const glance = [
+  ['Live', 'Alpha 4.10.3', 'Live since Nov 12. Client hotfix 13220821 on Nov 19.'],
+  ['PTU', 'Alpha 5.0, build 13273298', 'Wave 3 testers, US-only. Committed for Q4 2026, no Live date yet.'],
+  ['Event', 'IAE 2956', 'In New Babbage through Nov 27, with Free Fly the whole time.'],
+];
+const ptuBuilds = [
+  ['13119881', 'Nov 6', 'Wave 1', 'First 5.0 PTU: Guild Halls and mission boards on Nyx I, environment and weather pass.', '/news/star-citizen-alpha-5-0-ptu-13119881-nyx-guild-halls-mission-boards/'],
+  ['13189690', 'Nov 15', 'Wave 1', 'Weekend TTK balance pass and the Squadron 42 missile lock interface.', '/news/star-citizen-alpha-5-0-ptu-13189690-ttk-balance-missile-lock-squadron-42/'],
+  ['13201184', 'Nov 16', 'Wave 1', 'Inventory volume rework (armor and magazines), VR theater mode rebuild, Nyx I guild reputation setup.', '/news/star-citizen-alpha-5-0-ptu-13201184-inventory-overhaul-vr-theater-mode/'],
+  ['13238477', 'Nov 19', 'Wave 3', 'Rebuilt freight elevators at Starchitect pads, loot tuning, planet scatter stops snagging ships.', '/news/star-citizen-alpha-5-0-ptu-13238477-freight-elevators-loot-scatter-collision/'],
+  ['13248297', 'Nov 20', 'Wave 3', 'Lightning follows cloud cover, new Nyx I settlements, rain audible inside ships, VOIP fix.', '/news/star-citizen-alpha-5-0-ptu-13248297-lightning-rework-nyx-settlements-rain-audio-voip/'],
+  ['13260598', 'Nov 23', 'Wave 3', 'Ship armor on the engineering MFD, wet terrain reflections, Very Hard and Super bounties return.', '/news/star-citizen-alpha-5-0-ptu-13260598-ship-armor-mfd-wet-terrain-bounty-contracts/'],
+  ['13273298', 'Nov 24', 'Wave 3', 'Starchitect lighting and fog pass, Nyx biome audio fix, 3D weapon customization in VR.', '/news/star-citizen-alpha-5-0-ptu-13273298-starchitect-lighting-biome-audio-vr-weapon-customization/'],
+];
+const SPEC = 'https://robertsspaceindustries.com/spectrum/community/SC/forum';
+const src = [
+  { name: 'RSI Spectrum: [Wave 3] Alpha 5.0 PTU Patch Notes 13273298', url: `${SPEC}/190048/thread/star-citizen-alpha-5-0-ptu-patch-notes-6` },
+  { name: 'RSI Spectrum: Alpha 4.10.3 LIVE Release Notes', url: `${SPEC}/190048/thread/star-citizen-alpha-4-10-3-live-release-notes/9226201` },
+  { name: 'RSI Spectrum: 4.10.3 LIVE Hotfix Central (updated Nov 19, 2026)', url: `${SPEC}/190048/thread/star-citizen-alpha-4-10-live-hotfix-central` },
+  { name: 'RSI Comm-Link: Star Citizen Alpha 4.10.3: Vanduul Incursion', url: 'https://robertsspaceindustries.com/en/comm-link/transmission/21420-Star-Citizen-Alpha-4103-Vanduul-Incursion' },
+  { name: 'RSI Status (deployment history)', url: 'https://status.robertsspaceindustries.com/' },
+  { name: 'RSI Roadmap: Release View', url: 'https://robertsspaceindustries.com/roadmap/release-view' },
+  { name: 'RSI on X: Alpha 4.11 renamed Alpha 5.0 (Nov 4)', url: 'https://x.com/RobertsSpaceInd/status/2118082476044067010' },
+];
+---
+<GuideLayout title={TITLE} description={DESC} path="/star-citizen/current-patch/" published={PUBLISHED} modified={UPDATED} sc={true}
+  crumbs={[{ name: 'Star Citizen', href: '/category/star-citizen/' }]} section="Star Citizen"
+  keywords={['star citizen current patch', 'star citizen alpha 4.10.3', 'star citizen alpha 5.0 ptu', 'star citizen patch notes', 'star citizen live version']}>
+<Fragment slot="head">
+  <h1>Star Citizen Current Patch: What's in 4.10.3 and the 5.0 PTU</h1>
+  <p class="guide-meta">By PPRGaming · <b>Last updated {UPDATED_TEXT}</b> · One page, updated with every release</p>
+</Fragment>
+
+<p>"What's in the current patch?" is the question that never goes away, and the answer changes every few weeks. So instead of a new post every time, this is the one page I keep current. Same link, new facts. Everything below comes from RSI's patch notes, status page and Release View, and each version links to the stories where we dug into the details. Starting out? The <a href="/star-citizen/beginners-guide/">beginner's guide</a> covers your first hours.</p>
+
+<table class="guide-tbl"><thead><tr><th>Channel</th><th>Version</th><th>Status</th></tr></thead><tbody>
+{glance.map(([a, b, c]) => <tr><td><b>{a}</b></td><td>{b}</td><td>{c}</td></tr>)}
+</tbody></table>
+
+<div class="ver">
+<h3 id="ptu-5-0">Alpha 5.0 <span class="stat ptu">PTU only</span></h3>
+<p><b>What it is.</b> CIG renamed Alpha 4.11 to Alpha 5.0 on November 4, saying the number reflects "the significance of the new technologies and features coming together." It's the first release where the Genesis technologies come together, with <b>Nyx I</b> going first. Our <a href="/news/star-citizen-alpha-4-11-renamed-alpha-5-0-genesis-nyx-i/">rename story</a> has the full list.</p>
+<p><b>Where it stands.</b> The latest PTU build is <b>13273298</b> (VERSION 5.0.0-PTU.13273298), pushed November 24 to Wave 3 testers on the US-only PTU channel. Long Term Persistence is on, and RSI says a 25x reputation reward multiplier is active on the PTU. The test focus list: Genesis (Planet Tech V5), Nyx I, Starchitect points of interest, mission boards and local missions, intraplanetary server meshing, vehicle TTK balance, the missile lock interface update and VOIP reliability.</p>
+<p><b>What CIG has committed for 5.0 (per RSI's Release View, as covered in our rename story).</b></p>
+<ul>
+  <li><b>Starchitect:</b> procedural, faction-owned ground locations built from modular tiles, plus a mission pack meant to keep players planetside longer.</li>
+  <li><b>Planet Tech V5:</b> a rework of how planets are built, populated and rendered.</li>
+  <li><b>Contract Boards:</b> Guild Halls at regional hubs where you browse contracts and build reputation with guilds.</li>
+  <li><b>Population Manager and DGS Planet Subdivision:</b> server-side work to load balance populations and split planets into smaller server territories.</li>
+</ul>
+<p><b>Not 5.0:</b> Nyx II and Nyx III slid to Alpha 5.1, tentatively Q1 2027.</p>
+<p><b>Unconfirmed, so take it with salt:</b> RSI hasn't said whether 5.0 comes with a wipe, and it hasn't given a Live date beyond Q4 2026. A list of subscriber perks (Centurion and Imperator) surfaced from the PTU files, and CIG's Big T-O answered on Spectrum that there are no plans to introduce them. Our <a href="/news/star-citizen-cig-no-plans-subscriber-perks-reputation-boost-claim-discount/">story on that</a> has the quote.</p>
+<h4>5.0 PTU builds so far</h4>
+<table class="guide-tbl"><thead><tr><th>Build</th><th>Covered (ET)</th><th>Wave</th><th>What changed</th></tr></thead><tbody>
+{ptuBuilds.slice().reverse().map(([b, d, w, t, u]) => <tr><td><a href={u}>{b}</a></td><td>{d}</td><td>{w}</td><td>{t}</td></tr>)}
+</tbody></table>
+<p class="small">This lists the builds we've covered, and the day is when we covered each one. It may skip a build.</p>
+</div>
+
+<div class="ver">
+<h3 id="live-4-10-3">Alpha 4.10.3 <span class="stat">Live</span></h3>
+<p><b>Live since November 12.</b> The launcher shows VERSION 4.10.3-LIVE.12650677. RSI's notes say Long Term Persistence is preserved and the starting aUEC is 20,000. Our <a href="/news/star-citizen-alpha-4-10-3-live-vanduul-incursion-galaxy-liberator-iae/">Live story</a> has the full rundown.</p>
+<ul>
+  <li><b>InterSec Defense Solutions missions.</b> A new contract line against the Vanduul in deep space around Nyx. Per CIG, most of it unlocks after the Vanduul Tech Smugglers work for Welcome to Nyx.</li>
+  <li><b>LBCO Skarnov rifle.</b> A new FPS energy weapon whose shots chain electricity between targets.</li>
+  <li><b>Salvage ship buffer increase.</b> Listed under gameplay in RSI's notes.</li>
+  <li><b>New ships for aUEC in game.</b> RSI's post says the RSI Galaxy and Anvil Liberator are flyable now.</li>
+  <li><b>Intergalactic Aerospace Expo.</b> IAE 2956 runs in New Babbage through November 27.</li>
+  <li><b>129 issues closed,</b> including multiple exploits and 36 from Issue Council reports. Fourteen fixes aim squarely at hangar and ASOP terminal flow.</li>
+</ul>
+<p><b>Hotfixes since Live (from RSI's Hotfix Central).</b></p>
+<ul>
+  <li><b>Nov 19:</b> Client hotfix 13220821, with fixes for the top three client crashes, including the number one Vulkan crash. The hotfix channel is closed as of RSI's latest update.</li>
+  <li><b>Nov 16:</b> Server (DGS) build 13165946 deployed without downtime, per RSI Status.</li>
+</ul>
+<p><b>How it got here.</b> 4.10.3 hit the PTU on October 24 for <a href="/news/star-citizen-alpha-4-10-3-ptu-wave-1-vanduul-incursion-skarnov-rifle/">Wave 1</a>, opened to <a href="/news/star-citizen-alpha-4-10-3-ptu-all-waves-13055118-vanduul-skarnov/">all waves</a> on October 30, then to <a href="/news/star-citizen-alpha-4-10-3-ptu-all-backers-13093654-hangar-overlap-prowler/">all backers</a> on November 3. It reached <a href="/news/star-citizen-4-10-3-ptu-rc1-13160301-release-candidate-iae/">Release Candidate</a> on November 11 and went Live the next day.</p>
+</div>
+
+<div class="ver">
+<h3 id="live-4-10-2">Alpha 4.10.2 <span class="stat old">Previous</span></h3>
+<p>RSI Status shows the Live deployment for 4.10.2 starting October 9, with servers offline at 1030 UTC. A critical hybrid-crash fix (build 12913470) went to the Live channel on October 13, and a further server-side hotfix (12939222) was being canary-tested on October 14. See our <a href="/news/star-citizen-alpha-4-10-2-hotfix-live/">4.10.2 hotfix story</a>.</p>
+</div>
+
+<div class="ver">
+<h3 id="live-4-10-1">Alpha 4.10.1 <span class="stat old">Previous</span></h3>
+<p>RSI Status shows the maintenance window to deploy 4.10.1 to Live opening on September 16. I only list what RSI's status page says here, so there's less detail on this one.</p>
+</div>
+
+<h2 id="faq">Quick answers</h2>
+<ul>
+  <li><b>What version is Star Citizen Live right now?</b> Alpha 4.10.3, with client hotfix 13220821.</li>
+  <li><b>Is 5.0 out?</b> Not on Live. It's on the PTU, and RSI's Release View lists it for Q4 2026.</li>
+  <li><b>Will there be a wipe?</b> RSI hasn't said. 4.10.3 preserved Long Term Persistence.</li>
+  <li><b>Where do I check live status?</b> <a href="https://status.robertsspaceindustries.com/" rel="noopener" target="_blank">RSI Status</a>.</li>
+</ul>
+
+<h2 id="log">Update log</h2>
+<ul>{LOG.map(([d, t]) => <li><b>{d}:</b> {t}</li>)}</ul>
+<p class="small">All our Star Citizen patch coverage lives on the <a href="/category/star-citizen/">Star Citizen hub</a>.</p>
+
+<div class="sources"><strong>Sources</strong><ul>{src.map(s => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ul></div>
+</GuideLayout>

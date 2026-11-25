@@ -41,7 +41,7 @@ const STATIC = { about: ['src/pages/about.astro'], contact: ['src/pages/contact.
   terms: ['src/pages/terms.astro'], support: ['src/pages/support.astro'], editorial: ['src/pages/editorial.astro'],
   gear: ['src/pages/gear.astro', 'src/gear.js'] };
 const GTA_TIPS = ['src/pages/gta-6/tips.astro'];
-const GUIDES = { '/star-citizen/beginners-guide/': ['src/pages/star-citizen/beginners-guide.astro'] };
+const GUIDES = { '/star-citizen/beginners-guide/': ['src/pages/star-citizen/beginners-guide.astro'], '/star-citizen/current-patch/': ['src/pages/star-citizen/current-patch.astro'] };
 
 function lastmodFor(url) {
   const p = new URL(url).pathname;
