@@ -1,0 +1,35 @@
+---
+// Evergreen guide wrapper: Base layout + Article and BreadcrumbList JSON-LD (same publisher/logo/image rules as stories).
+// Guides are "Article" (not NewsArticle) because they are updated in place, not dated news.
+import Base from '../layouts/Base.astro'; import Ad from './Ad.astro'; import Newsletter from './Newsletter.astro';
+import { SITE } from '../site.js';
+const { title, description, path, published, modified, crumbs = [], section = 'Guides', image, imageAlt, imageWidth, imageHeight, keywords = [], sc = false } = Astro.props;
+const url = `${SITE.url}${path}`;
+const imgUrl = new URL(image || '/og.png', SITE.url).href;
+const ld = {
+  '@context': 'https://schema.org', '@type': 'Article',
+  mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  headline: title, description, image: [imgUrl],
+  datePublished: new Date(published).toISOString(), dateModified: new Date(modified).toISOString(),
+  author: { '@type': 'Organization', name: 'PPRGaming', url: SITE.url + '/' },
+  publisher: { '@type': 'Organization', name: 'PPRGaming', url: SITE.url + '/', logo: { '@type': 'ImageObject', url: SITE.url + '/logo.png' } },
+  articleSection: section,
+  ...(keywords.length ? { keywords: keywords.join(', ') } : {}),
+};
+const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url + '/' },
+  ...crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 2, name: c.name, item: SITE.url + c.href })),
+  { '@type': 'ListItem', position: crumbs.length + 2, name: title, item: url },
+] };
+---
+<Base title={title} description={description} type="article" image={image} imageAlt={imageAlt} imageWidth={imageWidth} imageHeight={imageHeight} publishedTime={new Date(published).toISOString()} modifiedTime={new Date(modified).toISOString()} section={section}>
+<script type="application/ld+json" set:html={JSON.stringify(ld)}></script>
+<script type="application/ld+json" set:html={JSON.stringify(crumbLd)}></script>
+<article class={`post guide ${sc ? 'guide-sc' : ''}`}>
+  <p class="tag guide-crumbs"><a href="/">Home</a>{crumbs.map(c => <> · <a href={c.href}>{c.name}</a></>)}</p>
+  <slot name="head"/>
+  <div class="post-body"><slot/></div>
+  <Ad unit="article-bottom"/>
+  <Newsletter/>
+</article>
+</Base>

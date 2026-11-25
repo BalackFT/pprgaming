@@ -1,0 +1,118 @@
+---
+// Evergreen guide: Star Citizen beginner's guide. Facts come from RSI pages (KB, store, Spectrum patch notes, status page) and our own patch stories.
+// UPDATE CHECKLIST when a new Live patch lands: bump UPDATED, the "Version" callout, and the Live/PTU lines in section 1.
+// ONE-SHOT: delete the Free Fly / IAE 2956 callout after Nov 27, 2026 (event ends that day).
+import GuideLayout from '../../components/GuideLayout.astro';
+import { SITE } from '../../site.js';
+const PUBLISHED = '2026-11-25T14:00:00-05:00';
+const UPDATED = '2026-11-25T14:00:00-05:00';
+const UPDATED_TEXT = 'Nov 25, 2026';
+const TITLE = "Star Citizen Beginner's Guide (2026): Your First Hours";
+const DESC = "How to start Star Citizen on Live 4.10.3: what to buy, the referral code, spawning, your hab, claiming your ship and your first aUEC. Checked Nov 25, 2026.";
+const KB = 'https://support.robertsspaceindustries.com/hc/en-us/articles';
+const src = [
+  { name: 'RSI Knowledge Base: Getting Started in the \'Verse', url: `${KB}/360025028633-Getting-Started-in-the-Verse` },
+  { name: 'RSI Knowledge Base: Currencies of Star Citizen (UEC/aUEC/REC/Store Credit)', url: `${KB}/360006492734-Currencies-of-Star-Citizen-UEC-aUEC-REC-Store-Credit` },
+  { name: 'RSI Knowledge Base: Ship Insurance FAQs', url: `${KB}/360000093467-Ship-Insurance-FAQs` },
+  { name: 'RSI Knowledge Base: Referral Program FAQ', url: `${KB}/115013102847-Referral-Program-FAQ` },
+  { name: 'RSI Pledge Store: Star Citizen First Flight Pack', url: 'https://robertsspaceindustries.com/en/pledge/Packages/Star-Citizen-First-Flight-Pack' },
+  { name: 'RSI Spectrum: Star Citizen Alpha 4.10.3 LIVE Release Notes', url: 'https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-4-10-3-live-release-notes/9226201' },
+  { name: 'RSI Spectrum: 4.10.3 LIVE Hotfix Central', url: 'https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-4-10-live-hotfix-central' },
+  { name: 'RSI Spectrum: [Wave 3] Alpha 5.0 PTU Patch Notes 13273298', url: 'https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-5-0-ptu-patch-notes-6' },
+  { name: 'RSI Status', url: 'https://status.robertsspaceindustries.com/' },
+  { name: 'Third-party, for the first-contract ideas: LTI Hangar cargo hauling guide (Alpha 4.10)', url: 'https://www.ltihangar.com/blogs/star-citizen-guides/cargo-hauling-guide' },
+  { name: 'Third-party, for the first-contract ideas: sc-start first missions guide', url: 'https://sc-start.com/en/erste-missionen/' },
+];
+const toc = [['version', 'Which version you are playing'], ['buy', 'What to buy (and skip)'], ['referral', 'The referral code'], ['hours', 'Your first hours'], ['ships', 'Claims and insurance'], ['money', 'Your first aUEC'], ['skip', 'Mistakes to skip']];
+---
+<GuideLayout title={TITLE} description={DESC} path="/star-citizen/beginners-guide/" published={PUBLISHED} modified={UPDATED} sc={true}
+  crumbs={[{ name: 'Star Citizen', href: '/category/star-citizen/' }]} section="Star Citizen"
+  keywords={['star citizen beginner guide', 'star citizen first flight pack', 'star citizen alpha 4.10.3', 'star citizen referral code', 'star citizen aUEC']}>
+<Fragment slot="head">
+  <h1>Star Citizen Beginner's Guide: Your First Hours in the 'Verse</h1>
+  <p class="guide-meta">By PPRGaming · Last updated {UPDATED_TEXT} · Checked against Live 4.10.3 and the Alpha 5.0 PTU</p>
+</Fragment>
+
+<p>I've been backing Star Citizen since 2013, and I'll be straight with you: day one can be a mess. The game doesn't explain itself. So here's a plain walk-through for the patch that's live right now, from the download to your first paycheck. Facts come from RSI's own pages and patch notes wherever I could, I flag the few spots where I'm leaning on third-party guides, and everything is linked at the bottom.</p>
+
+<div class="guide-toc"><b>In this guide</b><ol>{toc.map(([id, t]) => <li><a href={`#${id}`}>{t}</a></li>)}</ol></div>
+
+<div class="callout warn">
+  <p><b>Free Fly is running right now.</b> RSI says Star Citizen is free to play during IAE 2956, with over 200 ships and ground vehicles to try, <b>until November 27</b>. Our <a href="/news/star-citizen-iae-2956-faq-stock-limited-waves-prospector-price/">IAE 2956 FAQ</a> has the details. When the event ends, you'll need a game package to keep playing. (We'll remove this box after the event.)</p>
+</div>
+
+<h2 id="version">Which version you are playing</h2>
+<p><b>Live is Alpha 4.10.3.</b> It went live on November 12, and RSI's patch notes say Long Term Persistence is preserved and the starting aUEC is 20,000. Two hotfixes have followed. A server one on November 16 and a client one on November 19, which RSI says fixes the top three client crashes, including the number one Vulkan crash. Our <a href="/news/star-citizen-alpha-4-10-3-live-vanduul-incursion-galaxy-liberator-iae/">4.10.3 Live story</a> has the full rundown.</p>
+<p><b>Alpha 5.0 is only on the PTU.</b> That's the public test channel, and it's the big Genesis and Nyx I update. As of November 24, the PTU build is 13273298 and only Wave 3 testers can get in. RSI's Release View lists 5.0 for Q4 2026, but there's no Live date yet. So if you're starting today, you're starting on 4.10.3, and you shouldn't plan around a 5.0 date. Our <a href="/news/star-citizen-alpha-5-0-ptu-13273298-starchitect-lighting-biome-audio-vr-weapon-customization/">latest 5.0 PTU story</a> has the current test-build details, and the <a href="/category/star-citizen/">Star Citizen hub</a> has every patch story.</p>
+<p>A word on wipes, since everybody asks: nobody at CIG has said whether 5.0 comes with one, so treat any wipe talk as unconfirmed. RSI's currency page also says plainly that aUEC is temporary during the alpha, and that your balance can change or reset.</p>
+
+<h2 id="buy">What to buy (and what to skip)</h2>
+<p>You need a game package to play outside a Free Fly. RSI's starter game package right now is the <a href="https://robertsspaceindustries.com/en/pledge/Packages/Star-Citizen-First-Flight-Pack" rel="noopener" target="_blank">Star Citizen First Flight Pack</a>. Here's what RSI's store page lists:</p>
+<ul>
+  <li><b>Price:</b> $60 list. The page showed it at $45 (25% off) on November 25. That's a promotion and it will end, so check the store for today's price.</li>
+  <li><b>The ship:</b> one RSI Aurora Mk II, with a Self-Land Hangar and the game download.</li>
+  <li><b>Loaners:</b> 30-day loaner access to a Drake Golem for mining, a MISC Fortune for salvage and a Crusader Intrepid for cargo hauling. That's a nice way to try three jobs before you commit to a ship.</li>
+  <li><b>Insurance and credits:</b> six months of insurance and 10,000 UEC.</li>
+</ul>
+<div class="callout cyan">
+  <p><b>Read the fine print on those last two.</b> RSI's currency page says UEC bundled with a game package is not added to your starting aUEC during the alpha (it uses another starter pack as its example), and the Ship Insurance FAQ says the months included in a pledge don't start counting until the game is out of testing. In the alpha, every ship gets a basic insurance plan that doesn't expire. So the bundled "$$$$" is a promise for later, not spending money now.</p>
+</div>
+<p>One more thing the store says on every standalone ship: <i>"This pledge does not include access to Star Citizen. To play, a GAME PACKAGE is required."</i> If you buy only a ship, you can't log in with it.</p>
+<p><b>My advice: skip everything else on day one.</b> Play a few weeks first. The 4.10.3 notes list new ships you can buy in game with aUEC, and a big sale price is not a reason to buy a ship you haven't flown. Our <a href="/news/star-citizen-iae-2956-faq-stock-limited-waves-prospector-price/">IAE FAQ</a> covers what's actually stock-limited.</p>
+<p class="small">Older starter packs like the Mustang Alpha and Aurora MR no longer show up as game packages according to third-party trackers. I couldn't confirm that from RSI's own store listing, so check the store before you assume.</p>
+
+<h2 id="referral">The referral code</h2>
+<p>If you're making a new RSI account, use a referral code. RSI's Referral Program FAQ says a new account registered with a code gets 50,000 UEC to start. The rules that matter:</p>
+<ul>
+  <li>Enter the code <b>when you create the account</b>, or within 24 hours of creating it in your account panel. After that, nobody can add it, and RSI support can't either.</li>
+  <li>Add it at signup if you can. RSI says a later entry may delay the bonus showing up in your in-game aUEC.</li>
+  <li>You can't change the code once it's attached.</li>
+</ul>
+<p>It's my code, so I'll be upfront that it helps me too. RSI gives the person who referred you a Recruitment Point once you get a game package and spend $40 or more in the Pledge Store (store credit doesn't count). It costs you nothing extra.</p>
+<div class="ref"><div>Starting Star Citizen? Referral code <code>{SITE.rsiReferral}</code> gets you bonus starting credits.</div><a class="btn" href="https://robertsspaceindustries.com/enlist?referral=STAR-KRBQ-RNS9" rel="nofollow">Enlist →</a></div>
+
+<h2 id="hours">Your first hours, step by step</h2>
+<p>This follows RSI's own "Getting Started in the 'Verse" guide. Keybinds and menus change between patches, so if something on your screen doesn't match, go with the game. You can check and change binds under Options, Keybindings.</p>
+<h3>1. Check the basics before you download</h3>
+<p>RSI's store lists these PC requirements: Windows 10 Anniversary Update (64-bit), a DirectX 12 graphics card with 4GB of VRAM, a quad-core CPU with AVX, 16GB or more of RAM and a 150GB or larger SSD. The <a href="/news/rsi-launcher-2-19-1-shader-compilation-new-download-panel/">RSI Launcher 2.19.1 update</a> can build the game's shader cache before you log in. Also turn on two-step sign-in on your RSI account. It takes two minutes.</p>
+<h3>2. Pick where you wake up</h3>
+<p>The first time you load into Stanton, you choose a major city: <b>New Babbage, Area18, Lorville or Orison</b>. RSI warns that from then on you wake up at the last landing zone you flew to that has hab facilities, so choose carefully. RSI's guide sticks to Stanton for beginners because the laws are laxer in other systems. After you choose, the game offers the <b>New Player Experience</b> tutorial. RSI highly recommends it. Skip it and you start in your personal hangar, standing in front of a ship terminal.</p>
+<h3>3. Wake up in your hab</h3>
+<p>A hab is a small apartment. Press <b>Y</b> to get out of bed, then move with WASD. <b>F</b> is how you interact with everything. Hold it and anything you can use lights up green. There's a storage kiosk right in your room, and you can also press <b>I</b> to open your inventory, though you may not reach everything you've stored unless you're at a kiosk. Walk to the door and use the panel to head out.</p>
+<h3>4. Get to the spaceport</h3>
+<p>Follow the in-game signs and markers. In most cities that means taking a tram. <a href="https://support.robertsspaceindustries.com/hc/en-us/articles/360025028633-Getting-Started-in-the-Verse" rel="noopener" target="_blank">RSI's Getting Started guide</a> links hab-to-hangar walkthroughs for Lorville, Area18, New Babbage and Orison.</p>
+<h3>5. Retrieve your ship</h3>
+<p>At the spaceport, find a vehicle retrieval console. Players call them <b>ASOP terminals</b>. Pick your ship and use <b>Deliver</b>, then <b>Retrieve</b>, and the game assigns you a hangar. Take a nearby hangar elevator to it, and once the ship has been delivered, head over to board.</p>
+<h3>6. Board, power up and take off</h3>
+<p>Every ship has its own way in: a ramp, a ladder, an elevator or side doors. If you're unsure, hold F near the hull and look for the highlight. In the pilot seat, hold F again to find <b>Flight Ready</b>. Before you leave the hangar, open the mobiGlas with <b>F1</b>, go to Comms and contact the spaceport to ask for takeoff authorization. Check that the doors are open and your path is clear. RSI suggests <b>F4</b> for third person and tapping <b>Z</b> to unlock the camera so you can see your exit.</p>
+<p>Lift off with Space (Left Ctrl to go down), and don't ramp up your speed too fast, because RSI says that can overheat your engines. Once you're far enough from the pad, raise your landing gear. To leave a planet, fly straight up until the altitude marker on your HUD disappears. Then you're free to quantum travel.</p>
+
+<h2 id="ships">Claims and insurance</h2>
+<p>Odds are you'll lose a ship at some point..lol. Here's what RSI's Ship Insurance FAQ says about getting it back:</p>
+<ul>
+  <li>At an ASOP terminal, find the ship, click <b>Claim</b>, then <b>File a Claim</b>. There may be an aUEC fee to file a claim or to <b>expedite</b> the replacement.</li>
+  <li>If you changed a ship's equipment, use <b>Insure Loadout</b> at the terminal afterward. A claim returns the last loadout you insured, and anything you didn't insure is lost. Buying it again overrides the old one, so don't spend aUEC on a loadout that hasn't changed.</li>
+  <li>If a claim won't go through, RSI suggests switching regions and trying again.</li>
+</ul>
+
+<h2 id="money">Your first aUEC</h2>
+<p>The 4.10.3 patch notes list the starting aUEC at 20,000. RSI says the way to earn more is to check your mobiGlas for missions. These are the places I'd start, and the third-party guides linked below lean the same way. Contract names, pickup spots and payouts change, so trust your own contract screen over any article, including this one.</p>
+<ol>
+  <li><b>Simple delivery contracts.</b> Read the pickup, destination and time limit before you hit Accept. Short, lawful runs teach you routes, landing, picking up a package and hand-in. Check the contract status afterward, because seeing a package at the destination doesn't mean the job is done.</li>
+  <li><b>An intro hauling contract.</b> The guides point to Covalex Shipping's entry-level cargo evaluation. Before accepting anything, check the total SCU and the biggest container against your ship, and make sure you have a way to move cargo, like a tractor beam. Finishing it opens up more Covalex work.</li>
+  <li><b>Try a career with your loaners.</b> If you bought the First Flight Pack, the Golem, Fortune and Intrepid are yours for 30 days. Use them to find out whether you like mining, salvage or hauling before you buy anything.</li>
+</ol>
+<p>I'd hold off on bounties and bunker missions until flying and combat feel comfortable. One of those guides calls them riskier and more prone to bugs. And I'm not putting a payout number on anything, because RSI doesn't publish one and every patch moves them.</p>
+
+<h2 id="skip">Mistakes to skip</h2>
+<ul>
+  <li><b>Buying a ship before you can fly one.</b> Unlock the game first, spend later.</li>
+  <li><b>Adding the referral code after the 24-hour window.</b> It can't be done, and RSI support can't do it for you.</li>
+  <li><b>Assuming your aUEC is forever.</b> It's alpha money.</li>
+  <li><b>Skipping Insure Loadout after you change gear.</b> Then a claim hands you back the stock ship..ouch.</li>
+  <li><b>Trusting an old guide.</b> Patches move menus and keybinds. This page lists its check date up top, and we update it when Live changes.</li>
+</ul>
+<p>Want to know what's coming? The <a href="/category/star-citizen/">Star Citizen hub</a> has every 4.10.3 and 5.0 PTU story. See you in the 'verse. o7</p>
+
+<div class="sources"><strong>Sources</strong><ul>{src.map(s => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ul></div>
+</GuideLayout>

@@ -13,6 +13,7 @@ const posts = (await getCollection('posts', p=>!p.data.draft && p.data.category=
 ---
 <Base title={name} description={CAT_DESC[cat] ?? `Latest ${name} news on PPRGaming.`}>
 <section class="hero"><h1>{name}</h1></section>
+{cat==="star-citizen" && <div class="callout cyan guide-box"><p><b>Guides:</b> <a href="/star-citizen/beginners-guide/">Star Citizen Beginner's Guide (2026)</a></p></div>}
 {posts.length ? <div class="grid">{posts.map(p=><Card post={p}/>)}</div> : <p>No posts yet — check back soon.</p>}
 <Ad unit="category"/>
 </Base>

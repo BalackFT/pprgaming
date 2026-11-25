@@ -15,7 +15,7 @@ const imgUrl = new URL(post.data.image || '/og.png', SITE.url).href;
 const catName = CATEGORIES[post.data.category] ?? post.data.category;
 const isGta = post.data.tags.some(t=>/^(gta[- ]?6|gta[- ]?vi|grand-theft-auto-vi)$/i.test(t)) || /\b(gta\s?(6|vi)|grand theft auto\s?(6|vi))\b/i.test(post.data.title);
 const hubs = [
-  ...(post.data.starCitizen ? [{ href: '/category/star-citizen/', label: 'Star Citizen Hub' }] : []),
+  ...(post.data.starCitizen ? [{ href: '/category/star-citizen/', label: 'Star Citizen Hub' }, { href: '/star-citizen/beginners-guide/', label: 'Beginner\'s Guide' }] : []),
   ...(isGta ? [{ href: '/gta-6/', label: 'GTA 6 Hub' }, { href: '/gta-6/tips/', label: 'GTA 6 Tips & Tricks (No Spoilers)' }] : []),
 ];
 const ld = {
