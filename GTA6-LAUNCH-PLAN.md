@@ -71,11 +71,17 @@ Keep Star Citizen stories in their normal slots. GTA takes 2 to 3 of the daily s
 Midnight post approved text: 12:00 AM ET and GTA VI is unlocked in the US. Hope that 212GB finished! 😆 Everything we have is on the hub. #GTA6 https://pprgaming.com/gta-6/
 
 ## Standing: GTA 6 Tips & Tricks page (James asked Nov 19, 2026)
-- Page: src/pages/gta-6/tips.astro, live at https://pprgaming.com/gta-6/tips/ (linked from the /gta-6/ hub and the homepage GTA tile).
+- Page: src/pages/gta-6/tips.astro, live at https://pprgaming.com/gta-6/tips/ (linked from the /gta-6/ hub; the homepage links to the GTA 6 hub via the pinned hub row).
 - 1 PM and 5 PM batches (and the 7:30 AM batch): if a good new tip turns up, add it to the `sections` array in tips.astro and bump `UPDATED` (ET). Tips-page updates do NOT count toward the daily story cap and need no X post.
 - A tip goes in only if: at least one credible outlet or the original creator published it since launch (Nov 19), it is credited with an inline source link, and it is spoiler-free (no story, mission, ending, character-reveal or later-map content, nothing from leaked builds, no cheats or anything that could get someone banned).
 - Write it in James's voice (VOICE.md), short and practical. Keep glitches labeled (tag: 'Glitch · may be patched') and drop or relabel any tip once a patch breaks it.
 - Do not post tips-page updates to X on their own. A new tip can be a normal drip or Roundup mention if James has OK'd it.
+
+## Standing: homepage layout (since 12:00 AM ET Wed Nov 25, 2026, James asked Nov 22)
+- The split Star Citizen / GTA 6 homepage hub is gone. The homepage is back to its original look: hero, a compact pinned hub row (Star Citizen Hub -> /category/star-citizen/, GTA 6 Hub -> /gta-6/), the Star Citizen Hub section (status tiles, Screenshot of the Day, 6 latest SC stories, RSI referral), book promo, Latest Gaming News (12), /news/ link.
+- There is no GTA status box, countdown or GTA teaser on the homepage anymore, so batches do not edit homepage GTA tiles. Keep GTA facts current on /gta-6/ (src/pages/gta-6/index.astro) and tips on /gta-6/tips/.
+- Star Citizen status tiles on the homepage still come from src/data/hub-status.json (`starCitizen` array); keep those current without asking. The `starCitizenFeature` block (kicker/countdown/links) is not shown on the homepage right now.
+- Stories reach the hubs automatically: GTA via isGta6() in src/gta6.js (GTA tag or title), Star Citizen via category `star-citizen` (category page) and `starCitizen: true` (homepage SC grid).
 
 ## Live notes
 
