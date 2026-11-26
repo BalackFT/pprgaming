@@ -8,16 +8,17 @@
 // Only list things RSI has said (Spectrum patch notes, Comm-Links, status page, Release View). Mark anything else as unconfirmed.
 import GuideLayout from '../../components/GuideLayout.astro';
 const PUBLISHED = '2026-11-25T14:00:00-05:00';
-const UPDATED = '2026-11-25T14:00:00-05:00';
-const UPDATED_TEXT = 'Nov 25, 2026';
+const UPDATED = '2026-11-26T07:33:00-05:00';
+const UPDATED_TEXT = 'Nov 26, 2026';
 const TITLE = "Star Citizen Current Patch: What's in 4.10.3 and 5.0 PTU";
 const DESC = "What's in Star Citizen's current patch: Live Alpha 4.10.3, the Alpha 5.0 PTU, hotfixes and past versions. One page, updated every release.";
 const LOG = [
+  ['Nov 26, 2026', 'PTU opened to all backers with 5.0 build 13284307.'],
   ['Nov 25, 2026', 'Page created. Live is 4.10.3 (client hotfix 13220821). PTU is 5.0 build 13273298.'],
 ];
 const glance = [
   ['Live', 'Alpha 4.10.3', 'Live since Nov 12. Client hotfix 13220821 on Nov 19.'],
-  ['PTU', 'Alpha 5.0, build 13273298', 'Wave 3 testers, US-only. Committed for Q4 2026, no Live date yet.'],
+  ['PTU', 'Alpha 5.0, build 13284307', 'All backers, US-only. Committed for Q4 2026, no Live date yet.'],
   ['Event', 'IAE 2956', 'In New Babbage through Nov 27, with Free Fly the whole time.'],
 ];
 const ptuBuilds = [
@@ -28,9 +29,11 @@ const ptuBuilds = [
   ['13248297', 'Nov 20', 'Wave 3', 'Lightning follows cloud cover, new Nyx I settlements, rain audible inside ships, VOIP fix.', '/news/star-citizen-alpha-5-0-ptu-13248297-lightning-rework-nyx-settlements-rain-audio-voip/'],
   ['13260598', 'Nov 23', 'Wave 3', 'Ship armor on the engineering MFD, wet terrain reflections, Very Hard and Super bounties return.', '/news/star-citizen-alpha-5-0-ptu-13260598-ship-armor-mfd-wet-terrain-bounty-contracts/'],
   ['13273298', 'Nov 24', 'Wave 3', 'Starchitect lighting and fog pass, Nyx biome audio fix, 3D weapon customization in VR.', '/news/star-citizen-alpha-5-0-ptu-13273298-starchitect-lighting-biome-audio-vr-weapon-customization/'],
+  ['13284307', 'Nov 25', 'All Waves', 'PTU opens to all backers. Guild rank names, Starchitect and Genesis weather lighting, Arena Commander armor fix.', '/news/star-citizen-alpha-5-0-ptu-all-backers-13284307-guild-ranks-nyx-lighting-arena-commander-armor/'],
 ];
 const SPEC = 'https://robertsspaceindustries.com/spectrum/community/SC/forum';
 const src = [
+  { name: 'RSI Spectrum: [All Waves] Alpha 5.0 PTU Patch Notes 13284307', url: `${SPEC}/190048/thread/star-citizen-alpha-5-0-ptu-patch-notes-6-1` },
   { name: 'RSI Spectrum: [Wave 3] Alpha 5.0 PTU Patch Notes 13273298', url: `${SPEC}/190048/thread/star-citizen-alpha-5-0-ptu-patch-notes-6` },
   { name: 'RSI Spectrum: Alpha 4.10.3 LIVE Release Notes', url: `${SPEC}/190048/thread/star-citizen-alpha-4-10-3-live-release-notes/9226201` },
   { name: 'RSI Spectrum: 4.10.3 LIVE Hotfix Central (updated Nov 19, 2026)', url: `${SPEC}/190048/thread/star-citizen-alpha-4-10-live-hotfix-central` },
@@ -57,7 +60,7 @@ const src = [
 <div class="ver">
 <h3 id="ptu-5-0">Alpha 5.0 <span class="stat ptu">PTU only</span></h3>
 <p><b>What it is.</b> CIG renamed Alpha 4.11 to Alpha 5.0 on November 4, saying the number reflects "the significance of the new technologies and features coming together." It's the first release where the Genesis technologies come together, with <b>Nyx I</b> going first. Our <a href="/news/star-citizen-alpha-4-11-renamed-alpha-5-0-genesis-nyx-i/">rename story</a> has the full list.</p>
-<p><b>Where it stands.</b> The latest PTU build is <b>13273298</b> (VERSION 5.0.0-PTU.13273298), pushed November 24 to Wave 3 testers on the US-only PTU channel. Long Term Persistence is on, and RSI says a 25x reputation reward multiplier is active on the PTU. The test focus list: Genesis (Planet Tech V5), Nyx I, Starchitect points of interest, mission boards and local missions, intraplanetary server meshing, vehicle TTK balance, the missile lock interface update and VOIP reliability.</p>
+<p><b>Where it stands.</b> The latest PTU build is <b>13284307</b> (VERSION 5.0.0-PTU.13284307), pushed November 25 and open to all backers on the US-only PTU channel. Long Term Persistence is on, and RSI says a 50x reputation reward multiplier is active on the PTU. The test focus list: Genesis (Planet Tech V5), Nyx I, Starchitect points of interest, mission boards and local missions, intraplanetary server meshing, vehicle TTK balance, the missile lock interface update and VOIP reliability.</p>
 <p><b>What CIG has committed for 5.0 (per RSI's Release View, as covered in our rename story).</b></p>
 <ul>
   <li><b>Starchitect:</b> procedural, faction-owned ground locations built from modular tiles, plus a mission pack meant to keep players planetside longer.</li>
