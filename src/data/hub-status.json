@@ -13,19 +13,14 @@
       "url": "https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-5-0-ptu-patch-notes-6-1"
     },
     {
-      "value": "IAE 2956",
-      "note": "In New Babbage through Nov 27, Free Fly runs the whole event",
-      "url": "https://pprgaming.com/news/star-citizen-iae-2956-faq-stock-limited-waves-prospector-price/"
-    },
-    {
       "value": "Squadron 42",
       "note": "Target Q2 2027, no exact date yet",
       "url": "https://support.robertsspaceindustries.com/hc/en-us/articles/360042914633-Where-can-I-download-Squadron-42"
     }
   ],
   "starCitizenFeature": {
-    "kicker": "IAE 2956 · New Babbage",
-    "countdownTo": "2026-11-27T20:00:00Z",
+    "kicker": "Star Citizen · Alpha 5.0 PTU",
+    "countdownTo": null,
     "countdownLabel": "until IAE 2956 and Free Fly end, 3:00 PM ET Nov 27",
     "doneText": "IAE 2956 has ended",
     "doneLabel": "Free Fly closed at 3:00 PM ET, Nov 27",
